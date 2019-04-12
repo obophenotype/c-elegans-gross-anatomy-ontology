@@ -1,0 +1,30 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/WBBT_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/wbbt/wbbt-base.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "val" : "Ontology about the gross anatomy of the C. elegans"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "C. elegans Gross Anatomy Ontology"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "CC-BY"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/wbbt/releases/2019-04-12/wbbt-base.json"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

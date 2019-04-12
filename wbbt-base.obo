@@ -1,0 +1,11 @@
+format-version: 1.2
+data-version: wbbt/releases/2019-04-12/wbbt-base.obo
+ontology: wbbt/wbbt-base.obo
+property_value: http://purl.org/dc/elements/1.1/description "Ontology about the gross anatomy of the C. elegans" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
+
+[Term]
+id: WBBT:00000000
+name: root node
+
