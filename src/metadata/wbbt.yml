@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/wbbt
+
+idspace: WBBT
+base_url: /obo/wbbt
+
+products:
+- wbbt.owl: https://raw.githubusercontent.com/obophenotype/c-elegans-gross-anatomy-ontology/master/wbbt.owl
+- wbbt.obo: https://raw.githubusercontent.com/obophenotype/c-elegans-gross-anatomy-ontology/master/wbbt.obo
+
+term_browser: ontobee
+example_terms:
+- wbbt_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/obophenotype/c-elegans-gross-anatomy-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/obophenotype/c-elegans-gross-anatomy-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/WBBT?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/obophenotype/c-elegans-gross-anatomy-ontology/master/
