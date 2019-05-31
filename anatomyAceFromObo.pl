@@ -57,17 +57,45 @@ foreach my $obj (@objects) {
 	push @{ $parents{$id} }, $1;
     }
     while ($obj =~ m/relationship: develops_from (WBbt:\d+)/g) { $ace .= qq(DEVELOPS_FROM_p\t"$1"\n); }
-    while ($obj =~ m/relationship: part_of (WBbt:\d+)/g) { $ace .= qq(PART_OF_p\t"$1"\n); }
+    while ($obj =~ m/relationship: part_of (WBbt:\d+)/g) { 
+	$ace .= qq(PART_OF_p\t"$1"\n);
+	push @{ $parents{$id} }, $1;    
+    }
     while ($obj =~ m/relationship: DESCENDENTOF (WBbt:\d+)/g) { $ace .= qq(DESCENDENT_OF_p\t"$1"\n); }
     while ($obj =~ m/relationship: DESCINHERM (WBbt:\d+)/g) { $ace .= qq(DESC_IN_HERM_p\t"$1"\n); }
     while ($obj =~ m/relationship: DESCINMALE (WBbt:\d+)/g) { $ace .= qq(DESC_IN_MALE_p\t"$1"\n); }
-    while ($obj =~ m/relationship: union_of (WBbt:\d+)/g) { $ace .= qq(XUNION_OF_p\t"$1"\n); }
+    while ($obj =~ m/union_of: (WBbt:\d+)/g) { 
+	$ace .= qq(XUNION_OF_p\t"$1"\n);
+	push @{ $parents{$1} }, $id;
+    }
     while ($obj =~ m/alt_id: (WBbt:\d+)/g) { $ace .= qq(Remark\t\"Secondary ID $1"\n); }    
     while ($obj =~ m/comment: (.*)/g) { $ace .= qq(Remark\t"$1"\n); }
     $ace .= qq(\n);
     print OUT qq($ace);
   }
 } # foreach my $obj (@objects)
+
+for my $child (keys %parents) {
+    findAncestor ($child, $child);
+}
+
+for my $id (sort keys %ancestors) {
+    my $ace;
+    $ace .= qq(Anatomy_term : "$id"\n);
+    for my $ancestor (sort keys %{$ancestors{$id}}) {
+	$ace .= qq(Ancestor\t"$ancestor"\n); }
+    $ace .= qq(\n);
+    print OUT qq($ace);
+}
+
+sub findAncestor {
+    my ($root, $child) = @_;
+    foreach my $parent (@{ $parents{$child} }) {
+	$ancestors{$root}{$parent}++;
+	findAncestor ($root, $parent);
+    }
+    return;
+} # findAncestor
 
 sub evidence {
     my $def_ref = shift;
@@ -127,24 +155,8 @@ sub evidence {
 	exit;    
     }
     return $ref;
-}
+} # evidence
 
-for my $child (keys %parents) {
-    findAncestor ($child);
-}
-
-for my $child (keys %ancestors) {
-    print $child, "\t", (@{ $ancestors{$child} }),"\n";
-}
-
-sub findAncestor {
-    my ($child) = @_;
-    foreach my $parent (@{ $parents{$child} }) {
-	push @{ $ancestors{$child} }, $parent;
-	findAncestor ($parent);
-    }
-    return;
-}
     
 close (OUT) or die "Cannot close $outfile : $!";
 
