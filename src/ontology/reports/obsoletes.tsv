@@ -1,0 +1,794 @@
+?cls	?replCls	?consCls
+<http://purl.obolibrary.org/obo/WBbt_0001714>	<http://purl.obolibrary.org/obo/WBbt_0003627>	
+<http://purl.obolibrary.org/obo/WBbt_0002006>	<http://purl.obolibrary.org/obo/WBbt_0004536>	
+<http://purl.obolibrary.org/obo/WBbt_0002007>	<http://purl.obolibrary.org/obo/WBbt_0004535>	
+<http://purl.obolibrary.org/obo/WBbt_0002027>	<http://purl.obolibrary.org/obo/WBbt_0003706>	
+<http://purl.obolibrary.org/obo/WBbt_0002029>	<http://purl.obolibrary.org/obo/WBbt_0003704>	
+<http://purl.obolibrary.org/obo/WBbt_0002040>		
+<http://purl.obolibrary.org/obo/WBbt_0003259>	<http://purl.obolibrary.org/obo/WBbt_0003623>	
+<http://purl.obolibrary.org/obo/WBbt_0003260>	<http://purl.obolibrary.org/obo/WBbt_0003626>	
+<http://purl.obolibrary.org/obo/WBbt_0003312>		
+<http://purl.obolibrary.org/obo/WBbt_0003313>		
+<http://purl.obolibrary.org/obo/WBbt_0003314>		
+<http://purl.obolibrary.org/obo/WBbt_0003315>		
+<http://purl.obolibrary.org/obo/WBbt_0003316>		
+<http://purl.obolibrary.org/obo/WBbt_0003317>		
+<http://purl.obolibrary.org/obo/WBbt_0003318>		
+<http://purl.obolibrary.org/obo/WBbt_0003319>		
+<http://purl.obolibrary.org/obo/WBbt_0003320>		
+<http://purl.obolibrary.org/obo/WBbt_0003321>		
+<http://purl.obolibrary.org/obo/WBbt_0003322>		
+<http://purl.obolibrary.org/obo/WBbt_0003323>		
+<http://purl.obolibrary.org/obo/WBbt_0003365>		
+<http://purl.obolibrary.org/obo/WBbt_0003366>		
+<http://purl.obolibrary.org/obo/WBbt_0003367>		
+<http://purl.obolibrary.org/obo/WBbt_0003368>		
+<http://purl.obolibrary.org/obo/WBbt_0003430>		
+<http://purl.obolibrary.org/obo/WBbt_0003434>		
+<http://purl.obolibrary.org/obo/WBbt_0003441>		
+<http://purl.obolibrary.org/obo/WBbt_0003442>		
+<http://purl.obolibrary.org/obo/WBbt_0003444>		
+<http://purl.obolibrary.org/obo/WBbt_0003493>		
+<http://purl.obolibrary.org/obo/WBbt_0003497>		
+<http://purl.obolibrary.org/obo/WBbt_0003588>		
+<http://purl.obolibrary.org/obo/WBbt_0003589>		
+<http://purl.obolibrary.org/obo/WBbt_0003590>		
+<http://purl.obolibrary.org/obo/WBbt_0003636>	<http://purl.obolibrary.org/obo/WBbt_0004488>	
+<http://purl.obolibrary.org/obo/WBbt_0003637>		
+<http://purl.obolibrary.org/obo/WBbt_0003639>		
+<http://purl.obolibrary.org/obo/WBbt_0003640>	<http://purl.obolibrary.org/obo/WBbt_0004739>	
+<http://purl.obolibrary.org/obo/WBbt_0003641>		
+<http://purl.obolibrary.org/obo/WBbt_0003642>	<http://purl.obolibrary.org/obo/WBbt_0004740>	
+<http://purl.obolibrary.org/obo/WBbt_0003643>	<http://purl.obolibrary.org/obo/WBbt_0004741>	
+<http://purl.obolibrary.org/obo/WBbt_0003644>	<http://purl.obolibrary.org/obo/WBbt_0004324>	
+<http://purl.obolibrary.org/obo/WBbt_0003646>	<http://purl.obolibrary.org/obo/WBbt_0004325>	
+<http://purl.obolibrary.org/obo/WBbt_0003647>	<http://purl.obolibrary.org/obo/WBbt_0004742>	
+<http://purl.obolibrary.org/obo/WBbt_0003648>	<http://purl.obolibrary.org/obo/WBbt_0004326>	
+<http://purl.obolibrary.org/obo/WBbt_0003650>	<http://purl.obolibrary.org/obo/WBbt_0004327>	
+<http://purl.obolibrary.org/obo/WBbt_0003651>	<http://purl.obolibrary.org/obo/WBbt_0003638>	
+<http://purl.obolibrary.org/obo/WBbt_0003652>	<http://purl.obolibrary.org/obo/WBbt_0004328>	
+<http://purl.obolibrary.org/obo/WBbt_0003653>	<http://purl.obolibrary.org/obo/WBbt_0004329>	
+<http://purl.obolibrary.org/obo/WBbt_0003654>	<http://purl.obolibrary.org/obo/WBbt_0004330>	
+<http://purl.obolibrary.org/obo/WBbt_0003655>	<http://purl.obolibrary.org/obo/WBbt_0004331>	
+<http://purl.obolibrary.org/obo/WBbt_0003656>	<http://purl.obolibrary.org/obo/WBbt_0004332>	
+<http://purl.obolibrary.org/obo/WBbt_0003657>	<http://purl.obolibrary.org/obo/WBbt_0004333>	
+<http://purl.obolibrary.org/obo/WBbt_0003658>		
+<http://purl.obolibrary.org/obo/WBbt_0003659>		
+<http://purl.obolibrary.org/obo/WBbt_0003660>		
+<http://purl.obolibrary.org/obo/WBbt_0003661>		
+<http://purl.obolibrary.org/obo/WBbt_0003662>		
+<http://purl.obolibrary.org/obo/WBbt_0003663>		
+<http://purl.obolibrary.org/obo/WBbt_0003665>		
+<http://purl.obolibrary.org/obo/WBbt_0003667>		
+<http://purl.obolibrary.org/obo/WBbt_0003669>		
+<http://purl.obolibrary.org/obo/WBbt_0003671>	<http://purl.obolibrary.org/obo/WBbt_0004303>	
+<http://purl.obolibrary.org/obo/WBbt_0003674>	<http://purl.obolibrary.org/obo/WBbt_0004334>	
+<http://purl.obolibrary.org/obo/WBbt_0003676>	<http://purl.obolibrary.org/obo/WBbt_0004335>	
+<http://purl.obolibrary.org/obo/WBbt_0003678>	<http://purl.obolibrary.org/obo/WBbt_0004336>	
+<http://purl.obolibrary.org/obo/WBbt_0003680>	<http://purl.obolibrary.org/obo/WBbt_0004337>	
+<http://purl.obolibrary.org/obo/WBbt_0003682>	<http://purl.obolibrary.org/obo/WBbt_0004338>	
+<http://purl.obolibrary.org/obo/WBbt_0003683>		
+<http://purl.obolibrary.org/obo/WBbt_0003684>	<http://purl.obolibrary.org/obo/WBbt_0004293>	
+<http://purl.obolibrary.org/obo/WBbt_0003685>	<http://purl.obolibrary.org/obo/WBbt_0004294>	
+<http://purl.obolibrary.org/obo/WBbt_0003686>	<http://purl.obolibrary.org/obo/WBbt_0004295>	
+<http://purl.obolibrary.org/obo/WBbt_0003687>	<http://purl.obolibrary.org/obo/WBbt_0004296>	
+<http://purl.obolibrary.org/obo/WBbt_0003688>	<http://purl.obolibrary.org/obo/WBbt_0004297>	
+<http://purl.obolibrary.org/obo/WBbt_0003689>	<http://purl.obolibrary.org/obo/WBbt_0004298>	
+<http://purl.obolibrary.org/obo/WBbt_0003690>	<http://purl.obolibrary.org/obo/WBbt_0004299>	
+<http://purl.obolibrary.org/obo/WBbt_0003691>	<http://purl.obolibrary.org/obo/WBbt_0004300>	
+<http://purl.obolibrary.org/obo/WBbt_0003692>	<http://purl.obolibrary.org/obo/WBbt_0004301>	
+<http://purl.obolibrary.org/obo/WBbt_0003693>	<http://purl.obolibrary.org/obo/WBbt_0004546>	
+<http://purl.obolibrary.org/obo/WBbt_0003694>	<http://purl.obolibrary.org/obo/WBbt_0004544>	
+<http://purl.obolibrary.org/obo/WBbt_0003695>	<http://purl.obolibrary.org/obo/WBbt_0004548>	
+<http://purl.obolibrary.org/obo/WBbt_0003696>	<http://purl.obolibrary.org/obo/WBbt_0004552>	
+<http://purl.obolibrary.org/obo/WBbt_0003697>	<http://purl.obolibrary.org/obo/WBbt_0004550>	
+<http://purl.obolibrary.org/obo/WBbt_0003698>	<http://purl.obolibrary.org/obo/WBbt_0004554>	
+<http://purl.obolibrary.org/obo/WBbt_0003699>	<http://purl.obolibrary.org/obo/WBbt_0004556>	
+<http://purl.obolibrary.org/obo/WBbt_0003700>	<http://purl.obolibrary.org/obo/WBbt_0004555>	
+<http://purl.obolibrary.org/obo/WBbt_0003702>		
+<http://purl.obolibrary.org/obo/WBbt_0003703>		
+<http://purl.obolibrary.org/obo/WBbt_0003705>		
+<http://purl.obolibrary.org/obo/WBbt_0003715>	<http://purl.obolibrary.org/obo/WBbt_0004304>	
+<http://purl.obolibrary.org/obo/WBbt_0003717>	<http://purl.obolibrary.org/obo/WBbt_0004305>	
+<http://purl.obolibrary.org/obo/WBbt_0003719>	<http://purl.obolibrary.org/obo/WBbt_0004302>	
+<http://purl.obolibrary.org/obo/WBbt_0003720>	<http://purl.obolibrary.org/obo/WBbt_0004306>	
+<http://purl.obolibrary.org/obo/WBbt_0003722>	<http://purl.obolibrary.org/obo/WBbt_0004307>	
+<http://purl.obolibrary.org/obo/WBbt_0003723>	<http://purl.obolibrary.org/obo/WBbt_0004308>	
+<http://purl.obolibrary.org/obo/WBbt_0003725>	<http://purl.obolibrary.org/obo/WBbt_0004309>	
+<http://purl.obolibrary.org/obo/WBbt_0003726>	<http://purl.obolibrary.org/obo/WBbt_0004310>	
+<http://purl.obolibrary.org/obo/WBbt_0003727>	<http://purl.obolibrary.org/obo/WBbt_0004311>	
+<http://purl.obolibrary.org/obo/WBbt_0003728>	<http://purl.obolibrary.org/obo/WBbt_0004312>	
+<http://purl.obolibrary.org/obo/WBbt_0003729>	<http://purl.obolibrary.org/obo/WBbt_0004313>	
+<http://purl.obolibrary.org/obo/WBbt_0003730>	<http://purl.obolibrary.org/obo/WBbt_0004017>	
+<http://purl.obolibrary.org/obo/WBbt_0003745>	<http://purl.obolibrary.org/obo/WBbt_0004314>	
+<http://purl.obolibrary.org/obo/WBbt_0003746>	<http://purl.obolibrary.org/obo/WBbt_0003666>	
+<http://purl.obolibrary.org/obo/WBbt_0003747>	<http://purl.obolibrary.org/obo/WBbt_0003664>	
+<http://purl.obolibrary.org/obo/WBbt_0003748>	<http://purl.obolibrary.org/obo/WBbt_0004315>	
+<http://purl.obolibrary.org/obo/WBbt_0003749>	<http://purl.obolibrary.org/obo/WBbt_0004465>	
+<http://purl.obolibrary.org/obo/WBbt_0003750>	<http://purl.obolibrary.org/obo/WBbt_0004316>	
+<http://purl.obolibrary.org/obo/WBbt_0003751>	<http://purl.obolibrary.org/obo/WBbt_0004467>	
+<http://purl.obolibrary.org/obo/WBbt_0003752>	<http://purl.obolibrary.org/obo/WBbt_0004317>	
+<http://purl.obolibrary.org/obo/WBbt_0003753>	<http://purl.obolibrary.org/obo/WBbt_0004318>	
+<http://purl.obolibrary.org/obo/WBbt_0003755>	<http://purl.obolibrary.org/obo/WBbt_0004319>	
+<http://purl.obolibrary.org/obo/WBbt_0003756>	<http://purl.obolibrary.org/obo/WBbt_0004320>	
+<http://purl.obolibrary.org/obo/WBbt_0003757>	<http://purl.obolibrary.org/obo/WBbt_0004321>	
+<http://purl.obolibrary.org/obo/WBbt_0003758>	<http://purl.obolibrary.org/obo/WBbt_0004322>	
+<http://purl.obolibrary.org/obo/WBbt_0003759>	<http://purl.obolibrary.org/obo/WBbt_0004323>	
+<http://purl.obolibrary.org/obo/WBbt_0003776>	<http://purl.obolibrary.org/obo/WBbt_0007681>	
+<http://purl.obolibrary.org/obo/WBbt_0003834>	<http://purl.obolibrary.org/obo/WBbt_0006449>	
+<http://purl.obolibrary.org/obo/WBbt_0003835>	<http://purl.obolibrary.org/obo/WBbt_0006261>	
+<http://purl.obolibrary.org/obo/WBbt_0003836>	<http://purl.obolibrary.org/obo/WBbt_0006659>	
+<http://purl.obolibrary.org/obo/WBbt_0003837>	<http://purl.obolibrary.org/obo/WBbt_0005990>	
+<http://purl.obolibrary.org/obo/WBbt_0003838>	<http://purl.obolibrary.org/obo/WBbt_0006667>	
+<http://purl.obolibrary.org/obo/WBbt_0003839>	<http://purl.obolibrary.org/obo/WBbt_0006450>	
+<http://purl.obolibrary.org/obo/WBbt_0003840>	<http://purl.obolibrary.org/obo/WBbt_0006318>	
+<http://purl.obolibrary.org/obo/WBbt_0003841>	<http://purl.obolibrary.org/obo/WBbt_0005848>	
+<http://purl.obolibrary.org/obo/WBbt_0003842>	<http://purl.obolibrary.org/obo/WBbt_0006342>	
+<http://purl.obolibrary.org/obo/WBbt_0003852>	<http://purl.obolibrary.org/obo/WBbt_0003851>	
+<http://purl.obolibrary.org/obo/WBbt_0003853>	<http://purl.obolibrary.org/obo/WBbt_0006022>	
+<http://purl.obolibrary.org/obo/WBbt_0003854>	<http://purl.obolibrary.org/obo/WBbt_0006742>	
+<http://purl.obolibrary.org/obo/WBbt_0003855>	<http://purl.obolibrary.org/obo/WBbt_0005986>	
+<http://purl.obolibrary.org/obo/WBbt_0003856>	<http://purl.obolibrary.org/obo/WBbt_0006354>	
+<http://purl.obolibrary.org/obo/WBbt_0003857>	<http://purl.obolibrary.org/obo/WBbt_0006426>	
+<http://purl.obolibrary.org/obo/WBbt_0003858>	<http://purl.obolibrary.org/obo/WBbt_0006637>	
+<http://purl.obolibrary.org/obo/WBbt_0003859>	<http://purl.obolibrary.org/obo/WBbt_0006596>	
+<http://purl.obolibrary.org/obo/WBbt_0003860>	<http://purl.obolibrary.org/obo/WBbt_0006362>	
+<http://purl.obolibrary.org/obo/WBbt_0003861>	<http://purl.obolibrary.org/obo/WBbt_0005873>	
+<http://purl.obolibrary.org/obo/WBbt_0003862>	<http://purl.obolibrary.org/obo/WBbt_0006523>	
+<http://purl.obolibrary.org/obo/WBbt_0003873>	<http://purl.obolibrary.org/obo/WBbt_0006469>	
+<http://purl.obolibrary.org/obo/WBbt_0003874>	<http://purl.obolibrary.org/obo/WBbt_0006235>	
+<http://purl.obolibrary.org/obo/WBbt_0003875>	<http://purl.obolibrary.org/obo/WBbt_0006495>	
+<http://purl.obolibrary.org/obo/WBbt_0003876>	<http://purl.obolibrary.org/obo/WBbt_0006685>	
+<http://purl.obolibrary.org/obo/WBbt_0003877>	<http://purl.obolibrary.org/obo/WBbt_0006306>	
+<http://purl.obolibrary.org/obo/WBbt_0003878>	<http://purl.obolibrary.org/obo/WBbt_0006397>	
+<http://purl.obolibrary.org/obo/WBbt_0003879>	<http://purl.obolibrary.org/obo/WBbt_0006173>	
+<http://purl.obolibrary.org/obo/WBbt_0003880>	<http://purl.obolibrary.org/obo/WBbt_0006498>	
+<http://purl.obolibrary.org/obo/WBbt_0003881>	<http://purl.obolibrary.org/obo/WBbt_0006195>	
+<http://purl.obolibrary.org/obo/WBbt_0003882>	<http://purl.obolibrary.org/obo/WBbt_0006049>	
+<http://purl.obolibrary.org/obo/WBbt_0003893>	<http://purl.obolibrary.org/obo/WBbt_0006265>	
+<http://purl.obolibrary.org/obo/WBbt_0003894>	<http://purl.obolibrary.org/obo/WBbt_0006565>	
+<http://purl.obolibrary.org/obo/WBbt_0003895>	<http://purl.obolibrary.org/obo/WBbt_0005858>	
+<http://purl.obolibrary.org/obo/WBbt_0003896>	<http://purl.obolibrary.org/obo/WBbt_0005989>	
+<http://purl.obolibrary.org/obo/WBbt_0003897>	<http://purl.obolibrary.org/obo/WBbt_0006704>	
+<http://purl.obolibrary.org/obo/WBbt_0003898>	<http://purl.obolibrary.org/obo/WBbt_0006366>	
+<http://purl.obolibrary.org/obo/WBbt_0003899>	<http://purl.obolibrary.org/obo/WBbt_0006128>	
+<http://purl.obolibrary.org/obo/WBbt_0003900>	<http://purl.obolibrary.org/obo/WBbt_0006634>	
+<http://purl.obolibrary.org/obo/WBbt_0003901>	<http://purl.obolibrary.org/obo/WBbt_0006481>	
+<http://purl.obolibrary.org/obo/WBbt_0003902>	<http://purl.obolibrary.org/obo/WBbt_0006297>	
+<http://purl.obolibrary.org/obo/WBbt_0003913>	<http://purl.obolibrary.org/obo/WBbt_0006274>	
+<http://purl.obolibrary.org/obo/WBbt_0003914>	<http://purl.obolibrary.org/obo/WBbt_0006320>	
+<http://purl.obolibrary.org/obo/WBbt_0003915>	<http://purl.obolibrary.org/obo/WBbt_0006084>	
+<http://purl.obolibrary.org/obo/WBbt_0003916>	<http://purl.obolibrary.org/obo/WBbt_0006435>	
+<http://purl.obolibrary.org/obo/WBbt_0003917>	<http://purl.obolibrary.org/obo/WBbt_0006381>	
+<http://purl.obolibrary.org/obo/WBbt_0003918>	<http://purl.obolibrary.org/obo/WBbt_0005874>	
+<http://purl.obolibrary.org/obo/WBbt_0003919>	<http://purl.obolibrary.org/obo/WBbt_0006146>	
+<http://purl.obolibrary.org/obo/WBbt_0003920>	<http://purl.obolibrary.org/obo/WBbt_0005890>	
+<http://purl.obolibrary.org/obo/WBbt_0003921>	<http://purl.obolibrary.org/obo/WBbt_0006113>	
+<http://purl.obolibrary.org/obo/WBbt_0003922>	<http://purl.obolibrary.org/obo/WBbt_0006555>	
+<http://purl.obolibrary.org/obo/WBbt_0003943>	<http://purl.obolibrary.org/obo/WBbt_0006452>	
+<http://purl.obolibrary.org/obo/WBbt_0003944>	<http://purl.obolibrary.org/obo/WBbt_0006660>	
+<http://purl.obolibrary.org/obo/WBbt_0003945>	<http://purl.obolibrary.org/obo/WBbt_0006740>	
+<http://purl.obolibrary.org/obo/WBbt_0003946>	<http://purl.obolibrary.org/obo/WBbt_0006187>	
+<http://purl.obolibrary.org/obo/WBbt_0003947>	<http://purl.obolibrary.org/obo/WBbt_0006011>	
+<http://purl.obolibrary.org/obo/WBbt_0003948>	<http://purl.obolibrary.org/obo/WBbt_0006419>	
+<http://purl.obolibrary.org/obo/WBbt_0003949>	<http://purl.obolibrary.org/obo/WBbt_0006378>	
+<http://purl.obolibrary.org/obo/WBbt_0003950>	<http://purl.obolibrary.org/obo/WBbt_0005864>	
+<http://purl.obolibrary.org/obo/WBbt_0003951>	<http://purl.obolibrary.org/obo/WBbt_0006148>	
+<http://purl.obolibrary.org/obo/WBbt_0003952>	<http://purl.obolibrary.org/obo/WBbt_0006014>	
+<http://purl.obolibrary.org/obo/WBbt_0003973>	<http://purl.obolibrary.org/obo/WBbt_0005926>	
+<http://purl.obolibrary.org/obo/WBbt_0003974>	<http://purl.obolibrary.org/obo/WBbt_0006301>	
+<http://purl.obolibrary.org/obo/WBbt_0003975>	<http://purl.obolibrary.org/obo/WBbt_0006511>	
+<http://purl.obolibrary.org/obo/WBbt_0003976>	<http://purl.obolibrary.org/obo/WBbt_0006337>	
+<http://purl.obolibrary.org/obo/WBbt_0003977>	<http://purl.obolibrary.org/obo/WBbt_0006537>	
+<http://purl.obolibrary.org/obo/WBbt_0003978>	<http://purl.obolibrary.org/obo/WBbt_0006429>	
+<http://purl.obolibrary.org/obo/WBbt_0003979>	<http://purl.obolibrary.org/obo/WBbt_0006682>	
+<http://purl.obolibrary.org/obo/WBbt_0003980>	<http://purl.obolibrary.org/obo/WBbt_0006406>	
+<http://purl.obolibrary.org/obo/WBbt_0003981>	<http://purl.obolibrary.org/obo/WBbt_0006681>	
+<http://purl.obolibrary.org/obo/WBbt_0003982>	<http://purl.obolibrary.org/obo/WBbt_0005976>	
+<http://purl.obolibrary.org/obo/WBbt_0004055>	<http://purl.obolibrary.org/obo/WBbt_0007651>	
+<http://purl.obolibrary.org/obo/WBbt_0004160>	<http://purl.obolibrary.org/obo/WBbt_0008060>	
+<http://purl.obolibrary.org/obo/WBbt_0004161>	<http://purl.obolibrary.org/obo/WBbt_0008058>	
+<http://purl.obolibrary.org/obo/WBbt_0004165>	<http://purl.obolibrary.org/obo/WBbt_0008056>	
+<http://purl.obolibrary.org/obo/WBbt_0004172>	<http://purl.obolibrary.org/obo/WBbt_0005646>	
+<http://purl.obolibrary.org/obo/WBbt_0004173>	<http://purl.obolibrary.org/obo/WBbt_0008059>	
+<http://purl.obolibrary.org/obo/WBbt_0004174>	<http://purl.obolibrary.org/obo/WBbt_0005648>	
+<http://purl.obolibrary.org/obo/WBbt_0004175>	<http://purl.obolibrary.org/obo/WBbt_0008057>	
+<http://purl.obolibrary.org/obo/WBbt_0004177>	<http://purl.obolibrary.org/obo/WBbt_0008055>	
+<http://purl.obolibrary.org/obo/WBbt_0004185>	<http://purl.obolibrary.org/obo/WBbt_0008052>	
+<http://purl.obolibrary.org/obo/WBbt_0004199>	<http://purl.obolibrary.org/obo/WBbt_0008051>	
+<http://purl.obolibrary.org/obo/WBbt_0004282>	<http://purl.obolibrary.org/obo/WBbt_0006182>	
+<http://purl.obolibrary.org/obo/WBbt_0004283>	<http://purl.obolibrary.org/obo/WBbt_0006333>	
+<http://purl.obolibrary.org/obo/WBbt_0004284>	<http://purl.obolibrary.org/obo/WBbt_0006538>	
+<http://purl.obolibrary.org/obo/WBbt_0004285>	<http://purl.obolibrary.org/obo/WBbt_0006559>	
+<http://purl.obolibrary.org/obo/WBbt_0004286>	<http://purl.obolibrary.org/obo/WBbt_0005884>	
+<http://purl.obolibrary.org/obo/WBbt_0004287>	<http://purl.obolibrary.org/obo/WBbt_0006040>	
+<http://purl.obolibrary.org/obo/WBbt_0004288>	<http://purl.obolibrary.org/obo/WBbt_0006711>	
+<http://purl.obolibrary.org/obo/WBbt_0004289>	<http://purl.obolibrary.org/obo/WBbt_0006213>	
+<http://purl.obolibrary.org/obo/WBbt_0004290>	<http://purl.obolibrary.org/obo/WBbt_0005954>	
+<http://purl.obolibrary.org/obo/WBbt_0004291>	<http://purl.obolibrary.org/obo/WBbt_0006138>	
+<http://purl.obolibrary.org/obo/WBbt_0004363>	<http://purl.obolibrary.org/obo/WBbt_0005659>	
+<http://purl.obolibrary.org/obo/WBbt_0004379>	<http://purl.obolibrary.org/obo/WBbt_0004378>	
+<http://purl.obolibrary.org/obo/WBbt_0004393>	<http://purl.obolibrary.org/obo/WBbt_0008132>	
+<http://purl.obolibrary.org/obo/WBbt_0004394>	<http://purl.obolibrary.org/obo/WBbt_0008128>	
+<http://purl.obolibrary.org/obo/WBbt_0004395>	<http://purl.obolibrary.org/obo/WBbt_0008124>	
+<http://purl.obolibrary.org/obo/WBbt_0004396>	<http://purl.obolibrary.org/obo/WBbt_0008120>	
+<http://purl.obolibrary.org/obo/WBbt_0004397>	<http://purl.obolibrary.org/obo/WBbt_0008116>	
+<http://purl.obolibrary.org/obo/WBbt_0004398>	<http://purl.obolibrary.org/obo/WBbt_0008111>	
+<http://purl.obolibrary.org/obo/WBbt_0004401>	<http://purl.obolibrary.org/obo/WBbt_0004392>	
+<http://purl.obolibrary.org/obo/WBbt_0004459>	<http://purl.obolibrary.org/obo/WBbt_0003664>	
+<http://purl.obolibrary.org/obo/WBbt_0004514>	<http://purl.obolibrary.org/obo/WBbt_0008054>	
+<http://purl.obolibrary.org/obo/WBbt_0004515>	<http://purl.obolibrary.org/obo/WBbt_0008050>	
+<http://purl.obolibrary.org/obo/WBbt_0004516>	<http://purl.obolibrary.org/obo/WBbt_0008048>	
+<http://purl.obolibrary.org/obo/WBbt_0004542>	<http://purl.obolibrary.org/obo/WBbt_0005812>	
+<http://purl.obolibrary.org/obo/WBbt_0004557>	<http://purl.obolibrary.org/obo/WBbt_0003701>	
+<http://purl.obolibrary.org/obo/WBbt_0004672>	<http://purl.obolibrary.org/obo/WBbt_0006477>	
+<http://purl.obolibrary.org/obo/WBbt_0004673>	<http://purl.obolibrary.org/obo/WBbt_0006735>	
+<http://purl.obolibrary.org/obo/WBbt_0004680>	<http://purl.obolibrary.org/obo/WBbt_0004679>	
+<http://purl.obolibrary.org/obo/WBbt_0004681>	<http://purl.obolibrary.org/obo/WBbt_0004679>	
+<http://purl.obolibrary.org/obo/WBbt_0004682>	<http://purl.obolibrary.org/obo/WBbt_0004679>	
+<http://purl.obolibrary.org/obo/WBbt_0004683>	<http://purl.obolibrary.org/obo/WBbt_0004679>	
+<http://purl.obolibrary.org/obo/WBbt_0004684>	<http://purl.obolibrary.org/obo/WBbt_0004679>	
+<http://purl.obolibrary.org/obo/WBbt_0004686>	<http://purl.obolibrary.org/obo/WBbt_0004685>	
+<http://purl.obolibrary.org/obo/WBbt_0004688>	<http://purl.obolibrary.org/obo/WBbt_0004687>	
+<http://purl.obolibrary.org/obo/WBbt_0004689>	<http://purl.obolibrary.org/obo/WBbt_0004687>	
+<http://purl.obolibrary.org/obo/WBbt_0004691>	<http://purl.obolibrary.org/obo/WBbt_0004690>	
+<http://purl.obolibrary.org/obo/WBbt_0004693>	<http://purl.obolibrary.org/obo/WBbt_0004692>	
+<http://purl.obolibrary.org/obo/WBbt_0004695>	<http://purl.obolibrary.org/obo/WBbt_0004694>	
+<http://purl.obolibrary.org/obo/WBbt_0004696>	<http://purl.obolibrary.org/obo/WBbt_0004694>	
+<http://purl.obolibrary.org/obo/WBbt_0004717>	<http://purl.obolibrary.org/obo/WBbt_0008046>	
+<http://purl.obolibrary.org/obo/WBbt_0004718>	<http://purl.obolibrary.org/obo/WBbt_0008053>	
+<http://purl.obolibrary.org/obo/WBbt_0004719>	<http://purl.obolibrary.org/obo/WBbt_0008049>	
+<http://purl.obolibrary.org/obo/WBbt_0004720>	<http://purl.obolibrary.org/obo/WBbt_0008047>	
+<http://purl.obolibrary.org/obo/WBbt_0004721>	<http://purl.obolibrary.org/obo/WBbt_0008045>	
+<http://purl.obolibrary.org/obo/WBbt_0004722>	<http://purl.obolibrary.org/obo/WBbt_0008044>	
+<http://purl.obolibrary.org/obo/WBbt_0004723>	<http://purl.obolibrary.org/obo/WBbt_0008043>	
+<http://purl.obolibrary.org/obo/WBbt_0004884>	<http://purl.obolibrary.org/obo/WBbt_0005798>	
+<http://purl.obolibrary.org/obo/WBbt_0004951>		
+<http://purl.obolibrary.org/obo/WBbt_0004953>		
+<http://purl.obolibrary.org/obo/WBbt_0005058>	<http://purl.obolibrary.org/obo/WBbt_0008321>	
+<http://purl.obolibrary.org/obo/WBbt_0005069>		
+<http://purl.obolibrary.org/obo/WBbt_0005092>	<http://purl.obolibrary.org/obo/WBbt_0007650>	
+<http://purl.obolibrary.org/obo/WBbt_0005099>	<http://purl.obolibrary.org/obo/WBbt_0005830>	
+<http://purl.obolibrary.org/obo/WBbt_0005104>		
+<http://purl.obolibrary.org/obo/WBbt_0005106>		
+<http://purl.obolibrary.org/obo/WBbt_0005108>		
+<http://purl.obolibrary.org/obo/WBbt_0005109>		
+<http://purl.obolibrary.org/obo/WBbt_0005110>		
+<http://purl.obolibrary.org/obo/WBbt_0005111>		
+<http://purl.obolibrary.org/obo/WBbt_0005112>		
+<http://purl.obolibrary.org/obo/WBbt_0005114>		
+<http://purl.obolibrary.org/obo/WBbt_0005115>		
+<http://purl.obolibrary.org/obo/WBbt_0005125>		
+<http://purl.obolibrary.org/obo/WBbt_0005127>		
+<http://purl.obolibrary.org/obo/WBbt_0005128>		
+<http://purl.obolibrary.org/obo/WBbt_0005129>		
+<http://purl.obolibrary.org/obo/WBbt_0005130>		
+<http://purl.obolibrary.org/obo/WBbt_0005131>		
+<http://purl.obolibrary.org/obo/WBbt_0005132>		
+<http://purl.obolibrary.org/obo/WBbt_0005133>		
+<http://purl.obolibrary.org/obo/WBbt_0005134>		
+<http://purl.obolibrary.org/obo/WBbt_0005136>		
+<http://purl.obolibrary.org/obo/WBbt_0005137>		
+<http://purl.obolibrary.org/obo/WBbt_0005138>		
+<http://purl.obolibrary.org/obo/WBbt_0005139>		
+<http://purl.obolibrary.org/obo/WBbt_0005140>		
+<http://purl.obolibrary.org/obo/WBbt_0005141>		
+<http://purl.obolibrary.org/obo/WBbt_0005142>		
+<http://purl.obolibrary.org/obo/WBbt_0005143>		
+<http://purl.obolibrary.org/obo/WBbt_0005144>		
+<http://purl.obolibrary.org/obo/WBbt_0005145>		
+<http://purl.obolibrary.org/obo/WBbt_0005146>		
+<http://purl.obolibrary.org/obo/WBbt_0005147>		
+<http://purl.obolibrary.org/obo/WBbt_0005148>		
+<http://purl.obolibrary.org/obo/WBbt_0005149>		
+<http://purl.obolibrary.org/obo/WBbt_0005150>		
+<http://purl.obolibrary.org/obo/WBbt_0005151>		
+<http://purl.obolibrary.org/obo/WBbt_0005152>		
+<http://purl.obolibrary.org/obo/WBbt_0005153>		
+<http://purl.obolibrary.org/obo/WBbt_0005155>		
+<http://purl.obolibrary.org/obo/WBbt_0005156>		
+<http://purl.obolibrary.org/obo/WBbt_0005157>		
+<http://purl.obolibrary.org/obo/WBbt_0005158>		
+<http://purl.obolibrary.org/obo/WBbt_0005159>		
+<http://purl.obolibrary.org/obo/WBbt_0005160>		
+<http://purl.obolibrary.org/obo/WBbt_0005161>		
+<http://purl.obolibrary.org/obo/WBbt_0005162>		
+<http://purl.obolibrary.org/obo/WBbt_0005163>		
+<http://purl.obolibrary.org/obo/WBbt_0005164>		
+<http://purl.obolibrary.org/obo/WBbt_0005165>		
+<http://purl.obolibrary.org/obo/WBbt_0005166>		
+<http://purl.obolibrary.org/obo/WBbt_0005167>		
+<http://purl.obolibrary.org/obo/WBbt_0005168>		
+<http://purl.obolibrary.org/obo/WBbt_0005169>		
+<http://purl.obolibrary.org/obo/WBbt_0005170>		
+<http://purl.obolibrary.org/obo/WBbt_0005172>		
+<http://purl.obolibrary.org/obo/WBbt_0005173>		
+<http://purl.obolibrary.org/obo/WBbt_0005174>		
+<http://purl.obolibrary.org/obo/WBbt_0005179>		
+<http://purl.obolibrary.org/obo/WBbt_0005180>		
+<http://purl.obolibrary.org/obo/WBbt_0005181>		
+<http://purl.obolibrary.org/obo/WBbt_0005182>		
+<http://purl.obolibrary.org/obo/WBbt_0005183>		
+<http://purl.obolibrary.org/obo/WBbt_0005184>		
+<http://purl.obolibrary.org/obo/WBbt_0005185>		
+<http://purl.obolibrary.org/obo/WBbt_0005186>		
+<http://purl.obolibrary.org/obo/WBbt_0005187>		
+<http://purl.obolibrary.org/obo/WBbt_0005188>		
+<http://purl.obolibrary.org/obo/WBbt_0005191>		
+<http://purl.obolibrary.org/obo/WBbt_0005192>		
+<http://purl.obolibrary.org/obo/WBbt_0005193>		
+<http://purl.obolibrary.org/obo/WBbt_0005194>		
+<http://purl.obolibrary.org/obo/WBbt_0005195>		
+<http://purl.obolibrary.org/obo/WBbt_0005196>		
+<http://purl.obolibrary.org/obo/WBbt_0005197>		
+<http://purl.obolibrary.org/obo/WBbt_0005198>		
+<http://purl.obolibrary.org/obo/WBbt_0005199>		
+<http://purl.obolibrary.org/obo/WBbt_0005200>		
+<http://purl.obolibrary.org/obo/WBbt_0005201>		
+<http://purl.obolibrary.org/obo/WBbt_0005202>		
+<http://purl.obolibrary.org/obo/WBbt_0005203>		
+<http://purl.obolibrary.org/obo/WBbt_0005205>		
+<http://purl.obolibrary.org/obo/WBbt_0005206>		
+<http://purl.obolibrary.org/obo/WBbt_0005207>		
+<http://purl.obolibrary.org/obo/WBbt_0005211>	<http://purl.obolibrary.org/obo/WBbt_0005801>	
+<http://purl.obolibrary.org/obo/WBbt_0005213>		
+<http://purl.obolibrary.org/obo/WBbt_0005215>		
+<http://purl.obolibrary.org/obo/WBbt_0005216>		
+<http://purl.obolibrary.org/obo/WBbt_0005217>		
+<http://purl.obolibrary.org/obo/WBbt_0005218>		
+<http://purl.obolibrary.org/obo/WBbt_0005219>		
+<http://purl.obolibrary.org/obo/WBbt_0005220>		
+<http://purl.obolibrary.org/obo/WBbt_0005221>		
+<http://purl.obolibrary.org/obo/WBbt_0005222>		
+<http://purl.obolibrary.org/obo/WBbt_0005223>		
+<http://purl.obolibrary.org/obo/WBbt_0005224>		
+<http://purl.obolibrary.org/obo/WBbt_0005226>		
+<http://purl.obolibrary.org/obo/WBbt_0005227>		
+<http://purl.obolibrary.org/obo/WBbt_0005228>	<http://purl.obolibrary.org/obo/WBbt_0005214>	
+<http://purl.obolibrary.org/obo/WBbt_0005229>		
+<http://purl.obolibrary.org/obo/WBbt_0005230>		
+<http://purl.obolibrary.org/obo/WBbt_0005231>		
+<http://purl.obolibrary.org/obo/WBbt_0005232>		
+<http://purl.obolibrary.org/obo/WBbt_0005233>		
+<http://purl.obolibrary.org/obo/WBbt_0005234>		
+<http://purl.obolibrary.org/obo/WBbt_0005235>	<http://purl.obolibrary.org/obo/WBbt_0005237>	
+<http://purl.obolibrary.org/obo/WBbt_0005236>		
+<http://purl.obolibrary.org/obo/WBbt_0005238>		
+<http://purl.obolibrary.org/obo/WBbt_0005239>	<http://purl.obolibrary.org/obo/WBbt_0005237>	
+<http://purl.obolibrary.org/obo/WBbt_0005240>		
+<http://purl.obolibrary.org/obo/WBbt_0005241>		
+<http://purl.obolibrary.org/obo/WBbt_0005242>		
+<http://purl.obolibrary.org/obo/WBbt_0005243>		
+<http://purl.obolibrary.org/obo/WBbt_0005245>		
+<http://purl.obolibrary.org/obo/WBbt_0005247>		
+<http://purl.obolibrary.org/obo/WBbt_0005248>		
+<http://purl.obolibrary.org/obo/WBbt_0005249>		
+<http://purl.obolibrary.org/obo/WBbt_0005250>		
+<http://purl.obolibrary.org/obo/WBbt_0005251>		
+<http://purl.obolibrary.org/obo/WBbt_0005252>		
+<http://purl.obolibrary.org/obo/WBbt_0005253>		
+<http://purl.obolibrary.org/obo/WBbt_0005254>		
+<http://purl.obolibrary.org/obo/WBbt_0005256>		
+<http://purl.obolibrary.org/obo/WBbt_0005257>		
+<http://purl.obolibrary.org/obo/WBbt_0005258>		
+<http://purl.obolibrary.org/obo/WBbt_0005259>		
+<http://purl.obolibrary.org/obo/WBbt_0005260>		
+<http://purl.obolibrary.org/obo/WBbt_0005261>		
+<http://purl.obolibrary.org/obo/WBbt_0005262>		
+<http://purl.obolibrary.org/obo/WBbt_0005263>		
+<http://purl.obolibrary.org/obo/WBbt_0005265>		
+<http://purl.obolibrary.org/obo/WBbt_0005267>		
+<http://purl.obolibrary.org/obo/WBbt_0005268>		
+<http://purl.obolibrary.org/obo/WBbt_0005269>		
+<http://purl.obolibrary.org/obo/WBbt_0005271>		
+<http://purl.obolibrary.org/obo/WBbt_0005272>		
+<http://purl.obolibrary.org/obo/WBbt_0005273>		
+<http://purl.obolibrary.org/obo/WBbt_0005275>		
+<http://purl.obolibrary.org/obo/WBbt_0005276>		
+<http://purl.obolibrary.org/obo/WBbt_0005277>		
+<http://purl.obolibrary.org/obo/WBbt_0005279>		
+<http://purl.obolibrary.org/obo/WBbt_0005280>		
+<http://purl.obolibrary.org/obo/WBbt_0005281>		
+<http://purl.obolibrary.org/obo/WBbt_0005282>		
+<http://purl.obolibrary.org/obo/WBbt_0005283>		
+<http://purl.obolibrary.org/obo/WBbt_0005284>		
+<http://purl.obolibrary.org/obo/WBbt_0005285>		
+<http://purl.obolibrary.org/obo/WBbt_0005286>		
+<http://purl.obolibrary.org/obo/WBbt_0005287>		
+<http://purl.obolibrary.org/obo/WBbt_0005288>		
+<http://purl.obolibrary.org/obo/WBbt_0005289>		
+<http://purl.obolibrary.org/obo/WBbt_0005290>		
+<http://purl.obolibrary.org/obo/WBbt_0005291>		
+<http://purl.obolibrary.org/obo/WBbt_0005292>		
+<http://purl.obolibrary.org/obo/WBbt_0005293>		
+<http://purl.obolibrary.org/obo/WBbt_0005294>		
+<http://purl.obolibrary.org/obo/WBbt_0005295>		
+<http://purl.obolibrary.org/obo/WBbt_0005296>		
+<http://purl.obolibrary.org/obo/WBbt_0005297>		
+<http://purl.obolibrary.org/obo/WBbt_0005299>		
+<http://purl.obolibrary.org/obo/WBbt_0005301>		
+<http://purl.obolibrary.org/obo/WBbt_0005302>		
+<http://purl.obolibrary.org/obo/WBbt_0005305>		
+<http://purl.obolibrary.org/obo/WBbt_0005306>		
+<http://purl.obolibrary.org/obo/WBbt_0005307>		
+<http://purl.obolibrary.org/obo/WBbt_0005308>		
+<http://purl.obolibrary.org/obo/WBbt_0005313>		
+<http://purl.obolibrary.org/obo/WBbt_0005315>		
+<http://purl.obolibrary.org/obo/WBbt_0005317>	<http://purl.obolibrary.org/obo/WBbt_0006756>	
+<http://purl.obolibrary.org/obo/WBbt_0005318>		
+<http://purl.obolibrary.org/obo/WBbt_0005320>		
+<http://purl.obolibrary.org/obo/WBbt_0005321>		
+<http://purl.obolibrary.org/obo/WBbt_0005322>		
+<http://purl.obolibrary.org/obo/WBbt_0005323>	<http://purl.obolibrary.org/obo/WBbt_0005831>	
+<http://purl.obolibrary.org/obo/WBbt_0005324>		
+<http://purl.obolibrary.org/obo/WBbt_0005325>		
+<http://purl.obolibrary.org/obo/WBbt_0005326>		
+<http://purl.obolibrary.org/obo/WBbt_0005327>		
+<http://purl.obolibrary.org/obo/WBbt_0005328>		
+<http://purl.obolibrary.org/obo/WBbt_0005329>		
+<http://purl.obolibrary.org/obo/WBbt_0005330>		
+<http://purl.obolibrary.org/obo/WBbt_0005331>		
+<http://purl.obolibrary.org/obo/WBbt_0005333>		
+<http://purl.obolibrary.org/obo/WBbt_0005335>	<http://purl.obolibrary.org/obo/WBbt_0005364>	
+<http://purl.obolibrary.org/obo/WBbt_0005338>		
+<http://purl.obolibrary.org/obo/WBbt_0005340>		
+<http://purl.obolibrary.org/obo/WBbt_0005341>		
+<http://purl.obolibrary.org/obo/WBbt_0005343>		
+<http://purl.obolibrary.org/obo/WBbt_0005344>		
+<http://purl.obolibrary.org/obo/WBbt_0005345>		
+<http://purl.obolibrary.org/obo/WBbt_0005347>		
+<http://purl.obolibrary.org/obo/WBbt_0005349>		
+<http://purl.obolibrary.org/obo/WBbt_0005350>		
+<http://purl.obolibrary.org/obo/WBbt_0005351>		
+<http://purl.obolibrary.org/obo/WBbt_0005352>		
+<http://purl.obolibrary.org/obo/WBbt_0005354>		
+<http://purl.obolibrary.org/obo/WBbt_0005356>		
+<http://purl.obolibrary.org/obo/WBbt_0005357>		
+<http://purl.obolibrary.org/obo/WBbt_0005358>		
+<http://purl.obolibrary.org/obo/WBbt_0005360>		
+<http://purl.obolibrary.org/obo/WBbt_0005362>		
+<http://purl.obolibrary.org/obo/WBbt_0005363>		
+<http://purl.obolibrary.org/obo/WBbt_0005365>		
+<http://purl.obolibrary.org/obo/WBbt_0005366>		
+<http://purl.obolibrary.org/obo/WBbt_0005367>		
+<http://purl.obolibrary.org/obo/WBbt_0005369>		
+<http://purl.obolibrary.org/obo/WBbt_0005370>		
+<http://purl.obolibrary.org/obo/WBbt_0005376>		
+<http://purl.obolibrary.org/obo/WBbt_0005377>		
+<http://purl.obolibrary.org/obo/WBbt_0005378>		
+<http://purl.obolibrary.org/obo/WBbt_0005380>		
+<http://purl.obolibrary.org/obo/WBbt_0005381>		
+<http://purl.obolibrary.org/obo/WBbt_0005382>		
+<http://purl.obolibrary.org/obo/WBbt_0005383>		
+<http://purl.obolibrary.org/obo/WBbt_0005384>		
+<http://purl.obolibrary.org/obo/WBbt_0005385>		
+<http://purl.obolibrary.org/obo/WBbt_0005387>	<http://purl.obolibrary.org/obo/WBbt_0005176>	
+<http://purl.obolibrary.org/obo/WBbt_0005388>		
+<http://purl.obolibrary.org/obo/WBbt_0005390>	<http://purl.obolibrary.org/obo/WBbt_0005394>	
+<http://purl.obolibrary.org/obo/WBbt_0005398>	<http://purl.obolibrary.org/obo/WBbt_0005403>	
+<http://purl.obolibrary.org/obo/WBbt_0005401>		
+<http://purl.obolibrary.org/obo/WBbt_0005402>		
+<http://purl.obolibrary.org/obo/WBbt_0005404>	<http://purl.obolibrary.org/obo/WBbt_0005403>	
+<http://purl.obolibrary.org/obo/WBbt_0005405>		
+<http://purl.obolibrary.org/obo/WBbt_0005407>		
+<http://purl.obolibrary.org/obo/WBbt_0005416>		
+<http://purl.obolibrary.org/obo/WBbt_0005417>		
+<http://purl.obolibrary.org/obo/WBbt_0005418>		
+<http://purl.obolibrary.org/obo/WBbt_0005419>		
+<http://purl.obolibrary.org/obo/WBbt_0005420>		
+<http://purl.obolibrary.org/obo/WBbt_0005421>		
+<http://purl.obolibrary.org/obo/WBbt_0005422>		
+<http://purl.obolibrary.org/obo/WBbt_0005423>		
+<http://purl.obolibrary.org/obo/WBbt_0005426>		
+<http://purl.obolibrary.org/obo/WBbt_0005428>		
+<http://purl.obolibrary.org/obo/WBbt_0005429>		
+<http://purl.obolibrary.org/obo/WBbt_0005430>		
+<http://purl.obolibrary.org/obo/WBbt_0005432>		
+<http://purl.obolibrary.org/obo/WBbt_0005433>		
+<http://purl.obolibrary.org/obo/WBbt_0005434>		
+<http://purl.obolibrary.org/obo/WBbt_0005435>	<http://purl.obolibrary.org/obo/WBbt_0005767>	
+<http://purl.obolibrary.org/obo/WBbt_0005436>	<http://purl.obolibrary.org/obo/WBbt_0005434>	
+<http://purl.obolibrary.org/obo/WBbt_0005444>		
+<http://purl.obolibrary.org/obo/WBbt_0005445>		
+<http://purl.obolibrary.org/obo/WBbt_0005446>		
+<http://purl.obolibrary.org/obo/WBbt_0005449>		
+<http://purl.obolibrary.org/obo/WBbt_0005450>		
+<http://purl.obolibrary.org/obo/WBbt_0005452>		
+<http://purl.obolibrary.org/obo/WBbt_0005453>		
+<http://purl.obolibrary.org/obo/WBbt_0005454>		
+<http://purl.obolibrary.org/obo/WBbt_0005455>		
+<http://purl.obolibrary.org/obo/WBbt_0005456>		
+<http://purl.obolibrary.org/obo/WBbt_0005457>		
+<http://purl.obolibrary.org/obo/WBbt_0005458>		
+<http://purl.obolibrary.org/obo/WBbt_0005461>		
+<http://purl.obolibrary.org/obo/WBbt_0005467>		
+<http://purl.obolibrary.org/obo/WBbt_0005468>		
+<http://purl.obolibrary.org/obo/WBbt_0005469>		
+<http://purl.obolibrary.org/obo/WBbt_0005470>		
+<http://purl.obolibrary.org/obo/WBbt_0005472>		
+<http://purl.obolibrary.org/obo/WBbt_0005474>		
+<http://purl.obolibrary.org/obo/WBbt_0005475>		
+<http://purl.obolibrary.org/obo/WBbt_0005476>		
+<http://purl.obolibrary.org/obo/WBbt_0005477>		
+<http://purl.obolibrary.org/obo/WBbt_0005478>		
+<http://purl.obolibrary.org/obo/WBbt_0005479>		
+<http://purl.obolibrary.org/obo/WBbt_0005480>		
+<http://purl.obolibrary.org/obo/WBbt_0005481>		
+<http://purl.obolibrary.org/obo/WBbt_0005482>		
+<http://purl.obolibrary.org/obo/WBbt_0005483>		
+<http://purl.obolibrary.org/obo/WBbt_0005484>		
+<http://purl.obolibrary.org/obo/WBbt_0005488>		
+<http://purl.obolibrary.org/obo/WBbt_0005489>		
+<http://purl.obolibrary.org/obo/WBbt_0005491>		
+<http://purl.obolibrary.org/obo/WBbt_0005493>		
+<http://purl.obolibrary.org/obo/WBbt_0005494>		
+<http://purl.obolibrary.org/obo/WBbt_0005495>		
+<http://purl.obolibrary.org/obo/WBbt_0005496>		
+<http://purl.obolibrary.org/obo/WBbt_0005497>		
+<http://purl.obolibrary.org/obo/WBbt_0005498>		
+<http://purl.obolibrary.org/obo/WBbt_0005499>		
+<http://purl.obolibrary.org/obo/WBbt_0005500>		
+<http://purl.obolibrary.org/obo/WBbt_0005504>		
+<http://purl.obolibrary.org/obo/WBbt_0005511>		
+<http://purl.obolibrary.org/obo/WBbt_0005512>	<http://purl.obolibrary.org/obo/WBbt_0003679>	
+<http://purl.obolibrary.org/obo/WBbt_0005513>		
+<http://purl.obolibrary.org/obo/WBbt_0005514>		
+<http://purl.obolibrary.org/obo/WBbt_0005515>		
+<http://purl.obolibrary.org/obo/WBbt_0005516>	<http://purl.obolibrary.org/obo/WBbt_0003679>	
+<http://purl.obolibrary.org/obo/WBbt_0005517>		
+<http://purl.obolibrary.org/obo/WBbt_0005518>		
+<http://purl.obolibrary.org/obo/WBbt_0005519>		
+<http://purl.obolibrary.org/obo/WBbt_0005520>		
+<http://purl.obolibrary.org/obo/WBbt_0005521>		
+<http://purl.obolibrary.org/obo/WBbt_0005522>		
+<http://purl.obolibrary.org/obo/WBbt_0005523>		
+<http://purl.obolibrary.org/obo/WBbt_0005524>		
+<http://purl.obolibrary.org/obo/WBbt_0005525>		
+<http://purl.obolibrary.org/obo/WBbt_0005526>		
+<http://purl.obolibrary.org/obo/WBbt_0005527>		
+<http://purl.obolibrary.org/obo/WBbt_0005528>		
+<http://purl.obolibrary.org/obo/WBbt_0005529>		
+<http://purl.obolibrary.org/obo/WBbt_0005530>		
+<http://purl.obolibrary.org/obo/WBbt_0005531>		
+<http://purl.obolibrary.org/obo/WBbt_0005532>		
+<http://purl.obolibrary.org/obo/WBbt_0005533>		
+<http://purl.obolibrary.org/obo/WBbt_0005534>		
+<http://purl.obolibrary.org/obo/WBbt_0005535>		
+<http://purl.obolibrary.org/obo/WBbt_0005536>		
+<http://purl.obolibrary.org/obo/WBbt_0005537>		
+<http://purl.obolibrary.org/obo/WBbt_0005538>		
+<http://purl.obolibrary.org/obo/WBbt_0005539>		
+<http://purl.obolibrary.org/obo/WBbt_0005540>		
+<http://purl.obolibrary.org/obo/WBbt_0005541>		
+<http://purl.obolibrary.org/obo/WBbt_0005542>		
+<http://purl.obolibrary.org/obo/WBbt_0005543>		
+<http://purl.obolibrary.org/obo/WBbt_0005544>		
+<http://purl.obolibrary.org/obo/WBbt_0005545>		
+<http://purl.obolibrary.org/obo/WBbt_0005546>		
+<http://purl.obolibrary.org/obo/WBbt_0005547>		
+<http://purl.obolibrary.org/obo/WBbt_0005548>		
+<http://purl.obolibrary.org/obo/WBbt_0005549>		
+<http://purl.obolibrary.org/obo/WBbt_0005550>		
+<http://purl.obolibrary.org/obo/WBbt_0005551>		
+<http://purl.obolibrary.org/obo/WBbt_0005552>		
+<http://purl.obolibrary.org/obo/WBbt_0005553>		
+<http://purl.obolibrary.org/obo/WBbt_0005554>		
+<http://purl.obolibrary.org/obo/WBbt_0005555>		
+<http://purl.obolibrary.org/obo/WBbt_0005556>		
+<http://purl.obolibrary.org/obo/WBbt_0005557>		
+<http://purl.obolibrary.org/obo/WBbt_0005558>		
+<http://purl.obolibrary.org/obo/WBbt_0005559>		
+<http://purl.obolibrary.org/obo/WBbt_0005560>		
+<http://purl.obolibrary.org/obo/WBbt_0005561>		
+<http://purl.obolibrary.org/obo/WBbt_0005563>		
+<http://purl.obolibrary.org/obo/WBbt_0005564>		
+<http://purl.obolibrary.org/obo/WBbt_0005565>		
+<http://purl.obolibrary.org/obo/WBbt_0005566>		
+<http://purl.obolibrary.org/obo/WBbt_0005567>		
+<http://purl.obolibrary.org/obo/WBbt_0005568>		
+<http://purl.obolibrary.org/obo/WBbt_0005569>		
+<http://purl.obolibrary.org/obo/WBbt_0005570>		
+<http://purl.obolibrary.org/obo/WBbt_0005571>		
+<http://purl.obolibrary.org/obo/WBbt_0005572>		
+<http://purl.obolibrary.org/obo/WBbt_0005573>		
+<http://purl.obolibrary.org/obo/WBbt_0005574>		
+<http://purl.obolibrary.org/obo/WBbt_0005575>		
+<http://purl.obolibrary.org/obo/WBbt_0005576>		
+<http://purl.obolibrary.org/obo/WBbt_0005577>		
+<http://purl.obolibrary.org/obo/WBbt_0005578>		
+<http://purl.obolibrary.org/obo/WBbt_0005579>		
+<http://purl.obolibrary.org/obo/WBbt_0005580>		
+<http://purl.obolibrary.org/obo/WBbt_0005581>		
+<http://purl.obolibrary.org/obo/WBbt_0005582>		
+<http://purl.obolibrary.org/obo/WBbt_0005583>		
+<http://purl.obolibrary.org/obo/WBbt_0005584>		
+<http://purl.obolibrary.org/obo/WBbt_0005585>		
+<http://purl.obolibrary.org/obo/WBbt_0005586>		
+<http://purl.obolibrary.org/obo/WBbt_0005587>		
+<http://purl.obolibrary.org/obo/WBbt_0005588>		
+<http://purl.obolibrary.org/obo/WBbt_0005589>		
+<http://purl.obolibrary.org/obo/WBbt_0005590>		
+<http://purl.obolibrary.org/obo/WBbt_0005591>		
+<http://purl.obolibrary.org/obo/WBbt_0005592>		
+<http://purl.obolibrary.org/obo/WBbt_0005593>		
+<http://purl.obolibrary.org/obo/WBbt_0005594>	<http://purl.obolibrary.org/obo/WBbt_0003754>	
+<http://purl.obolibrary.org/obo/WBbt_0005595>		
+<http://purl.obolibrary.org/obo/WBbt_0005596>		
+<http://purl.obolibrary.org/obo/WBbt_0005597>		
+<http://purl.obolibrary.org/obo/WBbt_0005598>		
+<http://purl.obolibrary.org/obo/WBbt_0005599>		
+<http://purl.obolibrary.org/obo/WBbt_0005604>		
+<http://purl.obolibrary.org/obo/WBbt_0005605>	<http://purl.obolibrary.org/obo/WBbt_0004208>	
+<http://purl.obolibrary.org/obo/WBbt_0005606>	<http://purl.obolibrary.org/obo/WBbt_0004203>	
+<http://purl.obolibrary.org/obo/WBbt_0005608>	<http://purl.obolibrary.org/obo/WBbt_0004144>	
+<http://purl.obolibrary.org/obo/WBbt_0005609>	<http://purl.obolibrary.org/obo/WBbt_0004146>	
+<http://purl.obolibrary.org/obo/WBbt_0005610>	<http://purl.obolibrary.org/obo/WBbt_0004183>	
+<http://purl.obolibrary.org/obo/WBbt_0005611>	<http://purl.obolibrary.org/obo/WBbt_0004184>	
+<http://purl.obolibrary.org/obo/WBbt_0005612>	<http://purl.obolibrary.org/obo/WBbt_0004148>	
+<http://purl.obolibrary.org/obo/WBbt_0005613>	<http://purl.obolibrary.org/obo/WBbt_0004186>	
+<http://purl.obolibrary.org/obo/WBbt_0005614>	<http://purl.obolibrary.org/obo/WBbt_0004150>	
+<http://purl.obolibrary.org/obo/WBbt_0005615>	<http://purl.obolibrary.org/obo/WBbt_0004188>	
+<http://purl.obolibrary.org/obo/WBbt_0005616>	<http://purl.obolibrary.org/obo/WBbt_0004136>	
+<http://purl.obolibrary.org/obo/WBbt_0005617>	<http://purl.obolibrary.org/obo/WBbt_0004190>	
+<http://purl.obolibrary.org/obo/WBbt_0005618>	<http://purl.obolibrary.org/obo/WBbt_0004137>	
+<http://purl.obolibrary.org/obo/WBbt_0005619>	<http://purl.obolibrary.org/obo/WBbt_0004192>	
+<http://purl.obolibrary.org/obo/WBbt_0005620>	<http://purl.obolibrary.org/obo/WBbt_0004138>	
+<http://purl.obolibrary.org/obo/WBbt_0005621>	<http://purl.obolibrary.org/obo/WBbt_0004194>	
+<http://purl.obolibrary.org/obo/WBbt_0005622>	<http://purl.obolibrary.org/obo/WBbt_0004133>	
+<http://purl.obolibrary.org/obo/WBbt_0005623>	<http://purl.obolibrary.org/obo/WBbt_0004196>	
+<http://purl.obolibrary.org/obo/WBbt_0005624>	<http://purl.obolibrary.org/obo/WBbt_0004134>	
+<http://purl.obolibrary.org/obo/WBbt_0005625>	<http://purl.obolibrary.org/obo/WBbt_0004198>	
+<http://purl.obolibrary.org/obo/WBbt_0005626>	<http://purl.obolibrary.org/obo/WBbt_0004135>	
+<http://purl.obolibrary.org/obo/WBbt_0005627>	<http://purl.obolibrary.org/obo/WBbt_0004216>	
+<http://purl.obolibrary.org/obo/WBbt_0005628>	<http://purl.obolibrary.org/obo/WBbt_0004210>	
+<http://purl.obolibrary.org/obo/WBbt_0005629>	<http://purl.obolibrary.org/obo/WBbt_0004204>	
+<http://purl.obolibrary.org/obo/WBbt_0005630>	<http://purl.obolibrary.org/obo/WBbt_0004152>	
+<http://purl.obolibrary.org/obo/WBbt_0005631>	<http://purl.obolibrary.org/obo/WBbt_0004154>	
+<http://purl.obolibrary.org/obo/WBbt_0005632>	<http://purl.obolibrary.org/obo/WBbt_0004156>	
+<http://purl.obolibrary.org/obo/WBbt_0005634>	<http://purl.obolibrary.org/obo/WBbt_0004158>	
+<http://purl.obolibrary.org/obo/WBbt_0005635>	<http://purl.obolibrary.org/obo/WBbt_0004212>	
+<http://purl.obolibrary.org/obo/WBbt_0005636>	<http://purl.obolibrary.org/obo/WBbt_0004206>	
+<http://purl.obolibrary.org/obo/WBbt_0005637>	<http://purl.obolibrary.org/obo/WBbt_0004202>	
+<http://purl.obolibrary.org/obo/WBbt_0005639>	<http://purl.obolibrary.org/obo/WBbt_0004162>	
+<http://purl.obolibrary.org/obo/WBbt_0005640>	<http://purl.obolibrary.org/obo/WBbt_0004163>	
+<http://purl.obolibrary.org/obo/WBbt_0005641>	<http://purl.obolibrary.org/obo/WBbt_0004164>	
+<http://purl.obolibrary.org/obo/WBbt_0005642>	<http://purl.obolibrary.org/obo/WBbt_0004166>	
+<http://purl.obolibrary.org/obo/WBbt_0005643>	<http://purl.obolibrary.org/obo/WBbt_0004168>	
+<http://purl.obolibrary.org/obo/WBbt_0005644>	<http://purl.obolibrary.org/obo/WBbt_0004170>	
+<http://purl.obolibrary.org/obo/WBbt_0005645>	<http://purl.obolibrary.org/obo/WBbt_0004139>	
+<http://purl.obolibrary.org/obo/WBbt_0005647>	<http://purl.obolibrary.org/obo/WBbt_0004140>	
+<http://purl.obolibrary.org/obo/WBbt_0005649>	<http://purl.obolibrary.org/obo/WBbt_0004141>	
+<http://purl.obolibrary.org/obo/WBbt_0005650>	<http://purl.obolibrary.org/obo/WBbt_0004176>	
+<http://purl.obolibrary.org/obo/WBbt_0005651>	<http://purl.obolibrary.org/obo/WBbt_0004142>	
+<http://purl.obolibrary.org/obo/WBbt_0005652>	<http://purl.obolibrary.org/obo/WBbt_0004178>	
+<http://purl.obolibrary.org/obo/WBbt_0005653>	<http://purl.obolibrary.org/obo/WBbt_0004143>	
+<http://purl.obolibrary.org/obo/WBbt_0005654>	<http://purl.obolibrary.org/obo/WBbt_0004182>	
+<http://purl.obolibrary.org/obo/WBbt_0005655>	<http://purl.obolibrary.org/obo/WBbt_0004214>	
+<http://purl.obolibrary.org/obo/WBbt_0005761>		
+<http://purl.obolibrary.org/obo/WBbt_0005764>	<http://purl.obolibrary.org/obo/WBbt_0005766>	
+<http://purl.obolibrary.org/obo/WBbt_0005782>	<http://purl.obolibrary.org/obo/WBbt_0005176>	
+<http://purl.obolibrary.org/obo/WBbt_0005783>	<http://purl.obolibrary.org/obo/WBbt_0004697>	
+<http://purl.obolibrary.org/obo/WBbt_0005787>		
+<http://purl.obolibrary.org/obo/WBbt_0005802>	<http://purl.obolibrary.org/obo/WBbt_0004292>	
+<http://purl.obolibrary.org/obo/WBbt_0005814>	<http://purl.obolibrary.org/obo/WBbt_0006909>	
+<http://purl.obolibrary.org/obo/WBbt_0006080>	<http://purl.obolibrary.org/obo/WBbt_0004411>	
+<http://purl.obolibrary.org/obo/WBbt_0006284>	<http://purl.obolibrary.org/obo/WBbt_0004412>	
+<http://purl.obolibrary.org/obo/WBbt_0006447>	<http://purl.obolibrary.org/obo/WBbt_0004671>	
+<http://purl.obolibrary.org/obo/WBbt_0006676>		
+<http://purl.obolibrary.org/obo/WBbt_0006820>	<http://purl.obolibrary.org/obo/WBbt_0003851>	
+<http://purl.obolibrary.org/obo/WBbt_0006824>		
+<http://purl.obolibrary.org/obo/WBbt_0006907>	<http://purl.obolibrary.org/obo/WBbt_0005815>	
+<http://purl.obolibrary.org/obo/WBbt_0006975>		
+<http://purl.obolibrary.org/obo/WBbt_0006980>		
+<http://purl.obolibrary.org/obo/WBbt_0006981>		
+<http://purl.obolibrary.org/obo/WBbt_0006992>		
+<http://purl.obolibrary.org/obo/WBbt_0006993>		
+<http://purl.obolibrary.org/obo/WBbt_0006999>		
+<http://purl.obolibrary.org/obo/WBbt_0007001>	<http://purl.obolibrary.org/obo/WBbt_0004112>	
+<http://purl.obolibrary.org/obo/WBbt_0007003>		
+<http://purl.obolibrary.org/obo/WBbt_0007005>	<http://purl.obolibrary.org/obo/WBbt_0004066>	
+<http://purl.obolibrary.org/obo/WBbt_0007008>	<http://purl.obolibrary.org/obo/WBbt_0004110>	
+<http://purl.obolibrary.org/obo/WBbt_0007009>	<http://purl.obolibrary.org/obo/WBbt_0004064>	
+<http://purl.obolibrary.org/obo/WBbt_0007018>		
+<http://purl.obolibrary.org/obo/WBbt_0007019>		
+<http://purl.obolibrary.org/obo/WBbt_0007020>	<http://purl.obolibrary.org/obo/WBbt_0004108>	
+<http://purl.obolibrary.org/obo/WBbt_0007021>	<http://purl.obolibrary.org/obo/WBbt_0004106>	
+<http://purl.obolibrary.org/obo/WBbt_0007031>	<http://purl.obolibrary.org/obo/WBbt_0004570>	
+<http://purl.obolibrary.org/obo/WBbt_0007032>	<http://purl.obolibrary.org/obo/WBbt_0004572>	
+<http://purl.obolibrary.org/obo/WBbt_0007033>	<http://purl.obolibrary.org/obo/WBbt_0004568>	
+<http://purl.obolibrary.org/obo/WBbt_0007034>	<http://purl.obolibrary.org/obo/WBbt_0004573>	
+<http://purl.obolibrary.org/obo/WBbt_0007035>	<http://purl.obolibrary.org/obo/WBbt_0004569>	
+<http://purl.obolibrary.org/obo/WBbt_0007036>	<http://purl.obolibrary.org/obo/WBbt_0004565>	
+<http://purl.obolibrary.org/obo/WBbt_0007037>	<http://purl.obolibrary.org/obo/WBbt_0004566>	
+<http://purl.obolibrary.org/obo/WBbt_0007038>	<http://purl.obolibrary.org/obo/WBbt_0004571>	
+<http://purl.obolibrary.org/obo/WBbt_0007039>	<http://purl.obolibrary.org/obo/WBbt_0004333>	
+<http://purl.obolibrary.org/obo/WBbt_0007040>	<http://purl.obolibrary.org/obo/WBbt_0004567>	
+<http://purl.obolibrary.org/obo/WBbt_0007041>	<http://purl.obolibrary.org/obo/WBbt_0005049>	
+<http://purl.obolibrary.org/obo/WBbt_0007042>	<http://purl.obolibrary.org/obo/WBbt_0003935>	
+<http://purl.obolibrary.org/obo/WBbt_0007043>	<http://purl.obolibrary.org/obo/WBbt_0003933>	
+<http://purl.obolibrary.org/obo/WBbt_0007080>	<http://purl.obolibrary.org/obo/WBbt_0004847>	
+<http://purl.obolibrary.org/obo/WBbt_0007082>	<http://purl.obolibrary.org/obo/WBbt_0004836>	
+<http://purl.obolibrary.org/obo/WBbt_0007090>	<http://purl.obolibrary.org/obo/WBbt_0004963>	
+<http://purl.obolibrary.org/obo/WBbt_0007093>	<http://purl.obolibrary.org/obo/WBbt_0004828>	
+<http://purl.obolibrary.org/obo/WBbt_0007094>	<http://purl.obolibrary.org/obo/WBbt_0004827>	
+<http://purl.obolibrary.org/obo/WBbt_0007097>	<http://purl.obolibrary.org/obo/WBbt_0004830>	
+<http://purl.obolibrary.org/obo/WBbt_0007098>	<http://purl.obolibrary.org/obo/WBbt_0004831>	
+<http://purl.obolibrary.org/obo/WBbt_0007101>	<http://purl.obolibrary.org/obo/WBbt_0004829>	
+<http://purl.obolibrary.org/obo/WBbt_0007103>	<http://purl.obolibrary.org/obo/WBbt_0004958>	
+<http://purl.obolibrary.org/obo/WBbt_0007104>	<http://purl.obolibrary.org/obo/WBbt_0004957>	
+<http://purl.obolibrary.org/obo/WBbt_0007139>	<http://purl.obolibrary.org/obo/WBbt_0004803>	
+<http://purl.obolibrary.org/obo/WBbt_0007144>	<http://purl.obolibrary.org/obo/WBbt_0004802>	
+<http://purl.obolibrary.org/obo/WBbt_0007204>	<http://purl.obolibrary.org/obo/WBbt_0004489>	
+<http://purl.obolibrary.org/obo/WBbt_0007206>	<http://purl.obolibrary.org/obo/WBbt_0006770>	
+<http://purl.obolibrary.org/obo/WBbt_0007235>		
+<http://purl.obolibrary.org/obo/WBbt_0007239>		
+<http://purl.obolibrary.org/obo/WBbt_0007243>		
+<http://purl.obolibrary.org/obo/WBbt_0007244>		
+<http://purl.obolibrary.org/obo/WBbt_0007245>		
+<http://purl.obolibrary.org/obo/WBbt_0007359>	<http://purl.obolibrary.org/obo/WBbt_0004006>	
+<http://purl.obolibrary.org/obo/WBbt_0007362>	<http://purl.obolibrary.org/obo/WBbt_0004001>	
+<http://purl.obolibrary.org/obo/WBbt_0007363>	<http://purl.obolibrary.org/obo/WBbt_0003998>	
+<http://purl.obolibrary.org/obo/WBbt_0007367>	<http://purl.obolibrary.org/obo/WBbt_0003994>	
+<http://purl.obolibrary.org/obo/WBbt_0007370>	<http://purl.obolibrary.org/obo/WBbt_0003990>	
+<http://purl.obolibrary.org/obo/WBbt_0007371>	<http://purl.obolibrary.org/obo/WBbt_0003986>	
+<http://purl.obolibrary.org/obo/WBbt_0007377>	<http://purl.obolibrary.org/obo/WBbt_0003968>	
+<http://purl.obolibrary.org/obo/WBbt_0007378>	<http://purl.obolibrary.org/obo/WBbt_0003964>	
+<http://purl.obolibrary.org/obo/WBbt_0007458>	<http://purl.obolibrary.org/obo/WBbt_0004052>	
+<http://purl.obolibrary.org/obo/WBbt_0007461>	<http://purl.obolibrary.org/obo/WBbt_0004048>	
+<http://purl.obolibrary.org/obo/WBbt_0007462>	<http://purl.obolibrary.org/obo/WBbt_0004044>	
+<http://purl.obolibrary.org/obo/WBbt_0007475>	<http://purl.obolibrary.org/obo/WBbt_0004050>	
+<http://purl.obolibrary.org/obo/WBbt_0007478>	<http://purl.obolibrary.org/obo/WBbt_0004046>	
+<http://purl.obolibrary.org/obo/WBbt_0007479>	<http://purl.obolibrary.org/obo/WBbt_0004043>	
+<http://purl.obolibrary.org/obo/WBbt_0007486>	<http://purl.obolibrary.org/obo/WBbt_0004042>	
+<http://purl.obolibrary.org/obo/WBbt_0007489>	<http://purl.obolibrary.org/obo/WBbt_0004040>	
+<http://purl.obolibrary.org/obo/WBbt_0007490>	<http://purl.obolibrary.org/obo/WBbt_0004038>	
+<http://purl.obolibrary.org/obo/WBbt_0007494>	<http://purl.obolibrary.org/obo/WBbt_0004036>	
+<http://purl.obolibrary.org/obo/WBbt_0007497>	<http://purl.obolibrary.org/obo/WBbt_0004034>	
+<http://purl.obolibrary.org/obo/WBbt_0007498>	<http://purl.obolibrary.org/obo/WBbt_0004032>	
+<http://purl.obolibrary.org/obo/WBbt_0007504>	<http://purl.obolibrary.org/obo/WBbt_0004030>	
+<http://purl.obolibrary.org/obo/WBbt_0007507>	<http://purl.obolibrary.org/obo/WBbt_0004028>	
+<http://purl.obolibrary.org/obo/WBbt_0007508>	<http://purl.obolibrary.org/obo/WBbt_0004026>	
+<http://purl.obolibrary.org/obo/WBbt_0007512>	<http://purl.obolibrary.org/obo/WBbt_0004024>	
+<http://purl.obolibrary.org/obo/WBbt_0007515>	<http://purl.obolibrary.org/obo/WBbt_0004022>	
+<http://purl.obolibrary.org/obo/WBbt_0007516>	<http://purl.obolibrary.org/obo/WBbt_0004020>	
+<http://purl.obolibrary.org/obo/WBbt_0007519>	<http://purl.obolibrary.org/obo/WBbt_0004018>	
+<http://purl.obolibrary.org/obo/WBbt_0007522>	<http://purl.obolibrary.org/obo/WBbt_0004014>	
+<http://purl.obolibrary.org/obo/WBbt_0007523>	<http://purl.obolibrary.org/obo/WBbt_0004010>	
+<http://purl.obolibrary.org/obo/WBbt_0007530>	<http://purl.obolibrary.org/obo/WBbt_0004041>	
+<http://purl.obolibrary.org/obo/WBbt_0007533>	<http://purl.obolibrary.org/obo/WBbt_0004039>	
+<http://purl.obolibrary.org/obo/WBbt_0007534>	<http://purl.obolibrary.org/obo/WBbt_0004037>	
+<http://purl.obolibrary.org/obo/WBbt_0007538>	<http://purl.obolibrary.org/obo/WBbt_0004035>	
+<http://purl.obolibrary.org/obo/WBbt_0007541>	<http://purl.obolibrary.org/obo/WBbt_0004033>	
+<http://purl.obolibrary.org/obo/WBbt_0007542>	<http://purl.obolibrary.org/obo/WBbt_0004031>	
+<http://purl.obolibrary.org/obo/WBbt_0007548>	<http://purl.obolibrary.org/obo/WBbt_0004029>	
+<http://purl.obolibrary.org/obo/WBbt_0007551>	<http://purl.obolibrary.org/obo/WBbt_0004027>	
+<http://purl.obolibrary.org/obo/WBbt_0007552>	<http://purl.obolibrary.org/obo/WBbt_0004025>	
+<http://purl.obolibrary.org/obo/WBbt_0007556>	<http://purl.obolibrary.org/obo/WBbt_0004023>	
+<http://purl.obolibrary.org/obo/WBbt_0007559>	<http://purl.obolibrary.org/obo/WBbt_0004021>	
+<http://purl.obolibrary.org/obo/WBbt_0007560>	<http://purl.obolibrary.org/obo/WBbt_0004019>	
+<http://purl.obolibrary.org/obo/WBbt_0007563>	<http://purl.obolibrary.org/obo/WBbt_0004016>	
+<http://purl.obolibrary.org/obo/WBbt_0007566>	<http://purl.obolibrary.org/obo/WBbt_0004012>	
+<http://purl.obolibrary.org/obo/WBbt_0007567>	<http://purl.obolibrary.org/obo/WBbt_0004008>	
+<http://purl.obolibrary.org/obo/WBbt_0007653>	<http://purl.obolibrary.org/obo/WBbt_0005091>	
+<http://purl.obolibrary.org/obo/WBbt_0007657>	<http://purl.obolibrary.org/obo/WBbt_0004053>	
+<http://purl.obolibrary.org/obo/WBbt_0007658>	<http://purl.obolibrary.org/obo/WBbt_0004051>	
+<http://purl.obolibrary.org/obo/WBbt_0007659>	<http://purl.obolibrary.org/obo/WBbt_0005090>	
+<http://purl.obolibrary.org/obo/WBbt_0007661>	<http://purl.obolibrary.org/obo/WBbt_0004049>	
+<http://purl.obolibrary.org/obo/WBbt_0007662>	<http://purl.obolibrary.org/obo/WBbt_0004047>	
+<http://purl.obolibrary.org/obo/WBbt_0007663>	<http://purl.obolibrary.org/obo/WBbt_0005089>	
+<http://purl.obolibrary.org/obo/WBbt_0007682>	<http://purl.obolibrary.org/obo/WBbt_0003775>	
+<http://purl.obolibrary.org/obo/WBbt_0007788>		
+<http://purl.obolibrary.org/obo/WBbt_0007789>		
+<http://purl.obolibrary.org/obo/WBbt_0007862>		
+<http://purl.obolibrary.org/obo/WBbt_0007878>		
+<http://purl.obolibrary.org/obo/WBbt_0007881>		
+<http://purl.obolibrary.org/obo/WBbt_0007886>		
+<http://purl.obolibrary.org/obo/WBbt_0007889>		
+<http://purl.obolibrary.org/obo/WBbt_0007892>		
+<http://purl.obolibrary.org/obo/WBbt_0007895>		
+<http://purl.obolibrary.org/obo/WBbt_0008030>		
+<http://purl.obolibrary.org/obo/WBbt_0008032>		
+<http://purl.obolibrary.org/obo/WBbt_0008035>	<http://purl.obolibrary.org/obo/WBbt_0006344>	
+<http://purl.obolibrary.org/obo/WBbt_0008036>	<http://purl.obolibrary.org/obo/WBbt_0006535>	
+<http://purl.obolibrary.org/obo/WBbt_0008042>		
+<http://purl.obolibrary.org/obo/WBbt_0008157>	<http://purl.obolibrary.org/obo/WBbt_0006913>	
