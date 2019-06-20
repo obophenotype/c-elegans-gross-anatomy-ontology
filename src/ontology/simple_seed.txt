@@ -7605,7 +7605,6 @@ http://purl.obolibrary.org/obo/WBbt_0008625
 http://purl.obolibrary.org/obo/WBbt_0008626
 http://purl.obolibrary.org/obo/WBbt_0008627
 http://purl.obolibrary.org/obo/WBbt_0008628
-http://purl.obolibrary.org/obo/wbbt#xunion_of
 term
 http://www.geneontology.org/formats/oboInOwl#SubsetProperty
 http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty

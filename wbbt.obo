@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2019-06-14/wbbt-simple.owl
+data-version: wbbt/releases/2019-06-19/wbbt-simple.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -33005,7 +33005,7 @@ is_a: WBbt:0004017 ! Cell
 [Term]
 id: WBbt:0005212
 name: dorso-rectal ganglion
-def: "the ganglion that lies above and behind the rectum in the tail, in close continuity with the anal hypodermal ridge. It contains 3 neuron cell bodies (DVA, DVB and DVC) that send their neuronal processes into the ventral nerve cord via dorso-rectal commissures that encircle the anus. The ganglion contains no local neuropil in the hermaphrodite. In the adult male tail, this ganglion gains additional neurons and some local neuropil. " [WBPaper:00038216]
+def: "the ganglion that lies above and behind the rectum in the tail, in close continuity with the anal hypodermal ridge. It contains 3 neuron cell bodies (DVA, DVB and DVC) that send their neuronal processes into the ventral nerve cord via dorso-rectal commissures that encircle the anus. The ganglion contains no local neuropil in the hermaphrodite. In the adult male tail, this ganglion gains additional neurons and some local neuropil." [WBPaper:00038216]
 is_a: WBbt:0006977 ! tail ganglion
 
 [Term]
@@ -33455,7 +33455,7 @@ is_obsolete: true
 [Term]
 id: WBbt:0005298
 name: ventral ganglion
-def: "ganglion lies beside the nerve ring in the head, just anterior of the retrovesicular ganglion. It contains about 20 interneuron and motorneuron cell bodies that all send their neuronal processes into the ring. The cell bodies are divided into two groups by the intrusion of the excretory duct and canal. The cells are bounded by a basal lamina which physically separates them from the lateral ganglion even though they are adjacent to one another. " [WBPaper:00038216]
+def: "ganglion lies beside the nerve ring in the head, just anterior of the retrovesicular ganglion. It contains about 20 interneuron and motorneuron cell bodies that all send their neuronal processes into the ring. The cell bodies are divided into two groups by the intrusion of the excretory duct and canal. The cells are bounded by a basal lamina which physically separates them from the lateral ganglion even though they are adjacent to one another." [WBPaper:00038216]
 synonym: "ventral ganglia" RELATED []
 xref: WB:rynl
 is_a: WBbt:0005135 ! head ganglion
@@ -33867,7 +33867,7 @@ relationship: part_of WBbt:0005374 ! anterior gonad arm
 [Term]
 id: WBbt:0005369
 name: obsolete anterior sheath cell
-def: "sheath cell with nucleus anterior to metacorpus " [WB:rynl]
+def: "sheath cell with nucleus anterior to metacorpus." [WB:rynl]
 is_obsolete: true
 
 [Term]
@@ -34229,6 +34229,7 @@ relationship: part_of WBbt:0005440 ! pharyngeal nervous system
 id: WBbt:0005440
 name: pharyngeal nervous system
 def: "The pharyngeal nervous system is composed of 20 pharyngeal neurons which lie completely within the pharynx." [WBPaper:00038216]
+is_a: WBbt:0005746 ! Organ system
 relationship: part_of WBbt:0003681 ! pharynx
 relationship: part_of WBbt:0005735 ! nervous system
 
@@ -35942,6 +35943,7 @@ is_a: WBbt:0003679 ! neuron
 id: WBbt:0005760
 name: somatic nervous system
 def: "Part of the nervous system that lies completely outside the pharynx." [WB:rynl]
+is_a: WBbt:0005746 ! Organ system
 relationship: part_of WBbt:0005735 ! nervous system
 
 [Term]
@@ -36225,7 +36227,7 @@ relationship: part_of WBbt:0005773 ! rectum
 id: WBbt:0005801
 name: dorsal-rectal ganglion neuron
 alt_id: WBbt:0005211
-def: "neuron whose cell body is in the dorsal-rectal ganglion. " [WB:rynl]
+def: "neuron whose cell body is in the dorsal-rectal ganglion." [WB:rynl]
 synonym: "dorso-rectal ganglion neuron" RELATED []
 is_a: WBbt:0006759 ! tail neuron
 relationship: part_of WBbt:0005212 ! dorso-rectal ganglion
@@ -51894,13 +51896,13 @@ is_a: WBbt:0006803 ! Nucleus
 [Term]
 id: WBbt:0008251
 name: Z1.paa/Z4.aaa (1L) male
-def: "pair of nuclei Z1.paa and Z4.aaa in male of which Z1.paa will become the nucleus for the linker cell. " [WB:rynl]
+def: "pair of nuclei Z1.paa and Z4.aaa in male of which Z1.paa will become the nucleus for the linker cell." [WB:rynl]
 is_a: WBbt:0008250 ! Z1.paa or Z4.aaa nucleus male
 
 [Term]
 id: WBbt:0008252
 name: Z1.paa/Z4.aaa (4L) male
-def: "pair of nuclei Z1.paa and Z4.aaa in male of which Z4.aaa will become the nucleus for the linker cell. " [WB:rynl]
+def: "pair of nuclei Z1.paa and Z4.aaa in male of which Z4.aaa will become the nucleus for the linker cell." [WB:rynl]
 is_a: WBbt:0008250 ! Z1.paa or Z4.aaa nucleus male
 
 [Term]
@@ -54682,9 +54684,4 @@ property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartO
 property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
 is_transitive: true
 is_a: RO:0002131 ! overlaps
-
-[Typedef]
-id: xunion_of
-name: exclusive_union_of
-def: "T1 xunion_of T2 means that T1 is the union of T2 and one (or more) other term, exclusively. Thus, given T1 xunion_of T2 and T1 xunion_T3, one can infer that any instance of T1 must be an instance of T2 or T3 but not T2 and T3." [WB:rynl]
 
