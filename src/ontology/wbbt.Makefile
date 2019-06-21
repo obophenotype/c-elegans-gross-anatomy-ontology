@@ -22,16 +22,28 @@ non_native_classes.txt: $(SRC)
 	cat $@.tmp | sort | uniq >  $@
 	rm -f $@.tmp
 
+# HAD TO DELETE the removal of equivalent class axioms to support wormbase use case.
 $(ONT)-simple.owl: $(SRC) $(OTHER_SRC) simple_seed.txt non_native_classes.txt $(ONTOLOGYTERMS)
 	$(ROBOT) merge --input $< $(patsubst %, -i %, $(OTHER_SRC)) --collapse-import-closure true \
 		reason --reasoner ELK \
-		relax \
-		remove --axioms equivalent \
 		relax \
 		filter --term-file simple_seed.txt --trim true --select "annotations ontology anonymous parents object-properties self" --preserve-structure false \
 		remove --term-file non_native_classes.txt \
 		reduce -r ELK \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+
+x.owl:
+	$(ROBOT) filter --input wbbt-edit-or.owl --term-file simple_seed.txt --trim false --select "anonymous parents object-properties self" --output $@
+
+
+oort: $(SRC)
+	ontology-release-runner --reasoner elk $< --no-subsets --allow-equivalent-pairs --simple --relaxed --asserted --allow-overwrite --outdir oort
+
+$(ONT)-simple.owl: oort
+	cp oort/$@ $@
+
+$(ONT)-simple.obo: oort
+	cp oort/$@ $@
 
 $(ONT).obo: $(ONT)-simple.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
