@@ -35,7 +35,6 @@ $(ONT)-simple.owl: $(SRC) $(OTHER_SRC) simple_seed.txt non_native_classes.txt $(
 x.owl:
 	$(ROBOT) filter --input wbbt-edit-or.owl --term-file simple_seed.txt --trim false --select "anonymous parents object-properties self" --output $@
 
-
 oort: $(SRC)
 	ontology-release-runner --reasoner elk $< --no-subsets --allow-equivalent-pairs --simple --relaxed --asserted --allow-overwrite --outdir oort
 
@@ -44,6 +43,9 @@ $(ONT)-simple.owl: oort
 
 $(ONT)-simple.obo: oort
 	cp oort/$@ $@
-
-$(ONT).obo: $(ONT)-simple.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+	
+$(ONT).obo: $(ONT)-full.owl non_native_classes.txt
+	$(ROBOT) remove --input $<  --term-file non_native_classes.txt \
+	reduce -r ELK \
+	annotate --ontology-iri $(URIBASE)/$(ONT) --version-iri $(ONTBASE)/releases/$(TODAY) \
+	convert --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo

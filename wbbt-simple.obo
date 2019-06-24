@@ -11943,7 +11943,7 @@ relationship: part_of WBbt:0008511 ! P1.aaa
 id: WBbt:0002463
 name: P1.aaaa nucleus
 def: "nucleus of pedigree P1.aaaa" [WB:rynl]
-is_a: WBbt:0006803 ! Nucleus
+is_a: WBbt:0008452 ! W.aaa or P1.aaaa nucleus
 relationship: DESCENDENTOF WBbt:0002462 ! P1.aaa nucleus
 relationship: part_of WBbt:0007208 ! P1.aaaa
 
@@ -18656,7 +18656,7 @@ relationship: part_of WBbt:0007569 ! W.aa
 id: WBbt:0003254
 name: W.aaa nucleus
 def: "nucleus of pedigree W.aaa" [WB:rynl]
-is_a: WBbt:0006803 ! Nucleus
+is_a: WBbt:0008452 ! W.aaa or P1.aaaa nucleus
 relationship: DESCENDENTOF WBbt:0003253 ! W.aa nucleus
 relationship: part_of WBbt:0008454 ! W.aaa
 
@@ -53189,8 +53189,6 @@ id: WBbt:0008452
 name: W.aaa or P1.aaaa nucleus
 def: "Nucleus of pedigree W.aaa or P1.aaaa, to become either AVFL or AVFR nucleus." [WB:rynl]
 is_a: WBbt:0006803 ! Nucleus
-property_value: xunion_of WBbt:0002463
-property_value: xunion_of WBbt:0003254
 created_by: raymond
 creation_date: 2012-04-20T10:36:21Z
 
@@ -54625,4 +54623,9 @@ id: part_of
 name: part_of
 xref: BFO:0000050
 is_transitive: true
+
+[Typedef]
+id: xunion_of
+name: exclusive_union_of
+def: "T1 xunion_of T2 means that T1 is the union of T2 and one (or more) other term, exclusively. Thus, given T1 xunion_of T2 and T1 xunion_T3, one can infer that any instance of T1 must be an instance of T2 or T3 but not T2 and T3." [WB:rynl]
 
