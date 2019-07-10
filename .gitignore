@@ -1,8 +1,11 @@
+src/ontology/oort
 .DS_Store
 *.tmp
 src/ontology/mirror
 src/ontology/mirror/*
-src/ontology/wbbt.*
+src/ontology/wbbt.owl
+src/ontology/wbbt.obo
+src/ontology/wbbt.json
 src/ontology/wbbt-base.*
 src/ontology/wbbt-full.*
 semantic.cache

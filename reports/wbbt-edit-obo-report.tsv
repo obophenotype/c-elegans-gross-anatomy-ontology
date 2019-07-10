@@ -2081,12 +2081,6 @@ ERROR	duplicate_label	WBbt:0004805	rdfs:label	DX3/4
 ERROR	duplicate_label	WBbt:0004806	rdfs:label	DX3/4	
 ERROR	duplicate_label	WBbt:0004817	rdfs:label	DX1/2	
 ERROR	duplicate_label	WBbt:0004818	rdfs:label	DX1/2	
-WARN	annotation_whitespace	WBbt:0005212	IAO:0000115	the ganglion that lies above and behind the rectum in the tail, in close continuity with the anal hypodermal ridge. It contains 3 neuron cell bodies (DVA, DVB and DVC) that send their neuronal processes into the ventral nerve cord via dorso-rectal commissures that encircle the anus. The ganglion contains no local neuropil in the hermaphrodite. In the adult male tail, this ganglion gains additional neurons and some local neuropil. 	
-WARN	annotation_whitespace	WBbt:0005298	IAO:0000115	ganglion lies beside the nerve ring in the head, just anterior of the retrovesicular ganglion. It contains about 20 interneuron and motorneuron cell bodies that all send their neuronal processes into the ring. The cell bodies are divided into two groups by the intrusion of the excretory duct and canal. The cells are bounded by a basal lamina which physically separates them from the lateral ganglion even though they are adjacent to one another. 	
-WARN	annotation_whitespace	WBbt:0005369	IAO:0000115	sheath cell with nucleus anterior to metacorpus 	
-WARN	annotation_whitespace	WBbt:0005801	IAO:0000115	neuron whose cell body is in the dorsal-rectal ganglion. 	
-WARN	annotation_whitespace	WBbt:0008251	IAO:0000115	pair of nuclei Z1.paa and Z4.aaa in male of which Z1.paa will become the nucleus for the linker cell. 	
-WARN	annotation_whitespace	WBbt:0008252	IAO:0000115	pair of nuclei Z1.paa and Z4.aaa in male of which Z4.aaa will become the nucleus for the linker cell. 	
 WARN	duplicate_exact_synonym	WBbt:0006477	oboInOwl:hasExactSynonym	hyp7	
 WARN	duplicate_exact_synonym	WBbt:0006735	oboInOwl:hasExactSynonym	hyp7	
 WARN	multiple_asserted_superclasses	WBbt:0000102	rdfs:subClassOf	WBbt:0000101	
@@ -14642,7 +14636,7 @@ INFO	lowercase_definition	WBbt:0005175	IAO:0000115	organ producing either sperm 
 INFO	lowercase_definition	WBbt:0005176	IAO:0000115	set of six cells that form a thin cylindrical sheet between pharynx and ring neuropile; no chemical synapses, but gap junctions with muscle arms and RME motor neurons, might be glial cells	
 INFO	lowercase_definition	WBbt:0005178	IAO:0000115	organ in hermaphrodite animal that produces both ova and sperm.	
 INFO	lowercase_definition	WBbt:0005190	IAO:0000115	neuron that uses GABA as a vesicular neurotransmitter.	
-INFO	lowercase_definition	WBbt:0005212	IAO:0000115	the ganglion that lies above and behind the rectum in the tail, in close continuity with the anal hypodermal ridge. It contains 3 neuron cell bodies (DVA, DVB and DVC) that send their neuronal processes into the ventral nerve cord via dorso-rectal commissures that encircle the anus. The ganglion contains no local neuropil in the hermaphrodite. In the adult male tail, this ganglion gains additional neurons and some local neuropil. 	
+INFO	lowercase_definition	WBbt:0005212	IAO:0000115	the ganglion that lies above and behind the rectum in the tail, in close continuity with the anal hypodermal ridge. It contains 3 neuron cell bodies (DVA, DVB and DVC) that send their neuronal processes into the ventral nerve cord via dorso-rectal commissures that encircle the anus. The ganglion contains no local neuropil in the hermaphrodite. In the adult male tail, this ganglion gains additional neurons and some local neuropil.	
 INFO	lowercase_definition	WBbt:0005214	IAO:0000115	ganglion that lies beside the nerve ring in the head. It contains neuron cell bodies that send their neuronal processes into the ring and longitudinal nerves, but form no local neuropil separate from the nerve ring. The dorsal ganglion is in close contact with the dorsal hypodermal cord.	
 INFO	lowercase_definition	WBbt:0005216	IAO:0000115	a group of cells that have shared characteristics	
 INFO	lowercase_definition	WBbt:0005237	IAO:0000115	neurons that sense body touch, have specialized microtubules in processes.	
@@ -14650,7 +14644,7 @@ INFO	lowercase_definition	WBbt:0005255	IAO:0000115	cuticle-lined lumenal region 
 INFO	lowercase_definition	WBbt:0005261	IAO:0000115	six vulval precursor cells in early L3	
 INFO	lowercase_definition	WBbt:0005264	IAO:0000115	ventral ganglion, posterior part.	
 INFO	lowercase_definition	WBbt:0005266	IAO:0000115	ventral ganglion, anterior part.	
-INFO	lowercase_definition	WBbt:0005298	IAO:0000115	ganglion lies beside the nerve ring in the head, just anterior of the retrovesicular ganglion. It contains about 20 interneuron and motorneuron cell bodies that all send their neuronal processes into the ring. The cell bodies are divided into two groups by the intrusion of the excretory duct and canal. The cells are bounded by a basal lamina which physically separates them from the lateral ganglion even though they are adjacent to one another. 	
+INFO	lowercase_definition	WBbt:0005298	IAO:0000115	ganglion lies beside the nerve ring in the head, just anterior of the retrovesicular ganglion. It contains about 20 interneuron and motorneuron cell bodies that all send their neuronal processes into the ring. The cell bodies are divided into two groups by the intrusion of the excretory duct and canal. The cells are bounded by a basal lamina which physically separates them from the lateral ganglion even though they are adjacent to one another.	
 INFO	lowercase_definition	WBbt:0005300	IAO:0000115	neuron with cell body associated with the ventral nerve cord.	
 INFO	lowercase_definition	WBbt:0005309	IAO:0000115	socket cell of male spicule.	
 INFO	lowercase_definition	WBbt:0005311	IAO:0000115	sheath cell of male copulatory spicule.	
@@ -14659,7 +14653,7 @@ INFO	lowercase_definition	WBbt:0005332	IAO:0000115	ganglion in the trunk of the 
 INFO	lowercase_definition	WBbt:0005342	IAO:0000115	muscle lining of the uterine wall.	
 INFO	lowercase_definition	WBbt:0005364	IAO:0000115	openning of the rectum	
 INFO	lowercase_definition	WBbt:0005368	IAO:0000115	spermatheca in anterior gonad arm.	
-INFO	lowercase_definition	WBbt:0005369	IAO:0000115	sheath cell with nucleus anterior to metacorpus 	
+INFO	lowercase_definition	WBbt:0005369	IAO:0000115	sheath cell with nucleus anterior to metacorpus.	
 INFO	lowercase_definition	WBbt:0005370	IAO:0000115	undefined	
 INFO	lowercase_definition	WBbt:0005371	IAO:0000115	portion of anterior ganglion of somatic nervous system that is near or posteior to the metacorpus of pharynx.	
 INFO	lowercase_definition	WBbt:0005372	IAO:0000115	portion of anterior ganglion of somatic nervous system that is anterior to the metacorpus of pharynx.	
@@ -14781,7 +14775,7 @@ INFO	lowercase_definition	WBbt:0005796	IAO:0000115	intestinal muscle cell, attac
 INFO	lowercase_definition	WBbt:0005797	IAO:0000115	cell that forms intestinal-rectal valve.	
 INFO	lowercase_definition	WBbt:0005798	IAO:0000115	a saddle-shaped muscle cell that encircles the intestinal-rectal valve	
 INFO	lowercase_definition	WBbt:0005800	IAO:0000115	epithelium connecting intestine and anus.	
-INFO	lowercase_definition	WBbt:0005801	IAO:0000115	neuron whose cell body is in the dorsal-rectal ganglion. 	
+INFO	lowercase_definition	WBbt:0005801	IAO:0000115	neuron whose cell body is in the dorsal-rectal ganglion.	
 INFO	lowercase_definition	WBbt:0005803	IAO:0000115	muscle that controls hermaphrodite rectal opening.	
 INFO	lowercase_definition	WBbt:0005805	IAO:0000115	sphincter muscle of male cloaca.	
 INFO	lowercase_definition	WBbt:0005811	IAO:0000115	a structural (glial) cell which forms an specialized environment surrounding the sensory ending(s) of one or more neurons; sometimes accompanied by a more distal socket cell.  In early development of the sensory nerves and of the nerve ring some sheath cells (cephalics and labials) may also provide a substrate for axon guidance	
@@ -16715,8 +16709,8 @@ INFO	lowercase_definition	WBbt:0008241	IAO:0000115	cell of pedigree U.lp.
 INFO	lowercase_definition	WBbt:0008242	IAO:0000115	cell of pedigree U.rp.	
 INFO	lowercase_definition	WBbt:0008249	IAO:0000115	seminal vesicle, outer; cell of the pedigree Z1.paapp or Z4.aaapp.	
 INFO	lowercase_definition	WBbt:0008250	IAO:0000115	nuclei of pedigree Z1.paa or Z4.aaa in male.	
-INFO	lowercase_definition	WBbt:0008251	IAO:0000115	pair of nuclei Z1.paa and Z4.aaa in male of which Z1.paa will become the nucleus for the linker cell. 	
-INFO	lowercase_definition	WBbt:0008252	IAO:0000115	pair of nuclei Z1.paa and Z4.aaa in male of which Z4.aaa will become the nucleus for the linker cell. 	
+INFO	lowercase_definition	WBbt:0008251	IAO:0000115	pair of nuclei Z1.paa and Z4.aaa in male of which Z1.paa will become the nucleus for the linker cell.	
+INFO	lowercase_definition	WBbt:0008252	IAO:0000115	pair of nuclei Z1.paa and Z4.aaa in male of which Z4.aaa will become the nucleus for the linker cell.	
 INFO	lowercase_definition	WBbt:0008253	IAO:0000115	cell of vas deferens that followed the 1L lineage configuration (Z1.paa becomes the linker cell) of development.	
 INFO	lowercase_definition	WBbt:0008254	IAO:0000115	cell of vas deferens that followed the 4L lineage configuration (Z4.aaa becomes the linker cell) of development.	
 INFO	lowercase_definition	WBbt:0008257	IAO:0000115	ventral left quadrant muscle of body wall.	
