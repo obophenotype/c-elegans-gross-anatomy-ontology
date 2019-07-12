@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2019-06-24/wbbt-full.owl
+data-version: wbbt/releases/2019-07-12/wbbt-full.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -41853,7 +41853,7 @@ id: WBbt:0006235
 name: MSapappp
 alt_id: WBbt:0003874
 def: "Embryonic cell of pedigree MSapappp." [WB:rynl, WBPaper:00038216]
-synonym: "DL4" RELATED []
+synonym: "DL1" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSapappp" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
@@ -42399,7 +42399,7 @@ id: WBbt:0006318
 name: MSppappa
 alt_id: WBbt:0003840
 def: "Embryonic cell of pedigree MSppappa." [WB:rynl, WBPaper:00038216]
-synonym: "DR1" RELATED []
+synonym: "DR1" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSppappa" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
@@ -43312,7 +43312,7 @@ id: WBbt:0006450
 name: MSppappp
 alt_id: WBbt:0003839
 def: "Embryonic cell of pedigree MSppappp." [WB:rynl, WBPaper:00038216]
-synonym: "DR4" RELATED []
+synonym: "DR4" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSppappp" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
@@ -43616,7 +43616,7 @@ id: WBbt:0006495
 name: MSapappa
 alt_id: WBbt:0003875
 def: "Embryonic cell of pedigree MSapappa." [WB:rynl, WBPaper:00038216]
-synonym: "DL1" RELATED []
+synonym: "DL4" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSapappa" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
