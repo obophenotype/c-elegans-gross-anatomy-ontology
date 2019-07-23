@@ -2,14 +2,12 @@ http://purl.obolibrary.org/obo/BFO_0000002
 http://purl.obolibrary.org/obo/BFO_0000003
 http://purl.obolibrary.org/obo/BFO_0000004
 http://purl.obolibrary.org/obo/BFO_0000015
-http://purl.obolibrary.org/obo/BFO_0000017
-http://purl.obolibrary.org/obo/BFO_0000019
-http://purl.obolibrary.org/obo/BFO_0000020
-http://purl.obolibrary.org/obo/BFO_0000031
 http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/BFO_0000141
 http://purl.obolibrary.org/obo/CARO_0000000
 http://purl.obolibrary.org/obo/CARO_0000003
 http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/CARO_0000007
 http://purl.obolibrary.org/obo/CARO_0000014
 http://purl.obolibrary.org/obo/CARO_0030000
 http://purl.obolibrary.org/obo/GO_0003674
@@ -22,4 +20,7 @@ http://purl.obolibrary.org/obo/GO_0016740
 http://purl.obolibrary.org/obo/GO_0016772
 http://purl.obolibrary.org/obo/GO_0044464
 http://purl.obolibrary.org/obo/GO_0048018
+http://purl.obolibrary.org/obo/RO_0002532
+http://purl.obolibrary.org/obo/RO_0002533
+http://purl.obolibrary.org/obo/RO_0002577
 term
