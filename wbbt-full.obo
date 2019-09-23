@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2019-07-23/wbbt-full.owl
+data-version: wbbt/releases/2019-09-09/wbbt-full.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -142,15 +142,6 @@ def: "Any individual unit of a collection of like units arranged in a linear ord
 is_a: RO:0002532 ! sequentially ordered entity
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "An individual unit can be a molecular entity such as a base pair, or an abstract entity, such as the abstraction of a base pair." xsd:string
-
-[Term]
-id: RO:0002577
-name: system
-def: "A material entity consisting of multiple components that are causally integrated." []
-is_a: BFO:0000040 ! material entity
-property_value: IAO:0000116 "May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.jbiomedsem.com/content/4/1/43 xsd:string
 
 [Term]
 id: WBbt:0000100
@@ -9604,7 +9595,7 @@ def: "nucleus of pedigree Z1.aa" [WB:rynl]
 is_a: GO:0005634 ! nucleus
 is_a: WBbt:0006803 ! Nucleus
 relationship: DESCINHERM WBbt:0003280 ! Z1.a nucleus hermaphrodite
-relationship: part_of WBbt:0004520 ! gon_herm_dtc_A
+relationship: part_of WBbt:0004520 ! anterior distal tip cell
 relationship: part_of WBbt:0007026 ! Z1.aa
 
 [Term]
@@ -9614,7 +9605,7 @@ def: "nucleus of pedigree Z4.pp" [WB:rynl]
 is_a: GO:0005634 ! nucleus
 is_a: WBbt:0006803 ! Nucleus
 relationship: DESCINHERM WBbt:0003591 ! Z4.p nucleus hermaphrodite
-relationship: part_of WBbt:0004506 ! gon_herm_dtc_P
+relationship: part_of WBbt:0004506 ! posterior distal tip cell
 
 [Term]
 id: WBbt:0002043
@@ -10029,7 +10020,7 @@ def: "nucleus of pedigree MSappaaa" [WB:rynl]
 is_a: GO:0005634 ! nucleus
 is_a: WBbt:0006803 ! Nucleus
 relationship: DESCENDENTOF WBbt:0002356 ! MSappaa nucleus
-relationship: part_of WBbt:0004697 ! hmc
+relationship: part_of WBbt:0004697 ! head mesodermal cell
 
 [Term]
 id: WBbt:0002084
@@ -30474,8 +30465,9 @@ is_a: WBbt:0006901 ! gon herm dish A
 
 [Term]
 id: WBbt:0004506
-name: gon_herm_dtc_P
+name: posterior distal tip cell
 def: "Posterior distal tip cell, inhibit meiosis in neighbouring germ cells, lead gonad during morphogenesis, herm gonad" [ISBN:0-87969-307-X]
+synonym: "gon herm dtc P" RELATED []
 synonym: "lineage name: Z4.pp" RELATED []
 is_a: WBbt:0006863 ! hermaphrodite distal tip cell
 relationship: part_of WBbt:0005466 ! posterior gonad arm
@@ -30560,8 +30552,9 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 
 [Term]
 id: WBbt:0004520
-name: gon_herm_dtc_A
+name: anterior distal tip cell
 def: "Anterior distal tip cell, inhibit meiosis in neighbouring germ cells, lead gonad during morphogenesis, herm gonad" [ISBN:0-87969-307-X]
+synonym: "gon herm dtc A" RELATED []
 synonym: "lineage name: Z1.aa" RELATED []
 is_a: WBbt:0006863 ! hermaphrodite distal tip cell
 relationship: part_of WBbt:0005374 ! anterior gonad arm
@@ -30580,7 +30573,7 @@ id: WBbt:0004522
 name: anchor cell
 def: "anchor cell, induces vulva, part of hermaphrodite gonad." [ISBN:0-87969-307-X]
 synonym: "AC" RELATED []
-synonym: "gon_herm_anch" RELATED []
+synonym: "gon herm anch" RELATED []
 synonym: "lineage name: Z1.ppp/Z4.aaa" RELATED []
 is_a: WBbt:0007815 ! hermaphrodite somatic gonadal cell
 
@@ -31879,10 +31872,10 @@ relationship: part_of WBbt:0005373 ! anterior hypodermis
 
 [Term]
 id: WBbt:0004697
-name: hmc
+name: head mesodermal cell
 alt_id: WBbt:0005783
 def: "Head mesodermal cell, function unknown" [ISBN:0-87969-307-X]
-synonym: "head mesoderm cell" RELATED []
+synonym: "hmc" RELATED []
 synonym: "lineage name: MSappaaa" RELATED []
 is_a: WBbt:0004017 ! Cell
 relationship: part_of WBbt:0005737 ! muscular system
@@ -36627,8 +36620,8 @@ is_a: WBbt:0005733 ! hypodermis
 [Term]
 id: WBbt:0005374
 name: anterior gonad arm
-def: "anterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
-is_a: WBbt:0005729 ! Tissue
+def: "Anterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
+is_a: WBbt:0008629 ! gonad arm
 relationship: part_of WBbt:0005178 ! hermaphrodite gonad
 
 [Term]
@@ -37102,8 +37095,8 @@ is_a: WBbt:0005332 ! body ganglion
 [Term]
 id: WBbt:0005466
 name: posterior gonad arm
-def: "posterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
-is_a: WBbt:0005729 ! Tissue
+def: "Posterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
+is_a: WBbt:0008629 ! gonad arm
 relationship: part_of WBbt:0005178 ! hermaphrodite gonad
 
 [Term]
@@ -38754,7 +38747,7 @@ id: WBbt:0005766
 name: Anatomy
 alt_id: WBbt:0005764
 def: "entity of anatomical origin that is either entirely acellular or is a collection of cells and acellular parts." [WB:rynl]
-synonym: "Space" RELATED []
+synonym: "anatomical structure" RELATED []
 is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
 
 [Term]
@@ -38810,9 +38803,9 @@ relationship: part_of WBbt:0005748 ! alimentary system
 [Term]
 id: WBbt:0005773
 name: rectum
-def: "The passage from the posterior intestine, from the rectal valve to the opening to the exterior." [WBPaper:00038216]
+def: "The passageway in the hindgut between the posterior intestine, the rectal valve and the opening to the exterior." [WB:rynl, WBPaper:00038216]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/alimentary/alimentary3.htm>
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005766 ! Anatomy
 relationship: part_of WBbt:0005748 ! alimentary system
 
 [Term]
@@ -45663,9 +45656,9 @@ is_a: WBbt:0005175 ! gonad
 [Term]
 id: WBbt:0006795
 name: proctodeum
-def: "junction between the alimentary and genital tracts in the male." [WB:Paper00000462]
+def: "Essensially a modified rectum, junction between the alimentary and genital tracts in the male." [WB:Paper00000462, WBPaper:00038216]
 is_a: WBbt:0005757 ! male-specific
-relationship: part_of WBbt:0005748 ! alimentary system
+is_a: WBbt:0005773 ! rectum
 
 [Term]
 id: WBbt:0006796
@@ -46177,7 +46170,7 @@ id: WBbt:0006863
 name: hermaphrodite distal tip cell
 def: "somatic gonad cell that situates at the distal tip of the hermaphrodite gonad." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem1.htm#Thedistaltipcell>
-is_a: WBbt:0006865 ! DTC
+is_a: WBbt:0006865 ! distal tip cell
 is_a: WBbt:0007815 ! hermaphrodite somatic gonadal cell
 
 [Term]
@@ -46185,14 +46178,14 @@ id: WBbt:0006864
 name: male distal tip cell
 def: "one of a pair of cells, situates at the distal tip of the male gonad." [WB:rynl]
 synonym: "gon_male_dtc" RELATED []
-is_a: WBbt:0006865 ! DTC
+is_a: WBbt:0006865 ! distal tip cell
 relationship: part_of WBbt:0006794 ! male gonad
 
 [Term]
 id: WBbt:0006865
-name: DTC
+name: distal tip cell
 def: "somatic cell that situates at the tip of a gonad arm." [WB:rynl]
-synonym: "distal tip cell" RELATED []
+synonym: "DTC" RELATED []
 is_a: WBbt:0004017 ! Cell
 relationship: part_of WBbt:0005175 ! gonad
 
@@ -55926,7 +55919,8 @@ relationship: part_of WBbt:0008423 ! male genital
 id: WBbt:0008425
 name: hook
 def: "A small lump on the gubernaculum of the male tail. This structure lies on the ventral surface just anterior and central to the base of the spicule openings and contains a sensory structure called the hook sensillum." [WB:Paper00038216]
-is_a: WBbt:0008424 ! gubernaculum
+is_a: WBbt:0005766 ! Anatomy
+relationship: part_of WBbt:0008423 ! male genital
 
 [Term]
 id: WBbt:0008426
@@ -57556,6 +57550,12 @@ is_a: WBbt:0005766 ! Anatomy
 created_by: raymond
 creation_date: 2016-05-09T04:15:06Z
 
+[Term]
+id: WBbt:0008629
+name: gonad arm
+def: "A lobe of the gonad. In a monodelphic gonad, there is one arm, whereas in a didelphic gonad, there are two arms." [WB:rynl]
+is_a: WBbt:0005729 ! Tissue
+
 [Typedef]
 id: BFO:0000051
 name: has part
@@ -57818,27 +57818,6 @@ is_a: RO:0002323 ! mereotopologically related to
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
 
 [Typedef]
-id: RO:0002170
-name: connected to
-def: "a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b" []
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern xsd:anyURI
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern xsd:anyURI
-property_value: IAO:0000112 "a 'toe distal phalanx bone' that is connected to a 'toe medial phalanx bone' (an interphalangeal joint *connects* these two bones)." xsd:string
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
-is_a: RO:0002323 ! mereotopologically related to
-
-[Typedef]
-id: RO:0002177
-name: attached to part of
-def: "a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b." []
-property_value: IAO:0000589 "attached to part of (anatomical structure to anatomical structure)" xsd:string
-domain: CARO:0000003 ! connected anatomical structure
-range: CARO:0000003 ! connected anatomical structure
-holds_over_chain: RO:0002371 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
-is_a: RO:0002323 ! mereotopologically related to
-is_a: RO:0002567 ! biomechanically related to
-
-[Typedef]
 id: RO:0002180
 name: has component
 def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
@@ -58083,6 +58062,15 @@ is_a: RO:0002411 ! causally upstream of
 is_a: RO:0004046 ! causally upstream of or within, negative effect
 
 [Typedef]
+id: RO:0002321
+name: ecologically related to
+def: "A relationship that is mediated in some way by the environment or environmental feature (ENVO:00002297)" []
+subset: ro-eco
+property_value: IAO:0000116 "Awaiting class for domain/range constraint, see: https://github.com/OBOFoundry/Experimental-OBO-Core/issues/6" xsd:string
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving ecological interactions" xsd:string
+
+[Typedef]
 id: RO:0002323
 name: mereotopologically related to
 def: "A mereological relationship or a topological relationship" []
@@ -58200,30 +58188,10 @@ is_a: RO:0000056 ! participates in
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
-id: RO:0002371
-name: attached to
-def: "a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a" []
-subset: ro-eco
+id: RO:0002354
+name: formed as result of
 property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000589 "attached to (anatomical structure to anatomical structure)" xsd:string
-is_symmetric: true
-is_a: RO:0002170 ! connected to
-is_a: RO:0002177 ! attached to part of
-
-[Typedef]
-id: RO:0002375
-name: in branching relationship with
-def: "A relationship that holds between two material entities in a system of connected structures, where the branching relationship holds based on properties of the connecting network." []
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/issues/170 xsd:anyURI
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving branching relationships" xsd:string
-property_value: IAO:0000232 "This relation can be used for geographic features (e.g. rivers) as well as anatomical structures (plant branches and roots, leaf veins, animal veins, arteries, nerves)" xsd:string
-property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/branching_part_of.png
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-is_a: part_of ! part_of
-is_a: RO:0002323 ! mereotopologically related to
+is_a: RO:0002353 ! output of
 
 [Typedef]
 id: RO:0002384
@@ -58239,6 +58207,14 @@ is_a: RO:0002324 ! developmentally related to
 id: RO:0002385
 name: has potential to developmentally contribute to
 def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002386
+name: has potential to developmentally induce
+def: "x has potential to developmentally induce y iff x developmentally induces y or x is capable of developmentally inducing y" []
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002384 ! has developmental potential involving
@@ -58305,6 +58281,19 @@ property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: RO:0002575 RO:0002411
 is_a: RO:0002090 ! immediately precedes
+is_a: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002414
+name: transitively provides input for
+def: "transitive form of directly_provides_input_for" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "This is a grouping relation that should probably not be used in annotation. Consider instead the child relation 'directly provides input for' (which may later be relabeled simply to 'provides input for')" xsd:string
+property_value: IAO:0000589 "transitively provides input for (process to process)" xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
 is_a: RO:0002411 ! causally upstream of
 
 [Typedef]
@@ -58498,17 +58487,6 @@ range: BFO:0000040 ! material entity
 is_a: RO:0002410 ! causally related to
 
 [Typedef]
-id: RO:0002509
-name: determined by part of
-def: "s 'determined by part of' w if and only if there exists some f such that (1) s 'determined by' f and (2) f part_of w, or f=w." []
-subset: ro-eco
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-domain: RO:0002577 ! system
-range: BFO:0000040 ! material entity
-is_a: RO:0002131 ! overlaps
-is_a: RO:0002506 ! causal relation between material entities
-
-[Typedef]
 id: RO:0002514
 name: sequentially related to
 def: "A relation that holds between two entities that have the property of being sequences or having sequences. " []
@@ -58612,16 +58590,6 @@ property_value: IAO:0000589 "causally influences (material entity to material en
 is_a: RO:0002506 ! causal relation between material entities
 
 [Typedef]
-id: RO:0002567
-name: biomechanically related to
-def: "A relation that holds between elements of a musculoskeletal system or its analogs." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the biomechanical processes." xsd:string
-domain: CARO:0000003 ! connected anatomical structure
-range: CARO:0000003 ! connected anatomical structure
-is_a: RO:0002328 ! functionally related to
-
-[Typedef]
 id: RO:0002578
 name: directly regulates
 def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
@@ -58641,6 +58609,18 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 holds_over_chain: BFO:0000051 RO:0002215
 is_a: RO:0002328 ! functionally related to
 is_a: RO:0002595 ! causal relation between material entity and a process
+
+[Typedef]
+id: RO:0002586
+name: results in breakdown of
+def: "p results in breakdown of c if and only if the execution of p leads to c no longer being present at the end of p" []
+is_a: RO:0002233 ! has input
+
+[Typedef]
+id: RO:0002592
+name: results in organization of
+def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
+is_a: RO:0040036 ! has anatomical participant
 
 [Typedef]
 id: RO:0002595
@@ -58878,6 +58858,18 @@ property_value: seeAlso Ontology:extensions
 domain: GO:0008150 ! biological_process
 range: CARO:0000003 ! connected anatomical structure
 is_a: RO:0002324 ! developmentally related to
+
+[Typedef]
+id: results_in_formation_of
+name: results in formation of
+property_value: IAO:0000112 "an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists." xsd:string
+property_value: IAO:0000112 "every \"endocardial cushion formation\" (GO:0003272) results_in_formation_of some \"endocardial cushion\" (UBERON:0002062)" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
+is_a: results_in_developmental_progression_of ! results in developmental progression of
+is_a: RO:0002234 ! has output
+inverse_of: RO:0002354 ! formed as result of
 
 [Typedef]
 id: xunion_of
