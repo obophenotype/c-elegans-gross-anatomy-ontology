@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2019-07-23/wbbt-base.owl
+data-version: wbbt/releases/2019-09-09/wbbt-base.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -8428,7 +8428,7 @@ name: Z1.aa nucleus
 def: "nucleus of pedigree Z1.aa" [WB:rynl]
 is_a: WBbt:0006803 ! Nucleus
 relationship: DESCINHERM WBbt:0003280 ! Z1.a nucleus hermaphrodite
-relationship: part_of WBbt:0004520 ! gon_herm_dtc_A
+relationship: part_of WBbt:0004520 ! anterior distal tip cell
 relationship: part_of WBbt:0007026 ! Z1.aa
 
 [Term]
@@ -8437,7 +8437,7 @@ name: Z4.pp nucleus
 def: "nucleus of pedigree Z4.pp" [WB:rynl]
 is_a: WBbt:0006803 ! Nucleus
 relationship: DESCINHERM WBbt:0003591 ! Z4.p nucleus hermaphrodite
-relationship: part_of WBbt:0004506 ! gon_herm_dtc_P
+relationship: part_of WBbt:0004506 ! posterior distal tip cell
 
 [Term]
 id: WBbt:0002043
@@ -8811,7 +8811,7 @@ name: MSappaaa nucleus
 def: "nucleus of pedigree MSappaaa" [WB:rynl]
 is_a: WBbt:0006803 ! Nucleus
 relationship: DESCENDENTOF WBbt:0002356 ! MSappaa nucleus
-relationship: part_of WBbt:0004697 ! hmc
+relationship: part_of WBbt:0004697 ! head mesodermal cell
 
 [Term]
 id: WBbt:0002084
@@ -27795,8 +27795,9 @@ is_a: WBbt:0006901 ! gon herm dish A
 
 [Term]
 id: WBbt:0004506
-name: gon_herm_dtc_P
+name: posterior distal tip cell
 def: "Posterior distal tip cell, inhibit meiosis in neighbouring germ cells, lead gonad during morphogenesis, herm gonad" [ISBN:0-87969-307-X]
+synonym: "gon herm dtc P" RELATED []
 synonym: "lineage name: Z4.pp" RELATED []
 is_a: WBbt:0006863 ! hermaphrodite distal tip cell
 relationship: part_of WBbt:0005466 ! posterior gonad arm
@@ -27881,8 +27882,9 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 
 [Term]
 id: WBbt:0004520
-name: gon_herm_dtc_A
+name: anterior distal tip cell
 def: "Anterior distal tip cell, inhibit meiosis in neighbouring germ cells, lead gonad during morphogenesis, herm gonad" [ISBN:0-87969-307-X]
+synonym: "gon herm dtc A" RELATED []
 synonym: "lineage name: Z1.aa" RELATED []
 is_a: WBbt:0006863 ! hermaphrodite distal tip cell
 relationship: part_of WBbt:0005374 ! anterior gonad arm
@@ -27901,7 +27903,7 @@ id: WBbt:0004522
 name: anchor cell
 def: "anchor cell, induces vulva, part of hermaphrodite gonad." [ISBN:0-87969-307-X]
 synonym: "AC" RELATED []
-synonym: "gon_herm_anch" RELATED []
+synonym: "gon herm anch" RELATED []
 synonym: "lineage name: Z1.ppp/Z4.aaa" RELATED []
 is_a: WBbt:0007815 ! hermaphrodite somatic gonadal cell
 
@@ -29198,10 +29200,10 @@ relationship: part_of WBbt:0005373 ! anterior hypodermis
 
 [Term]
 id: WBbt:0004697
-name: hmc
+name: head mesodermal cell
 alt_id: WBbt:0005783
 def: "Head mesodermal cell, function unknown" [ISBN:0-87969-307-X]
-synonym: "head mesoderm cell" RELATED []
+synonym: "hmc" RELATED []
 synonym: "lineage name: MSappaaa" RELATED []
 is_a: WBbt:0004017 ! Cell
 relationship: part_of WBbt:0005737 ! muscular system
@@ -33947,8 +33949,8 @@ is_a: WBbt:0005733 ! hypodermis
 [Term]
 id: WBbt:0005374
 name: anterior gonad arm
-def: "anterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
-is_a: WBbt:0005729 ! Tissue
+def: "Anterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
+is_a: WBbt:0008629 ! gonad arm
 relationship: part_of WBbt:0005178 ! hermaphrodite gonad
 
 [Term]
@@ -34422,8 +34424,8 @@ is_a: WBbt:0005332 ! body ganglion
 [Term]
 id: WBbt:0005466
 name: posterior gonad arm
-def: "posterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
-is_a: WBbt:0005729 ! Tissue
+def: "Posterior lobe of the bi-lobbed hermaphrodite gonad." [WB:rynl]
+is_a: WBbt:0008629 ! gonad arm
 relationship: part_of WBbt:0005178 ! hermaphrodite gonad
 
 [Term]
@@ -36032,7 +36034,7 @@ id: WBbt:0005766
 name: Anatomy
 alt_id: WBbt:0005764
 def: "entity of anatomical origin that is either entirely acellular or is a collection of cells and acellular parts." [WB:rynl]
-synonym: "Space" RELATED []
+synonym: "anatomical structure" RELATED []
 is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
 
 [Term]
@@ -36088,9 +36090,9 @@ relationship: part_of WBbt:0005748 ! alimentary system
 [Term]
 id: WBbt:0005773
 name: rectum
-def: "The passage from the posterior intestine, from the rectal valve to the opening to the exterior." [WBPaper:00038216]
+def: "The passageway in the hindgut between the posterior intestine, the rectal valve and the opening to the exterior." [WB:rynl, WBPaper:00038216]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/alimentary/alimentary3.htm>
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005766 ! Anatomy
 relationship: part_of WBbt:0005748 ! alimentary system
 
 [Term]
@@ -42942,8 +42944,9 @@ is_a: WBbt:0005175 ! gonad
 [Term]
 id: WBbt:0006795
 name: proctodeum
-def: "junction between the alimentary and genital tracts in the male." [WB:Paper00000462]
+def: "Essensially a modified rectum, junction between the alimentary and genital tracts in the male." [WB:Paper00000462, WBPaper:00038216]
 is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005773 ! rectum
 relationship: part_of WBbt:0005748 ! alimentary system
 
 [Term]
@@ -43455,7 +43458,7 @@ id: WBbt:0006863
 name: hermaphrodite distal tip cell
 def: "somatic gonad cell that situates at the distal tip of the hermaphrodite gonad." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem1.htm#Thedistaltipcell>
-is_a: WBbt:0006865 ! DTC
+is_a: WBbt:0006865 ! distal tip cell
 is_a: WBbt:0007815 ! hermaphrodite somatic gonadal cell
 
 [Term]
@@ -43463,14 +43466,14 @@ id: WBbt:0006864
 name: male distal tip cell
 def: "one of a pair of cells, situates at the distal tip of the male gonad." [WB:rynl]
 synonym: "gon_male_dtc" RELATED []
-is_a: WBbt:0006865 ! DTC
+is_a: WBbt:0006865 ! distal tip cell
 relationship: part_of WBbt:0006794 ! male gonad
 
 [Term]
 id: WBbt:0006865
-name: DTC
+name: distal tip cell
 def: "somatic cell that situates at the tip of a gonad arm." [WB:rynl]
-synonym: "distal tip cell" RELATED []
+synonym: "DTC" RELATED []
 is_a: WBbt:0004017 ! Cell
 relationship: part_of WBbt:0005175 ! gonad
 
@@ -53171,7 +53174,8 @@ relationship: part_of WBbt:0008423 ! male genital
 id: WBbt:0008425
 name: hook
 def: "A small lump on the gubernaculum of the male tail. This structure lies on the ventral surface just anterior and central to the base of the spicule openings and contains a sensory structure called the hook sensillum." [WB:Paper00038216]
-is_a: WBbt:0008424 ! gubernaculum
+is_a: WBbt:0005766 ! Anatomy
+relationship: part_of WBbt:0008423 ! male genital
 
 [Term]
 id: WBbt:0008426
@@ -54798,6 +54802,12 @@ xref: CARO:0000014
 is_a: WBbt:0005766 ! Anatomy
 created_by: raymond
 creation_date: 2016-05-09T04:15:06Z
+
+[Term]
+id: WBbt:0008629
+name: gonad arm
+def: "A lobe of the gonad. In a monodelphic gonad, there is one arm, whereas in a didelphic gonad, there are two arms." [WB:rynl]
+is_a: WBbt:0005729 ! Tissue
 
 [Typedef]
 id: DESCENDENTOF
