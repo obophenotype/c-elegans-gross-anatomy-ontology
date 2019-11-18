@@ -13,14 +13,15 @@ property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 
 [Term]
 id: WBbt:0000100
-name: C. elegans Cell and Anatomy
+name: C. elegans anatomical entity
+def: "An anatomical entity of the nematode Caenorhabditis elegans." [WB:WBPerson2987]
 
 [Term]
 id: WBbt:0000101
 name: Lineage
 def: "pedigree of nuclei, lineal descent from P0, the founder." [WB:RYNL]
 xref: WB:RYNL
-is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
+is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]
 id: WBbt:0000102
@@ -23818,7 +23819,7 @@ name: Cell
 alt_id: WBbt:0003730
 def: "a cellular object that consists of subcellular components, expresses genes or functions." [WB:rynl]
 synonym: "Cell type" RELATED []
-is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
+is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]
 id: WBbt:0004018
@@ -24270,7 +24271,7 @@ name: PVZ
 def: "Neuron class of one male-specific motor neuron, cell body in ventral cord." [ISBN:0-87969-307-X]
 synonym: "lineage name: P10.ppppa" RELATED []
 is_a: WBbt:0005409 ! motor neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004059
@@ -24304,7 +24305,7 @@ comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/neurons/Individual%20Neur
 synonym: "lineage name: P11.paap" RELATED []
 is_a: WBbt:0005113 ! interneuron
 is_a: WBbt:0005447 ! preanal ganglion neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004063
@@ -24312,7 +24313,7 @@ name: PVX
 def: "Neuron class of one male-specific interneuron, postsynaptic in ring and ventral cord." [ISBN:0-87969-307-X]
 synonym: "lineage name: P12.aap" RELATED []
 is_a: WBbt:0005113 ! interneuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006974 ! nerve ring neuron
 
 [Term]
@@ -24361,7 +24362,7 @@ def: "Neuron class of one male-specific motor neuron, ventral cord." [ISBN:0-879
 synonym: "lineage name: P11.paaa" RELATED []
 is_a: WBbt:0005113 ! interneuron
 is_a: WBbt:0005447 ! preanal ganglion neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004069
@@ -24396,6 +24397,7 @@ def: "Neuron class of one asymmetric interneuron, projects along ventral cord to
 synonym: "lineage name: Caappv" RELATED []
 is_a: WBbt:0005113 ! interneuron
 is_a: WBbt:0005600 ! lumbar right ganglion neuron
+is_a: WBbt:0006816 ! ciliated neuron
 is_a: WBbt:0006974 ! nerve ring neuron
 
 [Term]
@@ -26716,7 +26718,7 @@ def: "Neuron class of one male-specific interneuron, cell body in preanal gangli
 synonym: "lineage name: P11.papp" RELATED []
 is_a: WBbt:0005113 ! interneuron
 is_a: WBbt:0005447 ! preanal ganglion neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004368
@@ -26847,7 +26849,7 @@ def: "Neuron class of one male-specific interneuron, cell body in preanal gangli
 synonym: "lineage name: P11.papa" RELATED []
 is_a: WBbt:0005113 ! interneuron
 is_a: WBbt:0005447 ! preanal ganglion neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004385
@@ -28192,7 +28194,7 @@ name: ccD
 def: "Single male postembryonic coelomocyte" [ISBN:0-87969-307-X]
 synonym: "lineage name: M.dlpappp" RELATED []
 is_a: WBbt:0005751 ! coelomocyte
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004563
@@ -28200,7 +28202,7 @@ name: ccDR
 def: "Postembryonic coelomocyte in hermaphrodite" [ISBN:0-87969-307-X]
 synonym: "lineage name: M.drpa" RELATED []
 is_a: WBbt:0005751 ! coelomocyte
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 
 [Term]
 id: WBbt:0004564
@@ -28208,7 +28210,7 @@ name: ccDL
 def: "Postembryonic coelomocyte in hermaphrodite" [ISBN:0-87969-307-X]
 synonym: "lineage name: M.dlpa" RELATED []
 is_a: WBbt:0005751 ! coelomocyte
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 
 [Term]
 id: WBbt:0004565
@@ -30057,7 +30059,7 @@ name: DVF
 def: "Neuron class of one male-specific neuron, cell body in dorsorectal ganglion." [ISBN:0-87969-307-X]
 synonym: "lineage name: B.ppppa" RELATED []
 is_a: WBbt:0005113 ! interneuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004820
@@ -30065,7 +30067,7 @@ name: DVE
 def: "Neuron class of one male-specific neuron, cell body in dorsorectal ganglion." [ISBN:0-87969-307-X]
 synonym: "lineage name: B.ppap" RELATED []
 is_a: WBbt:0005113 ! interneuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0004821
@@ -32844,6 +32846,7 @@ id: WBbt:0005177
 name: HO neuron
 def: "Hook sensory neurons." [WB:rynl]
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0006816 ! ciliated neuron
 relationship: part_of WBbt:0006930 ! hook sensillum
 
 [Term]
@@ -32853,7 +32856,7 @@ def: "organ in hermaphrodite animal that produces both ova and sperm." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem1.htm>
 synonym: "ovotestis" RELATED []
 is_a: WBbt:0005175 ! gonad
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 
 [Term]
 id: WBbt:0005179
@@ -33181,9 +33184,10 @@ is_obsolete: true
 id: WBbt:0005246
 name: CEM
 def: "Neuron class of four male-specific neurons associated with cephalic sensilla." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0005759 ! sensory neuron
 is_a: WBbt:0006751 ! head neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0005247
@@ -33500,7 +33504,7 @@ def: "Neuron class of six motoneurons in the ventral cord, which innervate ventr
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/neurons/Individual%20Neurons/VCframeset.html>
 is_a: WBbt:0005300 ! ventral cord neuron
 is_a: WBbt:0005409 ! motor neuron
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0006840 ! cholinergic neuron
 relationship: part_of WBbt:0008587 ! egg-laying apparatus
 
@@ -33538,7 +33542,7 @@ name: CP neuron
 def: "Neuron class of nine male-specific neurons with cell body in ventral cord and preanal ganglion" [WB:rynl, WB:sdm]
 is_a: WBbt:0005300 ! ventral cord neuron
 is_a: WBbt:0005409 ! motor neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0005311
@@ -33550,7 +33554,7 @@ relationship: part_of WBbt:0005312 ! copulatory spicule
 [Term]
 id: WBbt:0005312
 name: copulatory spicule
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0005313
@@ -33582,7 +33586,7 @@ id: WBbt:0005319
 name: spermatheca
 def: "an accordion-like tube that contains sperm and is the site of oocyte fertilization." [WBPaper:00038216]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem1.htm#Thespermatheca>
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 relationship: part_of WBbt:0005178 ! hermaphrodite gonad
 
 [Term]
@@ -33705,7 +33709,7 @@ id: WBbt:0005342
 name: uterine muscle
 def: "muscle lining of the uterine wall." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/mesodermal.htm/musclepartIII.htm#um>
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0005781 ! smooth muscle
 relationship: part_of WBbt:0008587 ! egg-laying apparatus
 
@@ -34417,6 +34421,7 @@ id: WBbt:0005473
 name: PC neuron
 def: "Male-specific neuron of the post-cloacal sensillum." [WB:rynl]
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0005807 ! cloacal neuron
 relationship: part_of WBbt:0005487 ! postcloacal sensillum
 
 [Term]
@@ -34489,7 +34494,7 @@ id: WBbt:0005487
 name: postcloacal sensillum
 def: "a bilateral pair of sensilla immediately posterior of the cloaca." [WBPaper:00038216]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/maleHandbook/EpithelialMalePartII_PCS.htm>
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006929 ! sensillum
 
 [Term]
@@ -35923,14 +35928,14 @@ relationship: part_of WBbt:0005730 ! epithelial system
 
 [Term]
 id: WBbt:0005757
-name: male-specific
+name: male-specific anatomical entity
 def: "cells or anatomical parts specific to the male sex" [WB:rynl]
 is_a: WBbt:0005752 ! Sex specific entity
 relationship: part_of WBbt:0007850 ! male
 
 [Term]
 id: WBbt:0005758
-name: hermaphrodite-specific
+name: hermaphrodite-specific anatomical entity
 def: "cells or anatomical parts specific to the hermaphrodite sex" [WB:rynl]
 is_a: WBbt:0005752 ! Sex specific entity
 relationship: part_of WBbt:0007849 ! hermaphrodite
@@ -35967,13 +35972,13 @@ relationship: part_of WBbt:0005735 ! nervous system
 id: WBbt:0005763
 name: Functional system
 def: "concerns with functional aspects of cells and anatomical parts" [WB:rynl]
-is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
+is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]
 id: WBbt:0005765
 name: Time
 def: "concerns with temporal aspects of cells and anatomical parts, e.g. development" [WB:rynl]
-is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
+is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]
 id: WBbt:0005766
@@ -35981,7 +35986,7 @@ name: Anatomy
 alt_id: WBbt:0005764
 def: "entity of anatomical origin that is either entirely acellular or is a collection of cells and acellular parts." [WB:rynl]
 synonym: "anatomical structure" RELATED []
-is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
+is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]
 id: WBbt:0005767
@@ -36045,7 +36050,7 @@ relationship: part_of WBbt:0005748 ! alimentary system
 id: WBbt:0005774
 name: cloaca
 def: "a feature of the male tail, caudal to the proctodeum, where the vas deferens and the intestine open out jointly near the tail tip to discharge their contents." [WBPaper:00038216]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 relationship: part_of WBbt:0005748 ! alimentary system
 
 [Term]
@@ -36106,7 +36111,6 @@ name: germ line
 def: "cell line which early in development becomes differentiated from the remaining somatic cell line, and alone has the potential to undergo meiosis and form gametes." [ISBN:0140512888]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem2.htm>
 synonym: "germline" RELATED []
-is_a: WBbt:0004017 ! Cell
 is_a: WBbt:0005729 ! Tissue
 relationship: part_of WBbt:0005747 ! reproductive system
 
@@ -36264,6 +36268,7 @@ relationship: part_of WBbt:0005774 ! cloaca
 [Term]
 id: WBbt:0005807
 name: cloacal neuron
+def: "Male-specific neuron whose cell body is in the cloacal ganglion." [WB:rynl]
 is_a: WBbt:0003679 ! neuron
 relationship: part_of WBbt:0005774 ! cloaca
 
@@ -36320,7 +36325,7 @@ def: "specialized muscle in the male." [WB:rynl]
 synonym: "dgl" RELATED []
 synonym: "male tail diagonal muscle" RELATED []
 synonym: "mu_male_diag" RELATED []
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0005780 ! non-striated muscle
 is_a: WBbt:0005786 ! muscle of the reproductive system
 is_a: WBbt:0007810 ! body muscle cell
@@ -36357,7 +36362,7 @@ id: WBbt:0005821
 name: vulval muscle
 def: "muscle associated with hermaphrodite vulva." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/mesodermal.htm/musclepartIII.htm#vm>
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0005780 ! non-striated muscle
 is_a: WBbt:0007810 ! body muscle cell
 relationship: part_of WBbt:0008587 ! egg-laying apparatus
@@ -36427,6 +36432,7 @@ alt_id: WBbt:0005323
 def: "Sensory neuron of copulatory spicule in male, cilliated, open to outside at tip of spicule." [ISBN:0-87969-307-X]
 synonym: "SP neuron" RELATED []
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0005807 ! cloacal neuron
 relationship: part_of WBbt:0005312 ! copulatory spicule
 
 [Term]
@@ -42549,7 +42555,7 @@ id: WBbt:0006748
 name: vulva
 def: "female genital." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem3a.htm#Thevulva>
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0008422 ! sex organ
 relationship: part_of WBbt:0005740 ! midbody
 relationship: part_of WBbt:0008587 ! egg-laying apparatus
@@ -42780,7 +42786,7 @@ id: WBbt:0006780
 name: ventral uterine precursor
 def: "Ventral Uterine precursor cell." [WB:Paper00002608]
 synonym: "VU" RELATED []
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0006783 ! blast cell
 relationship: part_of WBbt:0008368 ! gonadal primordium hermaphrodite
 
@@ -42789,7 +42795,7 @@ id: WBbt:0006781
 name: dorsal uterine precursor
 def: "Dorsal Uterine precursor cell." [WB:Paper00002608]
 synonym: "DU" RELATED []
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0006783 ! blast cell
 
 [Term]
@@ -42890,7 +42896,7 @@ is_a: WBbt:0005175 ! gonad
 id: WBbt:0006795
 name: proctodeum
 def: "Essensially a modified rectum, junction between the alimentary and genital tracts in the male." [WB:Paper00000462, WBPaper:00038216]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0005773 ! rectum
 relationship: part_of WBbt:0005748 ! alimentary system
 
@@ -42898,7 +42904,7 @@ relationship: part_of WBbt:0005748 ! alimentary system
 id: WBbt:0006796
 name: germ cell
 def: "a cell, of either sex, directly concerned in the production of a new organism." [WB:rynl]
-is_a: WBbt:0005784 ! germ line
+is_a: WBbt:0004017 ! Cell
 relationship: develops_from WBbt:0006849 ! germline precursor cell
 
 [Term]
@@ -42906,7 +42912,7 @@ id: WBbt:0006797
 name: oocyte
 def: "a female haploid germ cell." [WB:wjc]
 synonym: "ovum" RELATED []
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0006796 ! germ cell
 
 [Term]
@@ -42952,7 +42958,7 @@ relationship: part_of WBbt:0005830 ! lumbar ganglion
 id: WBbt:0006803
 name: Nucleus
 def: "cell nucleus with a defined lineage." [WB:rynl]
-is_a: WBbt:0000100 ! C. elegans Cell and Anatomy
+is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]
 id: WBbt:0006804
@@ -43301,7 +43307,7 @@ def: "member of a set of two cells that generate exclusively sperm and ovum." [W
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem2.htm#germlinedevelopment>
 synonym: "PGC" RELATED []
 synonym: "primordial germ cell" RELATED []
-is_a: WBbt:0005784 ! germ line
+is_a: WBbt:0004017 ! Cell
 
 [Term]
 id: WBbt:0006850
@@ -43322,7 +43328,7 @@ name: CA neuron
 def: "Neuron class of nine male-specific neurons, innervate dorsal muscles." [ISBN:0-87969-307-X]
 is_a: WBbt:0005300 ! ventral cord neuron
 is_a: WBbt:0005409 ! motor neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0006853
@@ -43397,6 +43403,7 @@ name: SPV
 def: "Neuron class of two male-specific neurons that innervate male spicule." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/neurons/Individual%20Neurons/SPVframeset.html>
 is_a: WBbt:0005831 ! spicule neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0006863
@@ -43689,14 +43696,14 @@ name: hook hypodermis
 def: "hypodermis of the male hook." [WB:rynl]
 synonym: "hyp_hook" RELATED []
 is_a: WBbt:0005733 ! hypodermis
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0006908
 name: gubernacular muscle
 def: "specialized muscle type in male sex organ." [WB:rynl]
 synonym: "mu_male_gub" RELATED []
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0005780 ! non-striated muscle
 is_a: WBbt:0007810 ! body muscle cell
 
@@ -43707,7 +43714,7 @@ alt_id: WBbt:0005814
 def: "specialized muscle type in the posterior of adult male." [WB:rynl]
 synonym: "mu_male_long" RELATED []
 synonym: "ventral longitudinal muscle" RELATED []
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0005780 ! non-striated muscle
 is_a: WBbt:0005786 ! muscle of the reproductive system
 is_a: WBbt:0007810 ! body muscle cell
@@ -43717,7 +43724,7 @@ id: WBbt:0006910
 name: oblique male muscle
 def: "specialized muscle type in the male." [WB:rynl]
 synonym: "mu_male_obliq" RELATED []
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0005780 ! non-striated muscle
 is_a: WBbt:0007810 ! body muscle cell
 
@@ -43737,7 +43744,7 @@ def: "seam cell in male tail; does not fuse with main seam, does not make alae."
 synonym: "male posterior seam" RELATED []
 synonym: "set" RELATED []
 is_a: WBbt:0005753 ! seam cell
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0008074 ! syncytium
 
 [Term]
@@ -43747,7 +43754,7 @@ alt_id: WBbt:0008157
 def: "post-embryonic seam cells that make alae, hermaphrodite." [WB:rynl]
 synonym: "se_herm" RELATED []
 is_a: WBbt:0005753 ! seam cell
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 
 [Term]
 id: WBbt:0006914
@@ -43755,7 +43762,7 @@ name: male alae seam cell
 def: "post-embryonic seam cells that make alae in the male." [WB:rynl]
 synonym: "se_male" RELATED []
 is_a: WBbt:0005753 ! seam cell
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0006915
@@ -43857,14 +43864,14 @@ id: WBbt:0006930
 name: hook sensillum
 def: "sensory organ of male hook." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/male/hook/mainframe.htm>
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006929 ! sensillum
 
 [Term]
 id: WBbt:0006931
 name: ray precursor cell
 def: "Precursor cell of the male sensory ray (R1-R9)." [WB:Paper00000462, WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006783 ! blast cell
 
 [Term]
@@ -43927,7 +43934,7 @@ name: ray
 def: "male sensory organ; nine bilateral pairs of finger-like rays (numbered 1 to 9, Left/Right) radiate from the tail and are embedded in a cuticlar fan." [WB:rynl, WBPaper:00038216]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/maleHandbook/EpithelialMalePartII_Rays.htm>
 synonym: "male sensory ray" RELATED []
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006929 ! sensillum
 
 [Term]
@@ -44109,6 +44116,7 @@ id: WBbt:0006971
 name: ray neuron
 def: "neuron in the male ray." [WB:rynl]
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0006816 ! ciliated neuron
 relationship: part_of WBbt:0006941 ! ray
 
 [Term]
@@ -48766,12 +48774,14 @@ name: SPD
 def: "Neuron class of two male-specific sensory neuron associated with copulatory spicules, cilliated, open to outside at tip of spicule." [ISBN:0-87969-307-X]
 is_a: WBbt:0005409 ! motor neuron
 is_a: WBbt:0005831 ! spicule neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0007806
 name: PCA
 def: "Neuron class of two male-specific sensory neuron of postcloacal sensilla." [ISBN:0-87969-307-X]
 is_a: WBbt:0005473 ! PC neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0007807
@@ -48858,49 +48868,49 @@ is_a: WBbt:0008604 ! male sex myoblast
 id: WBbt:0007819
 name: P11.pa
 def: "post-embryonic cell of pedigree P11.pa, only present in male animals." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007030 ! post-embryonic cell
 
 [Term]
 id: WBbt:0007820
 name: P11.paa
 def: "post-embryonic cell of pedigree P11.paa, only present in male animals." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007030 ! post-embryonic cell
 
 [Term]
 id: WBbt:0007821
 name: P11.pap
 def: "post-embryonic cell of pedigree P11.pap, only present in male animals." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007030 ! post-embryonic cell
 
 [Term]
 id: WBbt:0007822
 name: P11.pp
 def: "post-embryonic cell of pedigree P11.pp, only present in male animals." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007030 ! post-embryonic cell
 
 [Term]
 id: WBbt:0007823
 name: P11.ppa
 def: "post-embryonic cell of pedigree P11.ppa, only present in male animals." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007030 ! post-embryonic cell
 
 [Term]
 id: WBbt:0007824
 name: M.dlpa male
 def: "post-embryonic cell of the pedigree M.dlpa, in male animals." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007030 ! post-embryonic cell
 
 [Term]
 id: WBbt:0007825
 name: M.drpa male
 def: "post-embryonic cell of the pedigree M.drpa, in male animals." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007030 ! post-embryonic cell
 
 [Term]
@@ -48962,14 +48972,14 @@ name: DX neuron
 def: "Neuron class of four male-specific interneurons, darkly staining cell bodies in preanal ganglion, processes penetrate basement membrane and contact muscles." [WBPaper:00038216]
 is_a: WBbt:0005113 ! interneuron
 is_a: WBbt:0005409 ! motor neuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0007835
 name: EF neuron
 def: "Neuron class of four large, male-specific interneurons with cell bodies in preanal ganglion. They receive synaptic inputs from ray neurons." [WBPaper:00038216]
 is_a: WBbt:0005113 ! interneuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0007836
@@ -48977,7 +48987,7 @@ name: PVU
 def: "Neuron class of one male-specific interneuron, called PVPL in hermaphrodite." [WB:rynl]
 synonym: "PVPL" RELATED []
 is_a: WBbt:0005113 ! interneuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0007837
@@ -48985,7 +48995,7 @@ name: PVS
 def: "Neuron class of one male-specific interneuron, called PVPR in hermaphrodite." [WB:rynl]
 synonym: "PVPR" RELATED []
 is_a: WBbt:0005113 ! interneuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0007838
@@ -49082,7 +49092,7 @@ name: hyp13
 def: "male-specific, bi-nucleated hypodermal cell formed by the sisters of T." [WBPaper:00038216]
 synonym: "lineage name: ABplappppa" RELATED []
 synonym: "lineage name: ABprappppa" RELATED []
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0007846 ! hypodermal cell
 is_a: WBbt:0008074 ! syncytium
 
@@ -50637,7 +50647,7 @@ id: WBbt:0008064
 name: B cell male
 def: "a post-embryonic blast cell in male." [WB:rynl]
 is_a: WBbt:0003825 ! B cell
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0008608 ! B lineage cell
 
 [Term]
@@ -50680,7 +50690,7 @@ name: hyp7 syncytium male
 def: "hyp7 syncytium in male." [WB:rynl]
 comment: 142 nuclei: partslist 138 (+3 P10) + hyp12
 is_a: WBbt:0005734 ! hyp7 syncytium
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0008071
@@ -50688,7 +50698,7 @@ name: hyp7 syncytium hermaphrodite
 def: "hyp7 syncytium in hermaphrodite." [WB:rynl]
 comment: 139 nuclei: partslist 132 hyp7 + 6 hyp6 + 1 hyp12
 is_a: WBbt:0005734 ! hyp7 syncytium
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 
 [Term]
 id: WBbt:0008072
@@ -51164,27 +51174,27 @@ relationship: part_of WBbt:0008133 ! P8.p hermaphrodite
 id: WBbt:0008136
 name: adult seam cell left male
 def: "seam syncytium on the left flank of an adult male." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006809 ! adult seam cell left
 
 [Term]
 id: WBbt:0008137
 name: adult seam cell left hermaphrodite
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0006809 ! adult seam cell left
 
 [Term]
 id: WBbt:0008138
 name: adult seam cell right male
 def: "seam syncytium on the right flank of an adult male." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006810 ! adult seam cell right
 
 [Term]
 id: WBbt:0008139
 name: adult seam cell right hermaphrodite
 def: "seam syncytium on the right flank of an adult hermaphrodite." [WB:rynl]
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 is_a: WBbt:0006810 ! adult seam cell right
 
 [Term]
@@ -51624,7 +51634,7 @@ name: male gonadal cell
 def: "cell of male gonad." [WB:rynl]
 synonym: "male somatic gonadal cell" RELATED []
 is_a: WBbt:0004017 ! Cell
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]
 id: WBbt:0008210
@@ -52673,7 +52683,7 @@ relationship: develops_from WBbt:0006292 ! ABprpaapapp
 id: WBbt:0008373
 name: sex myoblast
 def: "Blast cell which divides to product sex-specific muscle cells." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0006783 ! blast cell
 
 [Term]
@@ -52982,7 +52992,7 @@ relationship: part_of WBbt:0005747 ! reproductive system
 id: WBbt:0008423
 name: male genital
 def: "antomical structure of the male involved in sexual reproduction." [WB:rynl]
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 is_a: WBbt:0008422 ! sex organ
 
 [Term]
@@ -54455,7 +54465,7 @@ name: MCM
 def: "Neuron class of male specific interneurons (mystery cells of the male) that are born at the early L4 stage, when the male undergoes sexual maturation." [WB:Paper00038216]
 synonym: "mystery cells of the male" RELATED []
 is_a: WBbt:0005113 ! interneuron
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 created_by: raymond
 creation_date: 2015-09-22T01:17:56Z
 
@@ -54522,7 +54532,7 @@ id: WBbt:0008619
 name: AMsoL hermaphrodite
 def: "AMsoL cell in hermaphrodite animal." [WB:rynl]
 is_a: WBbt:0003931 ! AMsoL
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 created_by: raymond
 creation_date: 2015-09-23T09:11:56Z
 
@@ -54531,7 +54541,7 @@ id: WBbt:0008620
 name: AMsoL male
 def: "AMsoL cell in male animal." [WB:rynl]
 is_a: WBbt:0003931 ! AMsoL
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 created_by: raymond
 creation_date: 2015-09-23T09:11:56Z
 
@@ -54540,7 +54550,7 @@ id: WBbt:0008621
 name: AMsoR hermaphrodite
 def: "AMsoR cell in hermaphrodite animal." [WB:rynl]
 is_a: WBbt:0003929 ! AMsoR
-is_a: WBbt:0005758 ! hermaphrodite-specific
+is_a: WBbt:0005758 ! hermaphrodite-specific anatomical entity
 created_by: raymond
 creation_date: 2015-09-23T09:12:27Z
 
@@ -54549,7 +54559,7 @@ id: WBbt:0008622
 name: AMsoR male
 def: "AMsoR cell in male animal." [WB:rynl]
 is_a: WBbt:0003929 ! AMsoR
-is_a: WBbt:0005757 ! male-specific
+is_a: WBbt:0005757 ! male-specific anatomical entity
 created_by: raymond
 creation_date: 2015-09-23T09:12:27Z
 
@@ -54607,6 +54617,36 @@ id: WBbt:0008629
 name: gonad arm
 def: "A lobe of the gonad. In a monodelphic gonad, there is one arm, whereas in a didelphic gonad, there are two arms." [WB:rynl]
 is_a: WBbt:0005729 ! Tissue
+
+[Term]
+id: WBbt:0008630
+name: PHD
+def: "A neuron belonging to a class of 2 bilateral, cholinergic, peptidergic, male-specific, ciliated neurons generated by transdifferentiation from a male PHso1 glial cell in the late L4 larval stage of a male C. elegans animal." [https://www.biorxiv.org/content/biorxiv/early/2019/05/01/285320.full.pdf, WB:WBPerson2987]
+synonym: "Phasmid D neuron" EXACT []
+is_a: WBbt:0005757 ! male-specific anatomical entity
+is_a: WBbt:0006816 ! ciliated neuron
+is_a: WBbt:0006840 ! cholinergic neuron
+
+[Term]
+id: WBbt:0008631
+name: PHDL
+def: "The left PHD neuron of the pair of bilateral PHD neurons in a male C. elegans animal." [https://www.biorxiv.org/content/biorxiv/early/2019/05/01/285320.full.pdf, WB:WBPerson2987]
+synonym: "Phasmid D neuron left" EXACT []
+is_a: WBbt:0008630 ! PHD
+
+[Term]
+id: WBbt:0008632
+name: PHDR
+def: "The right PHD neuron of the pair of bilateral PHD neurons in a male C. elegans animal." [https://www.biorxiv.org/content/biorxiv/early/2019/05/01/285320.full.pdf, WB:WBPerson2987]
+synonym: "Phasmid D neuron right" EXACT []
+is_a: WBbt:0008630 ! PHD
+
+[Term]
+id: WBbt:0008633
+name: bursa
+def: "The adult male tail including the the lateral fan and rays. [WormAtlas]" [https://www.wormatlas.org/glossary/bglossary.htm#bursa, WB:WBPerson2987]
+synonym: "adult male tail" EXACT []
+is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Typedef]
 id: DESCENDENTOF

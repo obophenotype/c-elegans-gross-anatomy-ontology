@@ -7606,6 +7606,10 @@ http://purl.obolibrary.org/obo/WBbt_0008626
 http://purl.obolibrary.org/obo/WBbt_0008627
 http://purl.obolibrary.org/obo/WBbt_0008628
 http://purl.obolibrary.org/obo/WBbt_0008629
+http://purl.obolibrary.org/obo/WBbt_0008630
+http://purl.obolibrary.org/obo/WBbt_0008631
+http://purl.obolibrary.org/obo/WBbt_0008632
+http://purl.obolibrary.org/obo/WBbt_0008633
 term
 http://www.geneontology.org/formats/oboInOwl#SubsetProperty
 http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty
