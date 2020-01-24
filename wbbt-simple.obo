@@ -7,9 +7,8 @@ default-namespace: worm_anatomy
 remark: $
 ontology: wbbt
 property_value: http://purl.org/dc/elements/1.1/description "Ontology about the gross anatomy of the C. elegans" xsd:string
-property_value: http://purl.org/dc/elements/1.1/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 
 [Term]
 id: WBbt:0000100

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2019-10-25/wbbt-full.owl
+data-version: wbbt/releases/2020-01-24/wbbt-full.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -7,9 +7,8 @@ default-namespace: worm_anatomy
 remark: $
 ontology: wbbt/wbbt-full
 property_value: http://purl.org/dc/elements/1.1/description "Ontology about the gross anatomy of the C. elegans" xsd:string
-property_value: http://purl.org/dc/elements/1.1/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 
 [Term]
 id: BFO:0000002
@@ -58133,15 +58132,6 @@ is_a: RO:0002411 ! causally upstream of
 is_a: RO:0004046 ! causally upstream of or within, negative effect
 
 [Typedef]
-id: RO:0002321
-name: ecologically related to
-def: "A relationship that is mediated in some way by the environment or environmental feature (ENVO:00002297)" []
-subset: ro-eco
-property_value: IAO:0000116 "Awaiting class for domain/range constraint, see: https://github.com/OBOFoundry/Experimental-OBO-Core/issues/6" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving ecological interactions" xsd:string
-
-[Typedef]
 id: RO:0002323
 name: mereotopologically related to
 def: "A mereological relationship or a topological relationship" []
@@ -58239,6 +58229,15 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002334 ! regulated by
 
 [Typedef]
+id: RO:0002337
+name: related via localization to
+def: "A relationship that holds via some process of localization" []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "Do not use this relation directly. It is a grouping relation." xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000002 ! continuant
+
+[Typedef]
 id: RO:0002352
 name: input of
 def: "inverse of has input" []
@@ -58276,6 +58275,21 @@ is_a: RO:0002170 ! connected to
 is_a: RO:0002177 ! attached to part of
 
 [Typedef]
+id: RO:0002375
+name: in branching relationship with
+def: "A relationship that holds between two material entities in a system of connected structures, where the branching relationship holds based on properties of the connecting network." []
+property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/issues/170 xsd:anyURI
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving branching relationships" xsd:string
+property_value: IAO:0000232 "This relation can be used for geographic features (e.g. rivers) as well as anatomical structures (plant branches and roots, leaf veins, animal veins, arteries, nerves)" xsd:string
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/branching_part_of.png
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: part_of ! part_of
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
 id: RO:0002384
 name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
@@ -58289,14 +58303,6 @@ is_a: RO:0002324 ! developmentally related to
 id: RO:0002385
 name: has potential to developmentally contribute to
 def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_a: RO:0002384 ! has developmental potential involving
-
-[Typedef]
-id: RO:0002386
-name: has potential to developmentally induce
-def: "x has potential to developmentally induce y iff x developmentally induces y or x is capable of developmentally inducing y" []
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002384 ! has developmental potential involving
@@ -58554,17 +58560,6 @@ property_value: IAO:0000232 "Do not use this relation directly. It is intended a
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 is_a: RO:0002410 ! causally related to
-
-[Typedef]
-id: RO:0002509
-name: determined by part of
-def: "s 'determined by part of' w if and only if there exists some f such that (1) s 'determined by' f and (2) f part_of w, or f=w." []
-subset: ro-eco
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-domain: RO:0002577 ! system
-range: BFO:0000040 ! material entity
-is_a: RO:0002131 ! overlaps
-is_a: RO:0002506 ! causal relation between material entities
 
 [Typedef]
 id: RO:0002514
@@ -58865,14 +58860,6 @@ property_value: RO:0004049 RO:0002418
 is_a: RO:0002418 ! causally upstream of or within
 created_by: cjm
 creation_date: 2018-03-13T23:55:19Z
-
-[Typedef]
-id: RO:0040035
-name: disease relationship
-def: "This relation groups  relations between diseases and any other kind of entity." []
-property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, in which the subject or object is a disease." xsd:string
-created_by: cjm
-creation_date: 2018-09-26T00:00:32Z
 
 [Typedef]
 id: RO:0040036
