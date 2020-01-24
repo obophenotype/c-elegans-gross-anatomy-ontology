@@ -24396,6 +24396,7 @@ def: "Neuron class of one asymmetric interneuron, projects along ventral cord to
 synonym: "lineage name: Caappv" RELATED []
 is_a: WBbt:0005113 ! interneuron
 is_a: WBbt:0005600 ! lumbar right ganglion neuron
+is_a: WBbt:0006816 ! ciliated neuron
 is_a: WBbt:0006974 ! nerve ring neuron
 
 [Term]
@@ -32844,6 +32845,7 @@ id: WBbt:0005177
 name: HO neuron
 def: "Hook sensory neurons." [WB:rynl]
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0006816 ! ciliated neuron
 relationship: part_of WBbt:0006930 ! hook sensillum
 
 [Term]
@@ -33184,6 +33186,7 @@ def: "Neuron class of four male-specific neurons associated with cephalic sensil
 is_a: WBbt:0005757 ! male-specific
 is_a: WBbt:0005759 ! sensory neuron
 is_a: WBbt:0006751 ! head neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0005247
@@ -34417,6 +34420,7 @@ id: WBbt:0005473
 name: PC neuron
 def: "Male-specific neuron of the post-cloacal sensillum." [WB:rynl]
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0005807 ! cloacal neuron
 relationship: part_of WBbt:0005487 ! postcloacal sensillum
 
 [Term]
@@ -36106,7 +36110,6 @@ name: germ line
 def: "cell line which early in development becomes differentiated from the remaining somatic cell line, and alone has the potential to undergo meiosis and form gametes." [ISBN:0140512888]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem2.htm>
 synonym: "germline" RELATED []
-is_a: WBbt:0004017 ! Cell
 is_a: WBbt:0005729 ! Tissue
 relationship: part_of WBbt:0005747 ! reproductive system
 
@@ -36264,6 +36267,7 @@ relationship: part_of WBbt:0005774 ! cloaca
 [Term]
 id: WBbt:0005807
 name: cloacal neuron
+def: "Male-specific neuron whose cell body is in the cloacal ganglion." [WB:rynl]
 is_a: WBbt:0003679 ! neuron
 relationship: part_of WBbt:0005774 ! cloaca
 
@@ -36427,6 +36431,7 @@ alt_id: WBbt:0005323
 def: "Sensory neuron of copulatory spicule in male, cilliated, open to outside at tip of spicule." [ISBN:0-87969-307-X]
 synonym: "SP neuron" RELATED []
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0005807 ! cloacal neuron
 relationship: part_of WBbt:0005312 ! copulatory spicule
 
 [Term]
@@ -42898,7 +42903,7 @@ relationship: part_of WBbt:0005748 ! alimentary system
 id: WBbt:0006796
 name: germ cell
 def: "a cell, of either sex, directly concerned in the production of a new organism." [WB:rynl]
-is_a: WBbt:0005784 ! germ line
+is_a: WBbt:0004017 ! Cell
 relationship: develops_from WBbt:0006849 ! germline precursor cell
 
 [Term]
@@ -43301,7 +43306,7 @@ def: "member of a set of two cells that generate exclusively sperm and ovum." [W
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/reproductivesystem/reproductivesystem2.htm#germlinedevelopment>
 synonym: "PGC" RELATED []
 synonym: "primordial germ cell" RELATED []
-is_a: WBbt:0005784 ! germ line
+is_a: WBbt:0004017 ! Cell
 
 [Term]
 id: WBbt:0006850
@@ -43397,6 +43402,7 @@ name: SPV
 def: "Neuron class of two male-specific neurons that innervate male spicule." [WB:rynl]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/neurons/Individual%20Neurons/SPVframeset.html>
 is_a: WBbt:0005831 ! spicule neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0006863
@@ -44109,6 +44115,7 @@ id: WBbt:0006971
 name: ray neuron
 def: "neuron in the male ray." [WB:rynl]
 is_a: WBbt:0005759 ! sensory neuron
+is_a: WBbt:0006816 ! ciliated neuron
 relationship: part_of WBbt:0006941 ! ray
 
 [Term]
@@ -48766,12 +48773,14 @@ name: SPD
 def: "Neuron class of two male-specific sensory neuron associated with copulatory spicules, cilliated, open to outside at tip of spicule." [ISBN:0-87969-307-X]
 is_a: WBbt:0005409 ! motor neuron
 is_a: WBbt:0005831 ! spicule neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0007806
 name: PCA
 def: "Neuron class of two male-specific sensory neuron of postcloacal sensilla." [ISBN:0-87969-307-X]
 is_a: WBbt:0005473 ! PC neuron
+is_a: WBbt:0006816 ! ciliated neuron
 
 [Term]
 id: WBbt:0007807
