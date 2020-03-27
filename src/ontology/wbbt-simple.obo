@@ -23818,6 +23818,7 @@ name: Cell
 alt_id: WBbt:0003730
 def: "a cellular object that consists of subcellular components, expresses genes or functions." [WB:rynl]
 synonym: "Cell type" RELATED []
+xref: CL:0000000
 is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]

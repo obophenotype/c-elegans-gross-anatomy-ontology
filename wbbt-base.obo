@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2020-01-24/wbbt-base.owl
+data-version: wbbt/releases/2020-03-26/wbbt-base.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -23858,6 +23858,7 @@ name: Cell
 alt_id: WBbt:0003730
 def: "a cellular object that consists of subcellular components, expresses genes or functions." [WB:rynl]
 synonym: "Cell type" RELATED []
+xref: CL:0000000
 is_a: WBbt:0000100 ! C. elegans anatomical entity
 
 [Term]
