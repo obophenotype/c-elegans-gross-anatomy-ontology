@@ -9,6 +9,7 @@ ontology: wbbt
 property_value: http://purl.org/dc/elements/1.1/description "Ontology about the gross anatomy of the C. elegans" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
+property_value: IAO:0000700 WBbt:0000100
 
 [Term]
 id: WBbt:0000100
