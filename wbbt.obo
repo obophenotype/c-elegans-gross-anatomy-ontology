@@ -1,8 +1,10 @@
 format-version: 1.2
-data-version: releases/2020-04-24
+data-version: releases/2020-09-21
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
+subsetdef: ro-eco ""
+subsetdef: RO:0002259 ""
 default-namespace: worm_anatomy
 remark: $
 ontology: wbbt
@@ -33984,30 +33986,7 @@ id: WBbt:0005393
 name: amphid process
 def: "Neuronal process of an amphid neuron." [WB:rynl]
 is_a: WBbt:0008628 ! cell component
-relationship: part_of WBbt:0003826 ! AWCR
-relationship: part_of WBbt:0003827 ! AWCL
-relationship: part_of WBbt:0003828 ! AWBR
-relationship: part_of WBbt:0003829 ! AWBL
-relationship: part_of WBbt:0003830 ! AWAR
-relationship: part_of WBbt:0003831 ! AWAL
-relationship: part_of WBbt:0003883 ! ASKR
-relationship: part_of WBbt:0003884 ! ASKL
-relationship: part_of WBbt:0003885 ! ASJR
-relationship: part_of WBbt:0003886 ! ASJL
-relationship: part_of WBbt:0003887 ! ASIR
-relationship: part_of WBbt:0003888 ! ASIL
-relationship: part_of WBbt:0003889 ! ASHR
-relationship: part_of WBbt:0003890 ! ASHL
-relationship: part_of WBbt:0003891 ! ASGR
-relationship: part_of WBbt:0003892 ! ASGL
-relationship: part_of WBbt:0003903 ! ASER
-relationship: part_of WBbt:0003904 ! ASEL
-relationship: part_of WBbt:0003991 ! AFDR
-relationship: part_of WBbt:0003993 ! AFDL
-relationship: part_of WBbt:0003995 ! ADLR
-relationship: part_of WBbt:0003997 ! ADLL
-relationship: part_of WBbt:0003999 ! ADFR
-relationship: part_of WBbt:0004003 ! ADFL
+relationship: part_of WBbt:0005394 ! amphid neuron
 
 [Term]
 id: WBbt:0005394
@@ -54683,7 +54662,6 @@ property_value: IAO:0000118 "has_part" xsd:string
 property_value: RO:0001900 RO:0001901
 is_transitive: true
 is_a: RO:0002131 ! overlaps
-is_a: RO:0002526 ! overlaps sequence of
 
 [Typedef]
 id: BFO:0000062
@@ -54698,7 +54676,6 @@ property_value: IAO:0000118 "preceded_by" xsd:string
 holds_over_chain: part_of BFO:0000062
 is_transitive: true
 is_a: RO:0002086 ! ends after
-is_a: RO:0002427 ! causally downstream of or within
 inverse_of: BFO:0000063 ! precedes
 
 [Typedef]
@@ -54710,7 +54687,6 @@ property_value: IAO:0000111 "precedes" xsd:string
 holds_over_chain: part_of BFO:0000063
 is_transitive: true
 is_a: RO:0002222 ! temporally related to
-is_a: RO:0002418 ! causally upstream of or within
 
 [Typedef]
 id: BFO:0000066
@@ -54724,7 +54700,7 @@ property_value: IAO:0000118 "unfolds_in" xsd:string
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 holds_over_chain: part_of BFO:0000066
 inverse_of: BFO:0000067 ! contains process
-transitive_over: part_of ! part_of
+transitive_over: part_of ! part of
 
 [Typedef]
 id: BFO:0000067
@@ -54769,8 +54745,6 @@ property_value: IAO:0000112 "this blood clot participates in this blood coagulat
 property_value: IAO:0000112 "this input material (or this output material) participates in this process" xsd:string
 property_value: IAO:0000112 "this investigator participates in this investigation" xsd:string
 property_value: IAO:0000118 "participates_in" xsd:string
-is_a: RO:0002328 ! functionally related to
-is_a: RO:0002431 ! involved in or involved in regulation of
 inverse_of: RO:0000057 ! has participant
 
 [Typedef]
@@ -54820,7 +54794,6 @@ id: RO:0002017
 name: has component activity
 comment: A 'has component activity' B if A is A and B are molecular functions (GO_0003674) and A has_component B.
 is_a: RO:0002018 ! has component process
-is_a: RO:0002334 ! regulated by
 created_by: dos
 creation_date: 2017-05-24T09:44:33Z
 
@@ -54866,7 +54839,6 @@ def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003
 comment: This relation is designed for constructing compound molecular functions, typically in combination with one or more regulatory component activity relations.
 is_functional: true
 is_a: RO:0002017 ! has component activity
-is_a: RO:0002211 ! regulates
 created_by: dos
 creation_date: 2017-09-22T14:14:36Z
 
@@ -54898,7 +54870,6 @@ property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
 property_value: RO:0002575 BFO:0000063
 is_a: BFO:0000063 ! precedes
-is_a: RO:0002411 ! causally upstream of
 
 [Typedef]
 id: RO:0002131
@@ -54911,28 +54882,8 @@ holds_over_chain: BFO:0000051 part_of {http://purl.obolibrary.org/obo/RO_0002582
 holds_over_chain: BFO:0000051 RO:0002131
 holds_over_chain: part_of part_of
 is_a: RO:0002323 ! mereotopologically related to
-transitive_over: part_of ! part_of
+transitive_over: part_of ! part of
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
-
-[Typedef]
-id: RO:0002170
-name: connected to
-def: "a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b" []
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern xsd:anyURI
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern xsd:anyURI
-property_value: IAO:0000112 "a 'toe distal phalanx bone' that is connected to a 'toe medial phalanx bone' (an interphalangeal joint *connects* these two bones)." xsd:string
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
-is_a: RO:0002323 ! mereotopologically related to
-
-[Typedef]
-id: RO:0002177
-name: attached to part of
-def: "a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b." []
-property_value: IAO:0000589 "attached to part of (anatomical structure to anatomical structure)" xsd:string
-holds_over_chain: RO:0002371 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
-is_a: RO:0002170 ! connected to
-is_a: RO:0002323 ! mereotopologically related to
-is_a: RO:0002567 ! biomechanically related to
 
 [Typedef]
 id: RO:0002180
@@ -54976,9 +54927,9 @@ property_value: IAO:0000589 "regulates (processual)" xsd:string
 property_value: IAO:0000600 "false" xsd:boolean
 holds_over_chain: RO:0002578 RO:0002578
 is_transitive: true
-is_a: RO:0002017 ! has component activity
 is_a: RO:0002411 ! causally upstream of
 inverse_of: RO:0002334 ! regulated by
+transitive_over: RO:0002025 ! has effector activity
 
 [Typedef]
 id: RO:0002212
@@ -55004,7 +54955,6 @@ holds_over_chain: RO:0002212 RO:0002212
 is_transitive: true
 is_a: RO:0002211 ! regulates
 is_a: RO:0002304 ! causally upstream of, positive effect
-is_a: RO:0002578 ! directly regulates
 inverse_of: RO:0002336 ! positively regulated by
 
 [Typedef]
@@ -55057,18 +55007,6 @@ is_a: RO:0000057 ! has participant
 inverse_of: RO:0002352 ! input of
 
 [Typedef]
-id: RO:0002234
-name: has output
-def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
-subset: ro-eco
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "produces" xsd:string
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-is_a: RO:0000057 ! has participant
-inverse_of: RO:0002353 ! output of
-
-[Typedef]
 id: RO:0002254
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
@@ -55110,8 +55048,6 @@ property_value: IAO:0000112 "A faulty traffic light (material entity) whose malf
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of
 holds_over_chain: RO:0002327 RO:0002411
 is_a: RO:0002264 ! acts upstream of or within
-is_a: RO:0002431 ! involved in or involved in regulation of
-is_a: RO:0004032 ! acts upstream of or within, positive effect
 
 [Typedef]
 id: RO:0002264
@@ -55130,7 +55066,6 @@ def: "Inverse of developmentally preceded by" []
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002384 ! has developmental potential involving
-is_a: RO:0002385 ! has potential to developmentally contribute to
 
 [Typedef]
 id: RO:0002304
@@ -55138,7 +55073,6 @@ name: causally upstream of, positive effect
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
 property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004049 RO:0002411
-is_a: RO:0002211 ! regulates
 is_a: RO:0002411 ! causally upstream of
 is_a: RO:0004047 ! causally upstream of or within, positive effect
 
@@ -55148,18 +55082,8 @@ name: causally upstream of, negative effect
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y
 property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004050 RO:0002411
-is_a: RO:0002211 ! regulates
 is_a: RO:0002411 ! causally upstream of
 is_a: RO:0004046 ! causally upstream of or within, negative effect
-
-[Typedef]
-id: RO:0002321
-name: ecologically related to
-def: "A relationship that is mediated in some way by the environment or environmental feature (ENVO:00002297)" []
-subset: ro-eco
-property_value: IAO:0000116 "Awaiting class for domain/range constraint, see: https://github.com/OBOFoundry/Experimental-OBO-Core/issues/6" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving ecological interactions" xsd:string
 
 [Typedef]
 id: RO:0002323
@@ -55168,8 +55092,6 @@ def: "A mereological relationship or a topological relationship" []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" xsd:string
 property_value: RO:0001900 RO:0001901
-is_a: part_of ! part_of
-is_a: RO:0002567 ! biomechanically related to
 
 [Typedef]
 id: RO:0002324
@@ -55201,10 +55123,6 @@ name: functionally related to
 def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "This is a grouping relation that collects relations used for the purpose of connecting structure and function" xsd:string
-is_a: RO:0000056 ! participates in
-is_a: RO:0000057 ! has participant
-is_a: RO:0002131 ! overlaps
-is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
 id: RO:0002329
@@ -55226,7 +55144,7 @@ property_value: seeAlso Involved:in
 holds_over_chain: RO:0002327 part_of
 is_a: RO:0000056 ! participates in
 is_a: RO:0002431 ! involved in or involved in regulation of
-transitive_over: part_of ! part_of
+transitive_over: part_of ! part of
 
 [Typedef]
 id: RO:0002333
@@ -55252,7 +55170,6 @@ name: negatively regulated by
 def: "inverse of negatively regulates" []
 subset: RO:0002259
 property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_a: RO:0002013 ! has regulatory component activity
 is_a: RO:0002334 ! regulated by
 
 [Typedef]
@@ -55261,15 +55178,7 @@ name: positively regulated by
 def: "inverse of positively regulates" []
 subset: RO:0002259
 property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_a: RO:0002013 ! has regulatory component activity
 is_a: RO:0002334 ! regulated by
-
-[Typedef]
-id: RO:0002337
-name: related via localization to
-def: "A relationship that holds via some process of localization" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000232 "Do not use this relation directly. It is a grouping relation." xsd:string
 
 [Typedef]
 id: RO:0002352
@@ -55280,46 +55189,6 @@ subset: RO:0002259
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0000056 ! participates in
 is_a: RO:0002328 ! functionally related to
-
-[Typedef]
-id: RO:0002353
-name: output of
-def: "inverse of has output" []
-subset: ro-eco
-subset: RO:0002259
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_a: RO:0000056 ! participates in
-is_a: RO:0002328 ! functionally related to
-
-[Typedef]
-id: RO:0002354
-name: formed as result of
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_a: RO:0002353 ! output of
-
-[Typedef]
-id: RO:0002371
-name: attached to
-def: "a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a" []
-subset: ro-eco
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000589 "attached to (anatomical structure to anatomical structure)" xsd:string
-is_symmetric: true
-is_a: RO:0002170 ! connected to
-is_a: RO:0002177 ! attached to part of
-
-[Typedef]
-id: RO:0002375
-name: in branching relationship with
-def: "A relationship that holds between two material entities in a system of connected structures, where the branching relationship holds based on properties of the connecting network." []
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/issues/170 xsd:anyURI
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving branching relationships" xsd:string
-property_value: IAO:0000232 "This relation can be used for geographic features (e.g. rivers) as well as anatomical structures (plant branches and roots, leaf veins, animal veins, arteries, nerves)" xsd:string
-property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/branching_part_of.png
-is_a: part_of ! part_of
-is_a: RO:0002323 ! mereotopologically related to
 
 [Typedef]
 id: RO:0002384
@@ -55344,7 +55213,6 @@ def: "x has the potential to develop into y iff x develops into y or if x is cap
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002384 ! has developmental potential involving
-is_a: RO:0002388 ! has potential to directly develop into
 
 [Typedef]
 id: RO:0002388
@@ -55352,7 +55220,6 @@ name: has potential to directly develop into
 def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_a: RO:0002286 ! developmentally succeeded by
 is_a: RO:0002387 ! has potential to develop into
 
 [Typedef]
@@ -55362,7 +55229,6 @@ def: "inverse of upstream of" []
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: BFO:0000062 ! preceded by
-is_a: RO:0002087 ! immediately preceded by
 is_a: RO:0002427 ! causally downstream of or within
 inverse_of: RO:0002411 ! causally upstream of
 
@@ -55393,7 +55259,6 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_transitive: true
 is_a: BFO:0000063 ! precedes
 is_a: RO:0002418 ! causally upstream of or within
-is_a: RO:0004047 ! causally upstream of or within, positive effect
 
 [Typedef]
 id: RO:0002412
@@ -55403,7 +55268,6 @@ property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: RO:0002575 RO:0002411
 is_a: RO:0002090 ! immediately precedes
-is_a: RO:0002211 ! regulates
 is_a: RO:0002411 ! causally upstream of
 
 [Typedef]
@@ -55570,8 +55434,6 @@ id: RO:0002500
 name: causal agent in process
 def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-is_a: RO:0002264 ! acts upstream of or within
-is_a: RO:0002328 ! functionally related to
 is_a: RO:0002595 ! causal relation between material entity and a process
 inverse_of: RO:0002608 ! process has causal agent
 
@@ -55592,78 +55454,6 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 is_a: RO:0002410 ! causally related to
-
-[Typedef]
-id: RO:0002514
-name: sequentially related to
-def: "A relation that holds between two entities that have the property of being sequences or having sequences. " []
-property_value: http://purl.org/spar/cito/citesAsAuthority http://biorxiv.org/content/early/2014/06/27/006650.abstract
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20226267 xsd:anyURI
-property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
-property_value: IAO:0000232 "The domain and range of this relation include entities such as: information-bearing macromolecules such as DNA, or regions of these molecules; abstract information entities encoded as a linear sequence including text, abstract DNA sequences; Sequence features, entities that have a sequence or sequences. Note that these entities are not necessarily contiguous - for example, the mereological sum of exons on a genome of a particular gene." xsd:string
-is_a: RO:0002131 ! overlaps
-
-[Typedef]
-id: RO:0002522
-name: bounds sequence of
-def: "x bounds the sequence of y iff the upstream-most part of x is upstream of or coincident with the upstream-most part of y, and the downstream-most part of x is downstream of or coincident with the downstream-most part of y" []
-property_value: http://purl.org/spar/cito/citesAsAuthority http://biorxiv.org/content/early/2014/06/27/006650.abstract
-property_value: IAO:0000112 "The genomic exons of a transcript bound the sequence of the genomic introns of the same transcript (but the introns are not subsequences of the exons)" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_transitive: true
-is_a: RO:0002514 ! sequentially related to
-inverse_of: RO:0002523 ! is bound by sequence of
-
-[Typedef]
-id: RO:0002523
-name: is bound by sequence of
-def: "inverse of bounds sequence of" []
-subset: RO:0002259
-property_value: http://purl.org/spar/cito/citesAsAuthority http://biorxiv.org/content/early/2014/06/27/006650.abstract
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_transitive: true
-is_a: RO:0002514 ! sequentially related to
-
-[Typedef]
-id: RO:0002524
-name: has subsequence
-def: "x has subsequence y iff all of the sequence parts of x are sequence parts of y" []
-property_value: http://purl.org/spar/cito/citesAsAuthority http://biorxiv.org/content/early/2014/06/27/006650.abstract
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "contains" xsd:string
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20226267 xsd:anyURI
-is_transitive: true
-is_a: BFO:0000051 ! has part
-is_a: RO:0002522 ! bounds sequence of
-is_a: RO:0002526 ! overlaps sequence of
-inverse_of: RO:0002525 ! is subsequence of
-
-[Typedef]
-id: RO:0002525
-name: is subsequence of
-def: "inverse of has subsequence" []
-subset: RO:0002259
-property_value: http://purl.org/spar/cito/citesAsAuthority http://biorxiv.org/content/early/2014/06/27/006650.abstract
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "contained by" xsd:string
-is_transitive: true
-is_a: part_of ! part_of
-is_a: RO:0002523 ! is bound by sequence of
-is_a: RO:0002526 ! overlaps sequence of
-
-[Typedef]
-id: RO:0002526
-name: overlaps sequence of
-def: "x overlaps the sequence of x if and only if x has a subsequence z and z is a subsequence of y." []
-property_value: http://purl.org/spar/cito/citesAsAuthority http://biorxiv.org/content/early/2014/06/27/006650.abstract
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-holds_over_chain: RO:0002524 RO:0002525
-is_symmetric: true
-is_a: RO:0002131 ! overlaps
-is_a: RO:0002514 ! sequentially related to
-is_a: RO:0002522 ! bounds sequence of
-is_a: RO:0002523 ! is bound by sequence of
 
 [Typedef]
 id: RO:0002559
@@ -55699,14 +55489,6 @@ property_value: IAO:0000589 "causally influences (entity-centric)" xsd:string
 is_a: RO:0002506 ! causal relation between entities
 
 [Typedef]
-id: RO:0002567
-name: biomechanically related to
-def: "A relation that holds between elements of a musculoskeletal system or its analogs." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the biomechanical processes." xsd:string
-is_a: RO:0002328 ! functionally related to
-
-[Typedef]
 id: RO:0002578
 name: directly regulates
 def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
@@ -55715,7 +55497,6 @@ property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relati
 property_value: IAO:0000589 "directly regulates (processual)" xsd:string
 property_value: RO:0002575 RO:0002211
 is_a: RO:0002211 ! regulates
-is_a: RO:0002212 ! negatively regulates
 is_a: RO:0002412 ! immediately causally upstream of
 
 [Typedef]
@@ -55729,19 +55510,12 @@ is_a: RO:0002328 ! functionally related to
 is_a: RO:0002595 ! causal relation between material entity and a process
 
 [Typedef]
-id: RO:0002592
-name: results in organization of
-def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
-is_a: RO:0040036 ! has anatomical participant
-
-[Typedef]
 id: RO:0002595
 name: causal relation between material entity and a process
 def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
 property_value: IAO:0000116 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-is_a: RO:0002328 ! functionally related to
 is_a: RO:0002410 ! causally related to
 
 [Typedef]
@@ -55798,24 +55572,6 @@ is_a: RO:0002212 ! negatively regulates
 is_a: RO:0002578 ! directly regulates
 
 [Typedef]
-id: RO:0003000
-name: produces
-def: "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix." []
-comment: Note that this definition doesn't quite distinguish the output of a transformation process from a production process, which is related to the identity/granularity issue.
-subset: ro-eco
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
-inverse_of: RO:0003001 ! produced by
-
-[Typedef]
-id: RO:0003001
-name: produced by
-def: "a produced_by b iff some process that occurs_in b has_output a." []
-subset: ro-eco
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
-
-[Typedef]
 id: RO:0004031
 name: enables subfunction
 def: "Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P." []
@@ -55839,7 +55595,6 @@ id: RO:0004033
 name: acts upstream of or within, negative effect
 property_value: RO:0004050 RO:0002264
 holds_over_chain: RO:0002327 RO:0004046
-is_a: RO:0002263 ! acts upstream of
 is_a: RO:0002264 ! acts upstream of or within
 created_by: cjm
 creation_date: 2018-01-26T23:49:51Z
@@ -55872,7 +55627,6 @@ creation_date: 2018-01-26T23:53:22Z
 id: RO:0004046
 name: causally upstream of or within, negative effect
 property_value: RO:0004050 RO:0002418
-is_a: RO:0002411 ! causally upstream of
 is_a: RO:0002418 ! causally upstream of or within
 created_by: cjm
 creation_date: 2018-03-13T23:55:05Z
@@ -55890,16 +55644,7 @@ id: RO:0011002
 name: regulates activity of
 def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
 property_value: IAO:0000117 "Vasundra Touré" xsd:string
-is_a: RO:0002436 ! molecularly interacts with
 is_a: RO:0002566 ! causally influences
-
-[Typedef]
-id: RO:0040036
-name: has anatomical participant
-def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
-is_a: RO:0000057 ! has participant
-created_by: cjm
-creation_date: 2018-09-26T01:08:58Z
 
 [Typedef]
 id: develops_from
@@ -55932,9 +55677,6 @@ property_value: IAO:0000116 "Occurrents are not subject to change and so parthoo
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
 property_value: IAO:0000118 "part_of" xsd:string
 property_value: RO:0001900 RO:0001901
-property_value: RO:0040042 BFO:0000002
-property_value: RO:0040042 BFO:0000003
-property_value: RO:0040042 BFO:0000004
 property_value: RO:0040042 BFO:0000017
 property_value: RO:0040042 BFO:0000019
 property_value: RO:0040042 BFO:0000020
@@ -55944,30 +55686,7 @@ property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartO
 property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
 is_transitive: true
 is_a: RO:0002131 ! overlaps
-is_a: RO:0002526 ! overlaps sequence of
 inverse_of: BFO:0000051 ! has part
-
-[Typedef]
-id: results_in_developmental_progression_of
-name: results in developmental progression of
-def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000116 "This property and its subproperties are being used primarily for the definition of GO developmental processes. The property hierarchy mirrors the core GO hierarchy. In future we may be able to make do with a more minimal set of properties, but due to the way GO is currently structured we require highly specific relations to avoid incorrect entailments. To avoid this, the corresponding genus terms in GO should be declared mutually disjoint." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: seeAlso Ontology:extensions
-is_a: RO:0002324 ! developmentally related to
-
-[Typedef]
-id: results_in_formation_of
-name: results in formation of
-property_value: IAO:0000112 "an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists." xsd:string
-property_value: IAO:0000112 "every \"endocardial cushion formation\" (GO:0003272) results_in_formation_of some \"endocardial cushion\" (UBERON:0002062)" xsd:string
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-is_a: RO:0002234 ! has output
-inverse_of: RO:0002354 ! formed as result of
 
 [Typedef]
 id: xunion_of
