@@ -33985,30 +33985,7 @@ id: WBbt:0005393
 name: amphid process
 def: "Neuronal process of an amphid neuron." [WB:rynl]
 is_a: WBbt:0008628 ! cell component
-relationship: part_of WBbt:0003826 ! AWCR
-relationship: part_of WBbt:0003827 ! AWCL
-relationship: part_of WBbt:0003828 ! AWBR
-relationship: part_of WBbt:0003829 ! AWBL
-relationship: part_of WBbt:0003830 ! AWAR
-relationship: part_of WBbt:0003831 ! AWAL
-relationship: part_of WBbt:0003883 ! ASKR
-relationship: part_of WBbt:0003884 ! ASKL
-relationship: part_of WBbt:0003885 ! ASJR
-relationship: part_of WBbt:0003886 ! ASJL
-relationship: part_of WBbt:0003887 ! ASIR
-relationship: part_of WBbt:0003888 ! ASIL
-relationship: part_of WBbt:0003889 ! ASHR
-relationship: part_of WBbt:0003890 ! ASHL
-relationship: part_of WBbt:0003891 ! ASGR
-relationship: part_of WBbt:0003892 ! ASGL
-relationship: part_of WBbt:0003903 ! ASER
-relationship: part_of WBbt:0003904 ! ASEL
-relationship: part_of WBbt:0003991 ! AFDR
-relationship: part_of WBbt:0003993 ! AFDL
-relationship: part_of WBbt:0003995 ! ADLR
-relationship: part_of WBbt:0003997 ! ADLL
-relationship: part_of WBbt:0003999 ! ADFR
-relationship: part_of WBbt:0004003 ! ADFL
+relationship: part_of WBbt:0005394 ! amphid neuron
 
 [Term]
 id: WBbt:0005394
