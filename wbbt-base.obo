@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2020-10-12/wbbt-base.owl
+data-version: wbbt/releases/2020-12-14/wbbt-base.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -42705,6 +42705,7 @@ is_a: WBbt:0006974 ! nerve ring neuron
 id: WBbt:0006816
 name: ciliated neuron
 def: "neuron type, neurons that have ciliated nerve endings." [WB:rynl]
+comment: URX is ciliated. {xref="WBPaper00060177"}
 is_a: WBbt:0003679 ! neuron
 
 [Term]
@@ -42935,6 +42936,7 @@ name: URX
 def: "Neuron class of two neurons with cell bodies that are situated sub-dorsally in the pseudocoelomic cavity just posterior to the ring neuropile." [WB:Paper00000938]
 comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/neurons/Individual%20Neurons/URXframeset.html>
 is_a: WBbt:0005113 ! interneuron
+is_a: WBbt:0006816 ! ciliated neuron
 is_a: WBbt:0006974 ! nerve ring neuron
 is_a: WBbt:0008432 ! oxygen sensory neuron
 
