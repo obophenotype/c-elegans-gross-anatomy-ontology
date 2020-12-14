@@ -1,12 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_definition	WBbt:0004848	IAO:0000115	Vulval muscle 2	
-ERROR	duplicate_definition	WBbt:0004851	IAO:0000115	Vulval muscle 2	
-ERROR	duplicate_definition	WBbt:0004852	IAO:0000115	Vulval muscle 2	
-ERROR	duplicate_definition	WBbt:0004855	IAO:0000115	Vulval muscle 2	
-ERROR	duplicate_definition	WBbt:0004849	IAO:0000115	Vulval muscle 1	
-ERROR	duplicate_definition	WBbt:0004850	IAO:0000115	Vulval muscle 1	
-ERROR	duplicate_definition	WBbt:0004853	IAO:0000115	Vulval muscle 1	
-ERROR	duplicate_definition	WBbt:0004854	IAO:0000115	Vulval muscle 1	
 ERROR	duplicate_definition	WBbt:0004908	IAO:0000115	Ventral spicule retractor, male	
 ERROR	duplicate_definition	WBbt:0004911	IAO:0000115	Ventral spicule retractor, male	
 ERROR	duplicate_definition	WBbt:0004909	IAO:0000115	Ventral spicule protractor, male	
@@ -88,58 +80,10 @@ ERROR	duplicate_definition	WBbt:0003863	IAO:0000115	Ventral cord interneuron, li
 ERROR	duplicate_definition	WBbt:0003864	IAO:0000115	Ventral cord interneuron, like AVD but outputs restricted to anterior cord.	
 ERROR	duplicate_definition	WBbt:0004092	IAO:0000115	Ventral cord interneuron, cell body in lumbar ganglion, synapses onto VB and DB motor neurons, formerly called delta.	
 ERROR	duplicate_definition	WBbt:0004094	IAO:0000115	Ventral cord interneuron, cell body in lumbar ganglion, synapses onto VB and DB motor neurons, formerly called delta.	
-ERROR	duplicate_definition	WBbt:0004698	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004699	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004700	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004701	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004702	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004703	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004704	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004705	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004706	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004707	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004708	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004709	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004710	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004711	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004712	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004713	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004714	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004715	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004716	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004980	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004982	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004984	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004986	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004988	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004990	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004992	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004994	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004995	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0004996	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005000	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005002	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005004	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005006	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005008	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005010	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005012	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005014	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005015	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005016	IAO:0000115	Vas deferens	
-ERROR	duplicate_definition	WBbt:0005020	IAO:0000115	Vas deferens	
 ERROR	duplicate_definition	WBbt:0006785	IAO:0000115	uterine toroidal epithelial cell.	
 ERROR	duplicate_definition	WBbt:0006786	IAO:0000115	uterine toroidal epithelial cell.	
 ERROR	duplicate_definition	WBbt:0006787	IAO:0000115	uterine toroidal epithelial cell.	
 ERROR	duplicate_definition	WBbt:0006788	IAO:0000115	uterine toroidal epithelial cell.	
-ERROR	duplicate_definition	WBbt:0004856	IAO:0000115	Uterine muscle 2	
-ERROR	duplicate_definition	WBbt:0004879	IAO:0000115	Uterine muscle 2	
-ERROR	duplicate_definition	WBbt:0004880	IAO:0000115	Uterine muscle 2	
-ERROR	duplicate_definition	WBbt:0004883	IAO:0000115	Uterine muscle 2	
-ERROR	duplicate_definition	WBbt:0004877	IAO:0000115	Uterine muscle 1	
-ERROR	duplicate_definition	WBbt:0004878	IAO:0000115	Uterine muscle 1	
-ERROR	duplicate_definition	WBbt:0004881	IAO:0000115	Uterine muscle 1	
-ERROR	duplicate_definition	WBbt:0004882	IAO:0000115	Uterine muscle 1	
 ERROR	duplicate_definition	WBbt:0004512	IAO:0000115	Used during embryogenesis to make tail spike, then die	
 ERROR	duplicate_definition	WBbt:0004513	IAO:0000115	Used during embryogenesis to make tail spike, then die	
 ERROR	duplicate_definition	WBbt:0004944	IAO:0000115	Tail seam hypodermal cell, postembryonic blast cell, functions as phasmid socket in L1	
@@ -180,24 +124,6 @@ ERROR	duplicate_definition	WBbt:0004408	IAO:0000115	Sensory neuron of postcloaca
 ERROR	duplicate_definition	WBbt:0004964	IAO:0000115	Sensory neuron of copulatory spicle in male, cilliated, open to outside at tip of spicule	
 ERROR	duplicate_definition	WBbt:0004965	IAO:0000115	Sensory neuron of copulatory spicle in male, cilliated, open to outside at tip of spicule	
 ERROR	duplicate_definition	WBbt:0004966	IAO:0000115	Sensory neuron of copulatory spicle in male, cilliated, open to outside at tip of spicule	
-ERROR	duplicate_definition	WBbt:0005024	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005026	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005028	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005030	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005032	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005034	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005035	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005036	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005040	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005042	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005050	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005054	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005055	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005056	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005057	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005059	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005060	IAO:0000115	Seminal vesicle, inner	
-ERROR	duplicate_definition	WBbt:0005061	IAO:0000115	Seminal vesicle, inner	
 ERROR	duplicate_definition	WBbt:0004765	IAO:0000115	Seam hypodermal cell, postembryonic blast cell	
 ERROR	duplicate_definition	WBbt:0004766	IAO:0000115	Seam hypodermal cell, postembryonic blast cell	
 ERROR	duplicate_definition	WBbt:0004874	IAO:0000115	Seam hypodermal cell, postembryonic blast cell	
@@ -341,152 +267,17 @@ ERROR	duplicate_definition	WBbt:0004103	IAO:0000115	Posterior lateral microtubul
 ERROR	duplicate_definition	WBbt:0004104	IAO:0000115	Posterior lateral microtubule cell, touch receptor	
 ERROR	duplicate_definition	WBbt:0003784	IAO:0000115	Posterior inner longitudinal male muscle	
 ERROR	duplicate_definition	WBbt:0003789	IAO:0000115	Posterior inner longitudinal male muscle	
-ERROR	duplicate_definition	WBbt:0004218	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004460	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004462	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004464	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004466	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004468	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004470	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004472	IAO:0000115	Posterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004500	IAO:0000115	Posterior epithelial sheaths of distal arms, no muscle fibers, herm gonad	
-ERROR	duplicate_definition	WBbt:0004502	IAO:0000115	Posterior epithelial sheaths of distal arms, no muscle fibers, herm gonad	
-ERROR	duplicate_definition	WBbt:0004724	IAO:0000115	Postembryonic seam hypodermal cells, make alae	
-ERROR	duplicate_definition	WBbt:0004725	IAO:0000115	Postembryonic seam hypodermal cells, make alae	
-ERROR	duplicate_definition	WBbt:0004167	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004169	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004171	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004179	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004180	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004181	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004187	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004189	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004191	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004193	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004195	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004197	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004200	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004201	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004205	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004207	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004209	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004211	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004213	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004215	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004217	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004219	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004220	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004221	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004222	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004223	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004224	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004225	IAO:0000115	Postembryonic large hypodermal syncytium, male	
-ERROR	duplicate_definition	WBbt:0004145	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004147	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004149	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004151	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004153	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004155	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004226	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004227	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004228	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004229	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004230	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004231	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004232	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004233	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004234	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004235	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004236	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004237	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004238	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004239	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004240	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004241	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004242	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004243	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004244	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004245	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004246	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004247	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004248	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004249	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004250	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004399	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004400	IAO:0000115	Postembryonic large hypodermal syncytium, hermaphrodite	
-ERROR	duplicate_definition	WBbt:0004157	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004159	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004251	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004252	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004253	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004254	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004255	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004256	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004257	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004258	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004259	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004260	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004261	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004262	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004263	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004264	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004265	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004266	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004267	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004268	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004269	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004270	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004271	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004272	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004273	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004274	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004275	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004276	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004277	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004278	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004279	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004280	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004281	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004392	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004580	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004582	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004584	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004586	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004588	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004590	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004592	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004594	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004595	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004596	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004600	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004602	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004604	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004606	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004608	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004610	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004612	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004614	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004615	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004616	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004620	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004622	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004624	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004626	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004628	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004630	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004632	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004634	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004635	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004636	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004640	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004642	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004644	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004646	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004648	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004650	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004652	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004654	IAO:0000115	Postembryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004655	IAO:0000115	Postembryonic large hypodermal syncytium	
 ERROR	duplicate_definition	WBbt:0004563	IAO:0000115	Postembryonic coelomocyte in hermaphrodite	
 ERROR	duplicate_definition	WBbt:0004564	IAO:0000115	Postembryonic coelomocyte in hermaphrodite	
 ERROR	duplicate_definition	WBbt:0008606	IAO:0000115	Postembryonic blast cells for ventral cord motorneurons, ventral hypodermis, vulva, male preanal ganglion; ventral hypodermis in L1.	
@@ -585,10 +376,6 @@ ERROR	duplicate_definition	WBbt:0004552	IAO:0000115	Pharyngeal epithelial cells
 ERROR	duplicate_definition	WBbt:0004554	IAO:0000115	Pharyngeal epithelial cells	
 ERROR	duplicate_definition	WBbt:0004555	IAO:0000115	Pharyngeal epithelial cells	
 ERROR	duplicate_definition	WBbt:0004556	IAO:0000115	Pharyngeal epithelial cells	
-ERROR	duplicate_definition	WBbt:0006917	IAO:0000115	one type of vulval muscle.	
-ERROR	duplicate_definition	WBbt:0006918	IAO:0000115	one type of vulval muscle.	
-ERROR	duplicate_definition	WBbt:0006915	IAO:0000115	one type of uterine muscle.	
-ERROR	duplicate_definition	WBbt:0006916	IAO:0000115	one type of uterine muscle.	
 ERROR	duplicate_definition	WBbt:0003883	IAO:0000115	one member of Amphid neurons, single ciliated endings, probably chemo-sensory; project into ring via commissure from ventral ganglion, make diverse synaptic connections in ring neuropil	
 ERROR	duplicate_definition	WBbt:0003884	IAO:0000115	one member of Amphid neurons, single ciliated endings, probably chemo-sensory; project into ring via commissure from ventral ganglion, make diverse synaptic connections in ring neuropil	
 ERROR	duplicate_definition	WBbt:0003885	IAO:0000115	one member of Amphid neurons, single ciliated endings, probably chemo-sensory; project into ring via commissure from ventral ganglion, make diverse synaptic connections in ring neuropil	
@@ -663,16 +450,10 @@ ERROR	duplicate_definition	WBbt:0003937	IAO:0000115	Neuron associated with ALM
 ERROR	duplicate_definition	WBbt:0003939	IAO:0000115	Neuron associated with ALM	
 ERROR	duplicate_definition	WBbt:0004967	IAO:0000115	Male specific sensory /motor neuron, innervates spicule protractor muscle	
 ERROR	duplicate_definition	WBbt:0004968	IAO:0000115	Male specific sensory /motor neuron, innervates spicule protractor muscle	
-ERROR	duplicate_definition	WBbt:0004800	IAO:0000115	Male specific neuron, large cell body in preanal ganglion, synaptic inputs from ray neurons.	
-ERROR	duplicate_definition	WBbt:0004801	IAO:0000115	Male specific neuron, large cell body in preanal ganglion, synaptic inputs from ray neurons.	
 ERROR	duplicate_definition	WBbt:0003803	IAO:0000115	Male specific neuron, innervates dorsal muscles	
 ERROR	duplicate_definition	WBbt:0003804	IAO:0000115	Male specific neuron, innervates dorsal muscles	
 ERROR	duplicate_definition	WBbt:0003805	IAO:0000115	Male specific neuron, innervates dorsal muscles	
 ERROR	duplicate_definition	WBbt:0003806	IAO:0000115	Male specific neuron, innervates dorsal muscles	
-ERROR	duplicate_definition	WBbt:0004805	IAO:0000115	Male specific neuron, darkly staining cell body in pre- anal ganglion, process penetrate basement membrane and contact muscles	
-ERROR	duplicate_definition	WBbt:0004806	IAO:0000115	Male specific neuron, darkly staining cell body in pre- anal ganglion, process penetrate basement membrane and contact muscles	
-ERROR	duplicate_definition	WBbt:0004817	IAO:0000115	Male specific neuron, darkly staining cell body in pre- anal ganglion, process penetrate basement membrane and contact muscles	
-ERROR	duplicate_definition	WBbt:0004818	IAO:0000115	Male specific neuron, darkly staining cell body in pre- anal ganglion, process penetrate basement membrane and contact muscles	
 ERROR	duplicate_definition	WBbt:0004889	IAO:0000115	Male specific motor neuron in ventral cord	
 ERROR	duplicate_definition	WBbt:0004891	IAO:0000115	Male specific motor neuron in ventral cord	
 ERROR	duplicate_definition	WBbt:0004893	IAO:0000115	Male specific motor neuron in ventral cord	
@@ -700,19 +481,6 @@ ERROR	duplicate_definition	WBbt:0004002	IAO:0000115	Male sensory rays, neuron, s
 ERROR	duplicate_definition	WBbt:0003966	IAO:0000115	Male sensory rays, neuron, darkly staining tip, open to outside	
 ERROR	duplicate_definition	WBbt:0003988	IAO:0000115	Male sensory rays, neuron, darkly staining tip, open to outside	
 ERROR	duplicate_definition	WBbt:0004000	IAO:0000115	Male sensory rays, neuron, darkly staining tip, open to outside	
-ERROR	duplicate_definition	WBbt:0004808	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004809	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004810	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004811	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004812	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004813	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004814	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004815	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004816	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004832	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004833	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004834	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
-ERROR	duplicate_definition	WBbt:0004835	IAO:0000115	Male proctodeum, union of intestine and vas deferens, contains copulatory spicules	
 ERROR	duplicate_definition	WBbt:0004440	IAO:0000115	Lateral outer labial socket	
 ERROR	duplicate_definition	WBbt:0004441	IAO:0000115	Lateral outer labial socket	
 ERROR	duplicate_definition	WBbt:0004442	IAO:0000115	Lateral outer labial sheath	
@@ -721,24 +489,10 @@ ERROR	duplicate_definition	WBbt:0004444	IAO:0000115	Lateral outer labial neurons
 ERROR	duplicate_definition	WBbt:0004445	IAO:0000115	Lateral outer labial neurons	
 ERROR	duplicate_definition	WBbt:0004510	IAO:0000115	Intestino-rectal valve	
 ERROR	duplicate_definition	WBbt:0004511	IAO:0000115	Intestino-rectal valve	
-ERROR	duplicate_definition	WBbt:0004342	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004343	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004344	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004345	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004346	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004347	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004348	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004349	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004350	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004351	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004352	IAO:0000115	Intestinal cell	
 ERROR	duplicate_definition	WBbt:0004353	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004354	IAO:0000115	Intestinal cell	
 ERROR	duplicate_definition	WBbt:0004355	IAO:0000115	Intestinal cell	
 ERROR	duplicate_definition	WBbt:0004356	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004357	IAO:0000115	Intestinal cell	
 ERROR	duplicate_definition	WBbt:0004358	IAO:0000115	Intestinal cell	
-ERROR	duplicate_definition	WBbt:0004359	IAO:0000115	Intestinal cell	
 ERROR	duplicate_definition	WBbt:0004360	IAO:0000115	Intestinal cell	
 ERROR	duplicate_definition	WBbt:0004361	IAO:0000115	Intestinal cell	
 ERROR	duplicate_definition	WBbt:0004083	IAO:0000115	Interneuron/motor neuron, posterior ventral cord, few synapses	
@@ -755,6 +509,8 @@ ERROR	duplicate_definition	WBbt:0004098	IAO:0000115	Interneuron, associated with
 ERROR	duplicate_definition	WBbt:0004102	IAO:0000115	Interneuron, associated with PLM	
 ERROR	duplicate_definition	WBbt:0005794	IAO:0000115	Interface between pharynx and hypodermis, form anterior part of the buccal cavity.	
 ERROR	duplicate_definition	WBbt:0005795	IAO:0000115	Interface between pharynx and hypodermis, form anterior part of the buccal cavity.	
+ERROR	duplicate_definition	WBbt:0005024	IAO:0000115	Inner seminal vesicle cell of pedigree Z4.appap.	
+ERROR	duplicate_definition	WBbt:0005026	IAO:0000115	Inner seminal vesicle cell of pedigree Z4.appap.	
 ERROR	duplicate_definition	WBbt:0004501	IAO:0000115	Inner labial socket	
 ERROR	duplicate_definition	WBbt:0004503	IAO:0000115	Inner labial socket	
 ERROR	duplicate_definition	WBbt:0004517	IAO:0000115	Inner labial socket	
@@ -781,28 +537,10 @@ ERROR	duplicate_definition	WBbt:0004737	IAO:0000115	Inner labial neuron
 ERROR	duplicate_definition	WBbt:0004738	IAO:0000115	Inner labial neuron	
 ERROR	duplicate_definition	WBbt:0004391	IAO:0000115	Hypodermal cell of postcloacal sensilla in male	
 ERROR	duplicate_definition	WBbt:0004402	IAO:0000115	Hypodermal cell of postcloacal sensilla in male	
-ERROR	duplicate_definition	WBbt:0004432	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004433	IAO:0000115	Hermaphrodite vulva	
 ERROR	duplicate_definition	WBbt:0004434	IAO:0000115	Hermaphrodite vulva	
 ERROR	duplicate_definition	WBbt:0004435	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004436	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004447	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004448	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004449	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004450	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004451	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004452	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004453	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004454	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004455	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004456	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004477	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004478	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004479	IAO:0000115	Hermaphrodite vulva	
 ERROR	duplicate_definition	WBbt:0004480	IAO:0000115	Hermaphrodite vulva	
 ERROR	duplicate_definition	WBbt:0004481	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004482	IAO:0000115	Hermaphrodite vulva	
-ERROR	duplicate_definition	WBbt:0004483	IAO:0000115	Hermaphrodite vulva	
 ERROR	duplicate_definition	WBbt:0004611	IAO:0000115	Hermaphrodite specific ventral cord motor neuron innervates vulval muscles and ventral body muscles	
 ERROR	duplicate_definition	WBbt:0004613	IAO:0000115	Hermaphrodite specific ventral cord motor neuron innervates vulval muscles and ventral body muscles	
 ERROR	duplicate_definition	WBbt:0004617	IAO:0000115	Hermaphrodite specific ventral cord motor neuron innervates vulval muscles and ventral body muscles	
@@ -817,26 +555,6 @@ ERROR	duplicate_definition	WBbt:0003795	IAO:0000115	Gubernaculum erector
 ERROR	duplicate_definition	WBbt:0003796	IAO:0000115	Gubernaculum erector	
 ERROR	duplicate_definition	WBbt:0004575	IAO:0000115	Germ line precursor cell	
 ERROR	duplicate_definition	WBbt:0004576	IAO:0000115	Germ line precursor cell	
-ERROR	duplicate_definition	WBbt:0004656	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004657	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004658	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004659	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004660	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004661	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004662	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004663	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004664	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004665	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004666	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004667	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004668	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004669	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004670	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004674	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004675	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004676	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004677	IAO:0000115	Embryonic large hypodermal syncytium	
-ERROR	duplicate_definition	WBbt:0004678	IAO:0000115	Embryonic large hypodermal syncytium	
 ERROR	duplicate_definition	WBbt:0004579	IAO:0000115	Embryonic head hypodermal cell	
 ERROR	duplicate_definition	WBbt:0004581	IAO:0000115	Embryonic head hypodermal cell	
 ERROR	duplicate_definition	WBbt:0003810	IAO:0000115	Embryonic founder cell	
@@ -887,7 +605,6 @@ ERROR	duplicate_definition	WBbt:0005881	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0005882	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005883	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005885	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0005886	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005887	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005888	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005889	IAO:0000115	embryonic cell	
@@ -937,7 +654,6 @@ ERROR	duplicate_definition	WBbt:0005935	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0005936	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005937	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005938	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0005939	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005940	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005941	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005942	IAO:0000115	embryonic cell	
@@ -983,7 +699,6 @@ ERROR	duplicate_definition	WBbt:0005984	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0005985	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005987	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005988	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0005991	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005993	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005994	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0005995	IAO:0000115	embryonic cell	
@@ -1056,13 +771,11 @@ ERROR	duplicate_definition	WBbt:0006066	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006067	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006068	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006069	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006070	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006071	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006072	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006073	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006074	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006075	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006076	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006077	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006078	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006079	IAO:0000115	embryonic cell	
@@ -1083,7 +796,6 @@ ERROR	duplicate_definition	WBbt:0006096	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006097	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006098	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006099	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006100	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006101	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006102	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006103	IAO:0000115	embryonic cell	
@@ -1128,7 +840,6 @@ ERROR	duplicate_definition	WBbt:0006145	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006147	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006149	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006150	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006151	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006152	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006153	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006154	IAO:0000115	embryonic cell	
@@ -1156,7 +867,6 @@ ERROR	duplicate_definition	WBbt:0006176	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006177	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006178	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006179	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006180	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006181	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006183	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006184	IAO:0000115	embryonic cell	
@@ -1197,12 +907,10 @@ ERROR	duplicate_definition	WBbt:0006222	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006223	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006224	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006225	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006226	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006227	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006228	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006229	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006230	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006231	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006232	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006233	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006234	IAO:0000115	embryonic cell	
@@ -1213,7 +921,6 @@ ERROR	duplicate_definition	WBbt:0006239	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006240	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006241	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006242	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006244	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006245	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006246	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006247	IAO:0000115	embryonic cell	
@@ -1278,7 +985,6 @@ ERROR	duplicate_definition	WBbt:0006314	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006315	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006316	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006317	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006319	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006321	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006322	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006323	IAO:0000115	embryonic cell	
@@ -1310,7 +1016,6 @@ ERROR	duplicate_definition	WBbt:0006352	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006353	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006355	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006356	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006357	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006358	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006359	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006360	IAO:0000115	embryonic cell	
@@ -1325,8 +1030,6 @@ ERROR	duplicate_definition	WBbt:0006370	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006371	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006372	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006373	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006374	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006375	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006376	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006377	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006379	IAO:0000115	embryonic cell	
@@ -1347,7 +1050,6 @@ ERROR	duplicate_definition	WBbt:0006394	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006395	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006396	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006398	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006399	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006400	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006401	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006402	IAO:0000115	embryonic cell	
@@ -1377,7 +1079,6 @@ ERROR	duplicate_definition	WBbt:0006428	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006430	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006431	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006432	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006433	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006434	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006436	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006437	IAO:0000115	embryonic cell	
@@ -1436,7 +1137,6 @@ ERROR	duplicate_definition	WBbt:0006497	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006499	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006500	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006501	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006502	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006503	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006504	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006505	IAO:0000115	embryonic cell	
@@ -1454,7 +1154,6 @@ ERROR	duplicate_definition	WBbt:0006517	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006518	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006519	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006520	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006521	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006522	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006524	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006525	IAO:0000115	embryonic cell	
@@ -1530,7 +1229,6 @@ ERROR	duplicate_definition	WBbt:0006604	IAO:0000115	embryonic cell
 ERROR	duplicate_definition	WBbt:0006605	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006606	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006607	IAO:0000115	embryonic cell	
-ERROR	duplicate_definition	WBbt:0006608	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006609	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006610	IAO:0000115	embryonic cell	
 ERROR	duplicate_definition	WBbt:0006611	IAO:0000115	embryonic cell	
@@ -1661,21 +1359,6 @@ ERROR	duplicate_definition	WBbt:0004907	IAO:0000115	Dorsal spicule retractor, ma
 ERROR	duplicate_definition	WBbt:0004910	IAO:0000115	Dorsal spicule retractor, male	
 ERROR	duplicate_definition	WBbt:0004885	IAO:0000115	Dorsal spicule protractor, male	
 ERROR	duplicate_definition	WBbt:0004886	IAO:0000115	Dorsal spicule protractor, male	
-ERROR	duplicate_definition	WBbt:0003797	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003798	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003799	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003800	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003801	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003802	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003813	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003814	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003815	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003816	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003817	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003818	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003819	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003820	IAO:0000115	Diagonal tail muscles in male body wall	
-ERROR	duplicate_definition	WBbt:0003821	IAO:0000115	Diagonal tail muscles in male body wall	
 ERROR	duplicate_definition	WBbt:0004679	IAO:0000115	Cylindrical hypodermal syncytium in head	
 ERROR	duplicate_definition	WBbt:0004685	IAO:0000115	Cylindrical hypodermal syncytium in head	
 ERROR	duplicate_definition	WBbt:0004687	IAO:0000115	Cylindrical hypodermal syncytium in head	
@@ -1719,20 +1402,12 @@ ERROR	duplicate_definition	WBbt:0003953	IAO:0000115	Anterior lateral microtubule
 ERROR	duplicate_definition	WBbt:0003954	IAO:0000115	Anterior lateral microtubule cell, touch receptor	
 ERROR	duplicate_definition	WBbt:0003785	IAO:0000115	Anterior inner longitudinal male muscle	
 ERROR	duplicate_definition	WBbt:0003790	IAO:0000115	Anterior inner longitudinal male muscle	
-ERROR	duplicate_definition	WBbt:0004474	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004475	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004476	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004490	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004492	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004494	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004496	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004498	IAO:0000115	Anterior epithelial sheaths of proximal arms, have muscle fibers	
-ERROR	duplicate_definition	WBbt:0004504	IAO:0000115	Anterior epithelial sheaths of distal arms, no muscle fibers, herm gonad	
-ERROR	duplicate_definition	WBbt:0004505	IAO:0000115	Anterior epithelial sheaths of distal arms, no muscle fibers, herm gonad	
 ERROR	duplicate_definition	WBbt:0004007	IAO:0000115	Anterior deirid, sensory neuron, dopaminergic	
 ERROR	duplicate_definition	WBbt:0004009	IAO:0000115	Anterior deirid, sensory neuron, dopaminergic	
 ERROR	duplicate_definition	WBbt:0004004	IAO:0000115	Anterior deirid sheath	
 ERROR	duplicate_definition	WBbt:0004005	IAO:0000115	Anterior deirid sheath	
+ERROR	duplicate_definition	WBbt:0004232	IAO:0000115	Anterior daughter cell of V5R, fuses into postembryonic large hypodermal syncytium hyp7.	
+ERROR	duplicate_definition	WBbt:0004246	IAO:0000115	Anterior daughter cell of V5R, fuses into postembryonic large hypodermal syncytium hyp7.	
 ERROR	duplicate_definition	WBbt:0003826	IAO:0000115	Amphid wing cells, neurons having ciliated sheet-like sensory endings closely associated with amphid sheath	
 ERROR	duplicate_definition	WBbt:0003827	IAO:0000115	Amphid wing cells, neurons having ciliated sheet-like sensory endings closely associated with amphid sheath	
 ERROR	duplicate_definition	WBbt:0003828	IAO:0000115	Amphid wing cells, neurons having ciliated sheet-like sensory endings closely associated with amphid sheath	
@@ -1753,332 +1428,6 @@ ERROR	duplicate_definition	WBbt:0003987	IAO:0000115	Amphid interneuron
 ERROR	duplicate_definition	WBbt:0003989	IAO:0000115	Amphid interneuron	
 ERROR	duplicate_definition	WBbt:0003991	IAO:0000115	Amphid finger cell, neuron associated with amphid sheath	
 ERROR	duplicate_definition	WBbt:0003993	IAO:0000115	Amphid finger cell, neuron associated with amphid sheath	
-ERROR	duplicate_label	WBbt:0004432	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004433	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004436	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004447	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004448	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004449	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004450	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004451	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004452	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004453	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004454	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004455	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004456	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004477	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004478	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004479	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004482	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004483	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0007831	rdfs:label	vulval cell	
-ERROR	duplicate_label	WBbt:0004848	rdfs:label	vm2	
-ERROR	duplicate_label	WBbt:0004851	rdfs:label	vm2	
-ERROR	duplicate_label	WBbt:0004852	rdfs:label	vm2	
-ERROR	duplicate_label	WBbt:0004855	rdfs:label	vm2	
-ERROR	duplicate_label	WBbt:0004849	rdfs:label	vm1	
-ERROR	duplicate_label	WBbt:0004850	rdfs:label	vm1	
-ERROR	duplicate_label	WBbt:0004853	rdfs:label	vm1	
-ERROR	duplicate_label	WBbt:0004854	rdfs:label	vm1	
-ERROR	duplicate_label	WBbt:0004856	rdfs:label	um2	
-ERROR	duplicate_label	WBbt:0004879	rdfs:label	um2	
-ERROR	duplicate_label	WBbt:0004880	rdfs:label	um2	
-ERROR	duplicate_label	WBbt:0004883	rdfs:label	um2	
-ERROR	duplicate_label	WBbt:0004877	rdfs:label	um1	
-ERROR	duplicate_label	WBbt:0004878	rdfs:label	um1	
-ERROR	duplicate_label	WBbt:0004881	rdfs:label	um1	
-ERROR	duplicate_label	WBbt:0004882	rdfs:label	um1	
-ERROR	duplicate_label	WBbt:0004724	rdfs:label	se_male	
-ERROR	duplicate_label	WBbt:0004725	rdfs:label	se_male	
-ERROR	duplicate_label	WBbt:0004808	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004809	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004810	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004811	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004812	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004813	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004814	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004815	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004816	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004832	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004833	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004834	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0004835	rdfs:label	proct	
-ERROR	duplicate_label	WBbt:0003797	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003798	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003799	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003800	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003801	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003802	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003813	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003814	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003815	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003816	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003817	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003818	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003819	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003820	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0003821	rdfs:label	mu_male_diag	
-ERROR	duplicate_label	WBbt:0004342	rdfs:label	int9R	
-ERROR	duplicate_label	WBbt:0008238	rdfs:label	int9R	
-ERROR	duplicate_label	WBbt:0004347	rdfs:label	int9L	
-ERROR	duplicate_label	WBbt:0008237	rdfs:label	int9L	
-ERROR	duplicate_label	WBbt:0004343	rdfs:label	int8R	
-ERROR	duplicate_label	WBbt:0008236	rdfs:label	int8R	
-ERROR	duplicate_label	WBbt:0004348	rdfs:label	int8L	
-ERROR	duplicate_label	WBbt:0008235	rdfs:label	int8L	
-ERROR	duplicate_label	WBbt:0004344	rdfs:label	int7R	
-ERROR	duplicate_label	WBbt:0008234	rdfs:label	int7R	
-ERROR	duplicate_label	WBbt:0004349	rdfs:label	int7L	
-ERROR	duplicate_label	WBbt:0008233	rdfs:label	int7L	
-ERROR	duplicate_label	WBbt:0004345	rdfs:label	int6R	
-ERROR	duplicate_label	WBbt:0008232	rdfs:label	int6R	
-ERROR	duplicate_label	WBbt:0004350	rdfs:label	int6L	
-ERROR	duplicate_label	WBbt:0008231	rdfs:label	int6L	
-ERROR	duplicate_label	WBbt:0004352	rdfs:label	int5R	
-ERROR	duplicate_label	WBbt:0008230	rdfs:label	int5R	
-ERROR	duplicate_label	WBbt:0004357	rdfs:label	int5L	
-ERROR	duplicate_label	WBbt:0008229	rdfs:label	int5L	
-ERROR	duplicate_label	WBbt:0004351	rdfs:label	int4V	
-ERROR	duplicate_label	WBbt:0008228	rdfs:label	int4V	
-ERROR	duplicate_label	WBbt:0004346	rdfs:label	int4D	
-ERROR	duplicate_label	WBbt:0008227	rdfs:label	int4D	
-ERROR	duplicate_label	WBbt:0004359	rdfs:label	int3V	
-ERROR	duplicate_label	WBbt:0008226	rdfs:label	int3V	
-ERROR	duplicate_label	WBbt:0004354	rdfs:label	int3D	
-ERROR	duplicate_label	WBbt:0008225	rdfs:label	int3D	
-ERROR	duplicate_label	WBbt:0004372	rdfs:label	hyp_hook	
-ERROR	duplicate_label	WBbt:0004373	rdfs:label	hyp_hook	
-ERROR	duplicate_label	WBbt:0004374	rdfs:label	hyp_hook	
-ERROR	duplicate_label	WBbt:0004375	rdfs:label	hyp_hook	
-ERROR	duplicate_label	WBbt:0004145	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004147	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004149	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004151	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004153	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004155	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004157	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004159	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004167	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004169	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004171	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004179	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004180	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004187	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004189	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004191	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004193	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004195	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004197	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004200	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004201	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004205	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004207	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004209	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004211	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004213	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004215	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004217	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004219	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004220	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004221	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004222	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004223	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004224	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004225	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004227	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004231	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004232	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004234	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004235	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004238	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004239	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004241	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004242	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004243	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004245	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004246	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004247	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004249	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004250	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004251	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004252	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004253	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004254	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004255	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004256	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004257	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004258	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004259	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004260	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004261	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004262	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004263	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004264	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004265	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004266	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004267	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004268	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004269	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004270	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004271	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004272	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004273	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004274	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004275	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004276	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004277	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004278	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004279	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004280	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004281	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004392	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004580	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004582	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004584	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004586	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004588	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004590	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004592	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004594	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004595	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004596	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004600	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004602	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004604	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004606	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004608	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004610	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004612	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004614	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004615	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004616	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004620	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004622	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004624	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004626	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004628	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004630	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004632	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004634	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004635	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004636	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004640	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004642	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004644	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004646	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004648	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004650	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004652	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004654	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004655	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004656	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004657	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004658	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004659	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004660	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004661	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004662	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004663	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004664	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004665	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004666	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004667	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004668	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004669	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004670	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004671	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004674	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004675	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004676	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004677	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004678	rdfs:label	hyp7	
-ERROR	duplicate_label	WBbt:0004698	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004699	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004700	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004701	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004702	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004703	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004704	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004705	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004706	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004707	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004709	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004710	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004711	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004712	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004713	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004714	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004715	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004716	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004980	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004982	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004984	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004986	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004988	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004990	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004992	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004994	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004995	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0004996	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005000	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005002	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005004	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005006	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005008	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005010	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005012	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005014	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005015	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005016	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005020	rdfs:label	gon_male_vdef	
-ERROR	duplicate_label	WBbt:0005024	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005026	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005028	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005030	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005032	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005034	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005035	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005036	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005040	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005042	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005048	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005050	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005054	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005055	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005056	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005057	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005059	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005060	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0005061	rdfs:label	gon_male_sves	
-ERROR	duplicate_label	WBbt:0004218	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004460	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004462	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004464	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004466	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004468	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004470	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004472	rdfs:label	gon_herm_prsh_P	
-ERROR	duplicate_label	WBbt:0004474	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004475	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004476	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004490	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004492	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004494	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004496	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004498	rdfs:label	gon_herm_prsh_A	
-ERROR	duplicate_label	WBbt:0004500	rdfs:label	gon_herm_dish_P	
-ERROR	duplicate_label	WBbt:0004502	rdfs:label	gon_herm_dish_P	
-ERROR	duplicate_label	WBbt:0006902	rdfs:label	gon_herm_dish_P	
-ERROR	duplicate_label	WBbt:0004504	rdfs:label	gon_herm_dish_A	
-ERROR	duplicate_label	WBbt:0004505	rdfs:label	gon_herm_dish_A	
-ERROR	duplicate_label	WBbt:0004800	rdfs:label	EF3/4	
-ERROR	duplicate_label	WBbt:0004801	rdfs:label	EF3/4	
-ERROR	duplicate_label	WBbt:0004802	rdfs:label	EF1/2	
-ERROR	duplicate_label	WBbt:0004803	rdfs:label	EF1/2	
-ERROR	duplicate_label	WBbt:0004805	rdfs:label	DX3/4	
-ERROR	duplicate_label	WBbt:0004806	rdfs:label	DX3/4	
-ERROR	duplicate_label	WBbt:0004817	rdfs:label	DX1/2	
-ERROR	duplicate_label	WBbt:0004818	rdfs:label	DX1/2	
 WARN	duplicate_exact_synonym	WBbt:0006477	oboInOwl:hasExactSynonym	hyp7	
 WARN	duplicate_exact_synonym	WBbt:0006735	oboInOwl:hasExactSynonym	hyp7	
 WARN	missing_definition	BFO:0000050	IAO:0000115		
@@ -2141,14 +1490,6 @@ WARN	missing_definition	WBbt:0005826	IAO:0000115
 WARN	missing_definition	WBbt:0005827	IAO:0000115		
 WARN	missing_definition	WBbt:0006926	IAO:0000115		
 WARN	missing_definition	WBbt:0006927	IAO:0000115		
-WARN	missing_definition	WBbt:0007838	IAO:0000115		
-WARN	missing_definition	WBbt:0007839	IAO:0000115		
-WARN	missing_definition	WBbt:0007840	IAO:0000115		
-WARN	missing_definition	WBbt:0007841	IAO:0000115		
-WARN	missing_definition	WBbt:0007842	IAO:0000115		
-WARN	missing_definition	WBbt:0007843	IAO:0000115		
-WARN	missing_definition	WBbt:0007844	IAO:0000115		
-WARN	missing_definition	WBbt:0007845	IAO:0000115		
 WARN	missing_definition	WBbt:0007930	IAO:0000115		
 WARN	missing_definition	WBbt:0007931	IAO:0000115		
 WARN	missing_definition	WBbt:0007932	IAO:0000115		
@@ -2330,7 +1671,6 @@ WARN	missing_definition	WBbt:0008339	IAO:0000115
 WARN	missing_definition	WBbt:0008340	IAO:0000115		
 WARN	missing_definition	WBbt:0008341	IAO:0000115		
 WARN	missing_definition	WBbt:0008342	IAO:0000115		
-WARN	missing_definition	WBbt:0008343	IAO:0000115		
 WARN	missing_definition	WBbt:0008344	IAO:0000115		
 WARN	missing_definition	WBbt:0008345	IAO:0000115		
 WARN	missing_definition	WBbt:0008346	IAO:0000115		
@@ -4923,7 +4263,6 @@ INFO	lowercase_definition	WBbt:0003561	IAO:0000115	nucleus of pedigree Z4.app
 INFO	lowercase_definition	WBbt:0003562	IAO:0000115	nucleus of pedigree Z4.appa	
 INFO	lowercase_definition	WBbt:0003563	IAO:0000115	nucleus of pedigree Z4.appaa	
 INFO	lowercase_definition	WBbt:0003564	IAO:0000115	nucleus of pedigree Z4.appaaa	
-INFO	lowercase_definition	WBbt:0003565	IAO:0000115	nucleus of pedigree Z4.appaaaa	
 INFO	lowercase_definition	WBbt:0003566	IAO:0000115	nucleus of pedigree Z4.appaaap	
 INFO	lowercase_definition	WBbt:0003567	IAO:0000115	nucleus of pedigree Z4.appaap	
 INFO	lowercase_definition	WBbt:0003568	IAO:0000115	nucleus of pedigree Z4.appaapa	
@@ -5052,8 +4391,8 @@ INFO	lowercase_definition	WBbt:0005107	IAO:0000115	sensillum of inner or outer l
 INFO	lowercase_definition	WBbt:0005116	IAO:0000115	sensory organ of the inner labial.	
 INFO	lowercase_definition	WBbt:0005117	IAO:0000115	neuron type, member of a set of 12 neurons of the inner labial sensilla.	
 INFO	lowercase_definition	WBbt:0005135	IAO:0000115	ganglion in the head.	
-INFO	lowercase_definition	WBbt:0005154	IAO:0000115	ventral uterine syncytia precursor cell of hermaphrodite	
-INFO	lowercase_definition	WBbt:0005171	IAO:0000115	dorsal uterine precursor cell of hermaphrodite.	
+INFO	lowercase_definition	WBbt:0005154	IAO:0000115	ventral uterine syncytia precursor cell; generates uterus, spermatheca and spermatheca-uterine valve cells.	
+INFO	lowercase_definition	WBbt:0005171	IAO:0000115	dorsal uterine precursor cell; generates uterus, spermatheca and spermatheca-uterine valve cells.	
 INFO	lowercase_definition	WBbt:0005175	IAO:0000115	organ producing either sperm or ova.	
 INFO	lowercase_definition	WBbt:0005176	IAO:0000115	set of six cells that form a thin cylindrical sheet between pharynx and ring neuropile; no chemical synapses, but gap junctions with muscle arms and RME motor neurons, might be glial cells	
 INFO	lowercase_definition	WBbt:0005178	IAO:0000115	organ in hermaphrodite animal that produces both ova and sperm.	
@@ -5248,7 +4587,6 @@ INFO	lowercase_definition	WBbt:0005881	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0005882	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005883	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005885	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0005886	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005887	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005888	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005889	IAO:0000115	embryonic cell	
@@ -5298,7 +4636,6 @@ INFO	lowercase_definition	WBbt:0005935	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0005936	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005937	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005938	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0005939	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005940	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005941	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005942	IAO:0000115	embryonic cell	
@@ -5344,7 +4681,6 @@ INFO	lowercase_definition	WBbt:0005984	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0005985	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005987	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005988	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0005991	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005992	IAO:0000115	embryonic cell, dies in hermaphrodite, becomes CEMDR in male.	
 INFO	lowercase_definition	WBbt:0005993	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0005994	IAO:0000115	embryonic cell	
@@ -5418,13 +4754,11 @@ INFO	lowercase_definition	WBbt:0006066	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006067	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006068	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006069	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006070	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006071	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006072	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006073	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006074	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006075	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006076	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006077	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006078	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006079	IAO:0000115	embryonic cell	
@@ -5445,7 +4779,6 @@ INFO	lowercase_definition	WBbt:0006096	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006097	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006098	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006099	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006100	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006101	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006102	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006103	IAO:0000115	embryonic cell	
@@ -5490,7 +4823,6 @@ INFO	lowercase_definition	WBbt:0006145	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006147	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006149	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006150	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006151	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006152	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006153	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006154	IAO:0000115	embryonic cell	
@@ -5518,7 +4850,6 @@ INFO	lowercase_definition	WBbt:0006176	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006177	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006178	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006179	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006180	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006181	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006183	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006184	IAO:0000115	embryonic cell	
@@ -5559,12 +4890,10 @@ INFO	lowercase_definition	WBbt:0006222	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006223	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006224	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006225	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006226	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006227	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006228	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006229	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006230	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006231	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006232	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006233	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006234	IAO:0000115	embryonic cell	
@@ -5575,7 +4904,6 @@ INFO	lowercase_definition	WBbt:0006239	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006240	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006241	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006242	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006244	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006245	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006246	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006247	IAO:0000115	embryonic cell	
@@ -5640,7 +4968,6 @@ INFO	lowercase_definition	WBbt:0006314	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006315	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006316	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006317	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006319	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006321	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006322	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006323	IAO:0000115	embryonic cell	
@@ -5672,7 +4999,6 @@ INFO	lowercase_definition	WBbt:0006352	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006353	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006355	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006356	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006357	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006358	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006359	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006360	IAO:0000115	embryonic cell	
@@ -5687,8 +5013,6 @@ INFO	lowercase_definition	WBbt:0006370	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006371	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006372	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006373	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006374	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006375	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006376	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006377	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006379	IAO:0000115	embryonic cell	
@@ -5709,7 +5033,6 @@ INFO	lowercase_definition	WBbt:0006394	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006395	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006396	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006398	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006399	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006400	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006401	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006402	IAO:0000115	embryonic cell	
@@ -5739,7 +5062,6 @@ INFO	lowercase_definition	WBbt:0006428	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006430	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006431	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006432	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006433	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006434	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006436	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006437	IAO:0000115	embryonic cell	
@@ -5798,7 +5120,6 @@ INFO	lowercase_definition	WBbt:0006497	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006499	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006500	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006501	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006502	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006503	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006504	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006505	IAO:0000115	embryonic cell	
@@ -5816,7 +5137,6 @@ INFO	lowercase_definition	WBbt:0006517	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006518	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006519	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006520	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006521	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006522	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006524	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006525	IAO:0000115	embryonic cell	
@@ -5893,7 +5213,6 @@ INFO	lowercase_definition	WBbt:0006604	IAO:0000115	embryonic cell
 INFO	lowercase_definition	WBbt:0006605	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006606	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006607	IAO:0000115	embryonic cell	
-INFO	lowercase_definition	WBbt:0006608	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006609	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006610	IAO:0000115	embryonic cell	
 INFO	lowercase_definition	WBbt:0006611	IAO:0000115	embryonic cell	
@@ -6092,23 +5411,18 @@ INFO	lowercase_definition	WBbt:0006885	IAO:0000115	descendent cell of P9, anteri
 INFO	lowercase_definition	WBbt:0006886	IAO:0000115	descendent cell of P10, anterior	
 INFO	lowercase_definition	WBbt:0006887	IAO:0000115	descendent cell of P11, anterior	
 INFO	lowercase_definition	WBbt:0006888	IAO:0000115	descendent cell of P12, anterior	
-INFO	lowercase_definition	WBbt:0006889	IAO:0000115	descendent cell of P1, posterior	
-INFO	lowercase_definition	WBbt:0006890	IAO:0000115	descendent cell of P2, posterior	
 INFO	lowercase_definition	WBbt:0006891	IAO:0000115	descendent cell of post-embryonic blast cell P3, posterior	
 INFO	lowercase_definition	WBbt:0006892	IAO:0000115	descendent cell of post-embryonic blast cell P4, posterior.	
 INFO	lowercase_definition	WBbt:0006893	IAO:0000115	descendent cell of P5, posterior	
 INFO	lowercase_definition	WBbt:0006894	IAO:0000115	descendent cell of P6, posterior	
 INFO	lowercase_definition	WBbt:0006895	IAO:0000115	descendent cell of P7, posterior	
 INFO	lowercase_definition	WBbt:0006896	IAO:0000115	descendent cell of P8, posterior	
-INFO	lowercase_definition	WBbt:0006897	IAO:0000115	descendent cell of P9, posterior	
 INFO	lowercase_definition	WBbt:0006898	IAO:0000115	descendent cell of P10, posterior	
 INFO	lowercase_definition	WBbt:0006899	IAO:0000115	descendent cell of P11, posterior	
 INFO	lowercase_definition	WBbt:0006900	IAO:0000115	descendent cell of P12, posterior	
-INFO	lowercase_definition	WBbt:0006901	IAO:0000115	epithelial sheath cell at distal end of the anterior gonad arm, no muscle fibers.	
+INFO	lowercase_definition	WBbt:0006901	IAO:0000115	epithelial sheath cell at distal end of the anterior gonad arm, no muscle fibers, of hermaphrodite.	
 INFO	lowercase_definition	WBbt:0006902	IAO:0000115	any of two posterior epithelial sheaths of distal arms, no muscle fibers, herm gonad	
 INFO	lowercase_definition	WBbt:0006903	IAO:0000115	immature gonadal structure of hermaphrodite.	
-INFO	lowercase_definition	WBbt:0006904	IAO:0000115	any of eight hermaphrodite anterior epithelial sheaths of proximal arms.	
-INFO	lowercase_definition	WBbt:0006905	IAO:0000115	any of eight hermaphrodite posterior epithelial sheath cells of proximal arms.	
 INFO	lowercase_definition	WBbt:0006906	IAO:0000115	hypodermis of the male hook.	
 INFO	lowercase_definition	WBbt:0006908	IAO:0000115	specialized muscle type in male sex organ.	
 INFO	lowercase_definition	WBbt:0006909	IAO:0000115	specialized muscle type in the posterior of adult male.	
@@ -6117,10 +5431,6 @@ INFO	lowercase_definition	WBbt:0006911	IAO:0000115	specialized musle type of the
 INFO	lowercase_definition	WBbt:0006912	IAO:0000115	seam cell in male tail; does not fuse with main seam, does not make alae.	
 INFO	lowercase_definition	WBbt:0006913	IAO:0000115	post-embryonic seam cells that make alae, hermaphrodite.	
 INFO	lowercase_definition	WBbt:0006914	IAO:0000115	post-embryonic seam cells that make alae in the male.	
-INFO	lowercase_definition	WBbt:0006915	IAO:0000115	one type of uterine muscle.	
-INFO	lowercase_definition	WBbt:0006916	IAO:0000115	one type of uterine muscle.	
-INFO	lowercase_definition	WBbt:0006917	IAO:0000115	one type of vulval muscle.	
-INFO	lowercase_definition	WBbt:0006918	IAO:0000115	one type of vulval muscle.	
 INFO	lowercase_definition	WBbt:0006919	IAO:0000115	body region surrounding the anus.	
 INFO	lowercase_definition	WBbt:0006920	IAO:0000115	sensillum in the head, each with a CEP receptor neuron.	
 INFO	lowercase_definition	WBbt:0006921	IAO:0000115	cephalic sensillum in dorsal left quadrant of worm head.	
@@ -6186,10 +5496,8 @@ INFO	lowercase_definition	WBbt:0006994	IAO:0000115	cell, which is the anterior d
 INFO	lowercase_definition	WBbt:0006995	IAO:0000115	cell, which is the anterior descendent of TR.	
 INFO	lowercase_definition	WBbt:0006996	IAO:0000115	cell, which is the posterior descendent of TL.	
 INFO	lowercase_definition	WBbt:0006997	IAO:0000115	cell, which is the posterior descendent of TR.	
-INFO	lowercase_definition	WBbt:0006998	IAO:0000115	cell, which is the anterior descendent of TL.a.	
 INFO	lowercase_definition	WBbt:0006999	IAO:0000115	cell, which is the anterior descendent of TL.aa.	
 INFO	lowercase_definition	WBbt:0007000	IAO:0000115	cell, which is the anterior descendent of TL.p.	
-INFO	lowercase_definition	WBbt:0007002	IAO:0000115	cell, which is the anterior descendent of TR.a.	
 INFO	lowercase_definition	WBbt:0007003	IAO:0000115	cell, which is the anterior descendent of TR.aa.	
 INFO	lowercase_definition	WBbt:0007004	IAO:0000115	cell, which is the anterior descendent of TL.ap.	
 INFO	lowercase_definition	WBbt:0007006	IAO:0000115	cell, which is the anterior descendent of TR.ap.	
@@ -6428,35 +5736,22 @@ INFO	lowercase_definition	WBbt:0007283	IAO:0000115	post-embryonic cell of pedigr
 INFO	lowercase_definition	WBbt:0007284	IAO:0000115	post-embryonic cell of pedigree SM1L.a	
 INFO	lowercase_definition	WBbt:0007285	IAO:0000115	post-embryonic cell of pedigree SM1L.aa	
 INFO	lowercase_definition	WBbt:0007286	IAO:0000115	post-embryonic cell of pedigree SM1L.aaa	
-INFO	lowercase_definition	WBbt:0007287	IAO:0000115	post-embryonic cell of pedigree SM1L.aap	
 INFO	lowercase_definition	WBbt:0007288	IAO:0000115	post-embryonic cell of pedigree SM1L.ap	
-INFO	lowercase_definition	WBbt:0007289	IAO:0000115	post-embryonic cell of pedigree SM1L.apa	
-INFO	lowercase_definition	WBbt:0007290	IAO:0000115	post-embryonic cell of pedigree SM1L.app	
 INFO	lowercase_definition	WBbt:0007291	IAO:0000115	post-embryonic cell of pedigree SM1L.p	
 INFO	lowercase_definition	WBbt:0007292	IAO:0000115	post-embryonic cell of pedigree SM1L.pa	
-INFO	lowercase_definition	WBbt:0007293	IAO:0000115	post-embryonic cell of pedigree SM1L.paa	
-INFO	lowercase_definition	WBbt:0007294	IAO:0000115	post-embryonic cell of pedigree SM1L.pap	
 INFO	lowercase_definition	WBbt:0007295	IAO:0000115	post-embryonic cell of pedigree SM1L.pp	
 INFO	lowercase_definition	WBbt:0007296	IAO:0000115	post-embryonic cell of pedigree SM1L.ppa	
 INFO	lowercase_definition	WBbt:0007297	IAO:0000115	post-embryonic cell of pedigree SM1L.ppp	
 INFO	lowercase_definition	WBbt:0007298	IAO:0000115	post-embryonic cell of pedigree SM1R.a	
 INFO	lowercase_definition	WBbt:0007299	IAO:0000115	post-embryonic cell of pedigree SM1R.aa	
 INFO	lowercase_definition	WBbt:0007300	IAO:0000115	post-embryonic cell of pedigree SM1R.aaa	
-INFO	lowercase_definition	WBbt:0007301	IAO:0000115	post-embryonic cell of pedigree SM1R.aap	
 INFO	lowercase_definition	WBbt:0007302	IAO:0000115	post-embryonic cell of pedigree SM1R.ap	
-INFO	lowercase_definition	WBbt:0007303	IAO:0000115	post-embryonic cell of pedigree SM1R.apa	
-INFO	lowercase_definition	WBbt:0007304	IAO:0000115	post-embryonic cell of pedigree SM1R.app	
 INFO	lowercase_definition	WBbt:0007305	IAO:0000115	post-embryonic cell of pedigree SM1R.p	
 INFO	lowercase_definition	WBbt:0007306	IAO:0000115	post-embryonic cell of pedigree SM1R.pa	
-INFO	lowercase_definition	WBbt:0007307	IAO:0000115	post-embryonic cell of pedigree SM1R.paa	
-INFO	lowercase_definition	WBbt:0007308	IAO:0000115	post-embryonic cell of pedigree SM1R.pap	
 INFO	lowercase_definition	WBbt:0007309	IAO:0000115	post-embryonic cell of pedigree SM1R.pp	
-INFO	lowercase_definition	WBbt:0007310	IAO:0000115	post-embryonic cell of pedigree SM1R.ppa	
 INFO	lowercase_definition	WBbt:0007311	IAO:0000115	post-embryonic cell of pedigree SM1R.ppp	
 INFO	lowercase_definition	WBbt:0007312	IAO:0000115	post-embryonic cell of pedigree SM2L.a	
 INFO	lowercase_definition	WBbt:0007313	IAO:0000115	post-embryonic cell of pedigree SM2L.aa	
-INFO	lowercase_definition	WBbt:0007314	IAO:0000115	post-embryonic cell of pedigree SM2L.aaa	
-INFO	lowercase_definition	WBbt:0007315	IAO:0000115	post-embryonic cell of pedigree SM2L.aap	
 INFO	lowercase_definition	WBbt:0007316	IAO:0000115	post-embryonic cell of pedigree SM2L.ap	
 INFO	lowercase_definition	WBbt:0007317	IAO:0000115	post-embryonic cell of pedigree SM2L.apa	
 INFO	lowercase_definition	WBbt:0007318	IAO:0000115	post-embryonic cell of pedigree SM2L.app	
@@ -6467,8 +5762,6 @@ INFO	lowercase_definition	WBbt:0007322	IAO:0000115	post-embryonic cell of pedigr
 INFO	lowercase_definition	WBbt:0007323	IAO:0000115	post-embryonic cell of pedigree SM2L.pp	
 INFO	lowercase_definition	WBbt:0007324	IAO:0000115	post-embryonic cell of pedigree SM2R.a	
 INFO	lowercase_definition	WBbt:0007325	IAO:0000115	post-embryonic cell of pedigree SM2R.aa	
-INFO	lowercase_definition	WBbt:0007326	IAO:0000115	post-embryonic cell of pedigree SM2R.aaa	
-INFO	lowercase_definition	WBbt:0007327	IAO:0000115	post-embryonic cell of pedigree SM2R.aap	
 INFO	lowercase_definition	WBbt:0007328	IAO:0000115	post-embryonic cell of pedigree SM2R.ap	
 INFO	lowercase_definition	WBbt:0007329	IAO:0000115	post-embryonic cell of pedigree SM2R.apa	
 INFO	lowercase_definition	WBbt:0007330	IAO:0000115	post-embryonic cell of pedigree SM2R.app	
@@ -6879,8 +6172,6 @@ INFO	lowercase_definition	WBbt:0007803	IAO:0000115	cell that engulfs a cell unde
 INFO	lowercase_definition	WBbt:0007804	IAO:0000115	a type of interneurons whose synaptic output represent a “final common pathway” to motor neurons. The synaptic activities of command interneurons lead directly to the control of locomotion.	
 INFO	lowercase_definition	WBbt:0007809	IAO:0000115	cell that has the potential to form structural part of a vulva.	
 INFO	lowercase_definition	WBbt:0007810	IAO:0000115	any muscle cell that is not pharyngeal.	
-INFO	lowercase_definition	WBbt:0007811	IAO:0000115	post-embryonic cell of pedigree P5.ppp	
-INFO	lowercase_definition	WBbt:0007812	IAO:0000115	post-embryonic cell of pedigree P7.paa	
 INFO	lowercase_definition	WBbt:0007813	IAO:0000115	any of six ventral uterine intermediate precursor cells that are adjacent to the anchor cell and whose progeny are fated to become uv1 and utse cells.	
 INFO	lowercase_definition	WBbt:0007814	IAO:0000115	any of six ventral uterine intermediate precursor cells that are not directly adjacent to the anchor cell and whose progeny are fated to become uterine cells other than uv1 and utse cells.	
 INFO	lowercase_definition	WBbt:0007815	IAO:0000115	somatic (not germline) cell of the hermaphrodite gonad.	
@@ -7009,7 +6300,7 @@ INFO	lowercase_definition	WBbt:0008062	IAO:0000115	nucleus of pedigree ABprppppa
 INFO	lowercase_definition	WBbt:0008063	IAO:0000115	a rectal epithelial cell in hermaphrodite.	
 INFO	lowercase_definition	WBbt:0008064	IAO:0000115	a post-embryonic blast cell in male.	
 INFO	lowercase_definition	WBbt:0008065	IAO:0000115	nucleus of pedigree Z4.p.	
-INFO	lowercase_definition	WBbt:0008066	IAO:0000115	nucleus of pedigree Z4 in male.	
+INFO	lowercase_definition	WBbt:0008066	IAO:0000115	nucleus of pedigree Z4.p in male.	
 INFO	lowercase_definition	WBbt:0008067	IAO:0000115	nucleus of pedigree Z1.a.	
 INFO	lowercase_definition	WBbt:0008068	IAO:0000115	nucleus of pedigree Z1.a in male.	
 INFO	lowercase_definition	WBbt:0008069	IAO:0000115	cell destined to become or fuse with multinuclear hyp7 hypodermal cell.	
@@ -7108,20 +6399,6 @@ INFO	lowercase_definition	WBbt:0008221	IAO:0000115	uv1 cell that follows 5L line
 INFO	lowercase_definition	WBbt:0008222	IAO:0000115	uv1 cell that follows 5R lineage configuration in development.	
 INFO	lowercase_definition	WBbt:0008223	IAO:0000115	cell of pedigree ABplapppappa in male.	
 INFO	lowercase_definition	WBbt:0008224	IAO:0000115	cell of pedigree ABprapppappa in male.	
-INFO	lowercase_definition	WBbt:0008225	IAO:0000115	post-embryonic, binucleated int3D.	
-INFO	lowercase_definition	WBbt:0008226	IAO:0000115	post-embryonic, binucleated int3V.	
-INFO	lowercase_definition	WBbt:0008227	IAO:0000115	post-embryonic, binucleated int4D.	
-INFO	lowercase_definition	WBbt:0008228	IAO:0000115	post-embryonic, binucleated int4V.	
-INFO	lowercase_definition	WBbt:0008229	IAO:0000115	post-embryonic, binucleated int5L.	
-INFO	lowercase_definition	WBbt:0008230	IAO:0000115	post-embryonic, binucleated int5R.	
-INFO	lowercase_definition	WBbt:0008231	IAO:0000115	post-embryonic, binucleated int6L.	
-INFO	lowercase_definition	WBbt:0008232	IAO:0000115	post-embryonic, binucleated int6R.	
-INFO	lowercase_definition	WBbt:0008233	IAO:0000115	post-embryonic, binucleated int7L.	
-INFO	lowercase_definition	WBbt:0008234	IAO:0000115	post-embryonic, binucleated int7R.	
-INFO	lowercase_definition	WBbt:0008235	IAO:0000115	post-embryonic, binucleated int8L.	
-INFO	lowercase_definition	WBbt:0008236	IAO:0000115	post-embryonic, binucleated int8R.	
-INFO	lowercase_definition	WBbt:0008237	IAO:0000115	post-embryonic, binucleated int9L.	
-INFO	lowercase_definition	WBbt:0008238	IAO:0000115	post-embryonic, binucleated int9R.	
 INFO	lowercase_definition	WBbt:0008239	IAO:0000115	linker cell of the pedigree Z1.paa.	
 INFO	lowercase_definition	WBbt:0008240	IAO:0000115	linker cell of the pedigree Z4.aaa.	
 INFO	lowercase_definition	WBbt:0008241	IAO:0000115	cell of pedigree U.lp.	
