@@ -29,5 +29,5 @@ jobs:
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
-        run: make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
+        run: cd src/ontology && make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test
 
