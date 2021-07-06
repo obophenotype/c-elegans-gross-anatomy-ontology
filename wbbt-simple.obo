@@ -21765,7 +21765,7 @@ is_a: WBbt:0005754 ! interfacial epithelial cell
 [Term]
 id: WBbt:0003675
 name: muscle cell
-def: "contractile cell that makes up muscle tissue." [WB:rynl]
+def: "Contractile cell that makes up muscle tissue." [WB:rynl]
 is_a: WBbt:0004017 ! Cell
 relationship: part_of WBbt:0005737 ! muscular system
 
@@ -35640,13 +35640,17 @@ relationship: part_of WBbt:0004534 ! excretory socket cell
 [Term]
 id: WBbt:0005779
 name: striated muscle
+def: "A multiple sarcomere muscle cell in which the thin and thick filaments adopt highly ordered patterns, with the thin filaments anchored at dense bodies." [WB:Paper00001807]
+synonym: "striated muscle cell" EXACT []
 is_a: WBbt:0003675 ! muscle cell
 relationship: part_of WBbt:0005813 ! body wall musculature
 
 [Term]
 id: WBbt:0005780
 name: non-striated muscle
-comment: LINKOUT::WORMATLAS::<http://www.wormatlas.org/ver1/handbook/mesodermal.htm/musclepartIII.htm>
+def: "Muscle cell that has either one or a few well-structured sarcomeres or myofilament networks that are less well organized." [WB:Paper00001807]
+comment: LINKOUT::WORMATLAS::<https://www.wormatlas.org/hermaphrodite/musclenonstriated/mainframe.htm>
+synonym: "non-striated muscle cell" EXACT []
 is_a: WBbt:0003675 ! muscle cell
 
 [Term]
@@ -48453,7 +48457,7 @@ is_a: WBbt:0006783 ! blast cell
 [Term]
 id: WBbt:0007810
 name: body muscle cell
-def: "any muscle cell that is not pharyngeal." [WB:Paper00001807]
+def: "Any muscle cell that is not pharyngeal." [WB:Paper00001807]
 is_a: WBbt:0003675 ! muscle cell
 
 [Term]
@@ -54287,6 +54291,7 @@ id: WBbt:0008633
 name: bursa
 def: "The adult male tail including the the lateral fan and rays. [WormAtlas]" [https://www.wormatlas.org/glossary/bglossary.htm#bursa, WB:WBPerson2987]
 synonym: "adult male tail" EXACT []
+is_a: WBbt:0005741 ! tail
 is_a: WBbt:0005757 ! male-specific anatomical entity
 
 [Term]

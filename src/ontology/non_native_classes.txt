@@ -2,6 +2,12 @@ http://purl.obolibrary.org/obo/BFO_0000002
 http://purl.obolibrary.org/obo/BFO_0000003
 http://purl.obolibrary.org/obo/BFO_0000004
 http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/BFO_0000016
+http://purl.obolibrary.org/obo/BFO_0000017
+http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/BFO_0000020
+http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/BFO_0000034
 http://purl.obolibrary.org/obo/BFO_0000040
 http://purl.obolibrary.org/obo/CARO_0000000
 http://purl.obolibrary.org/obo/CARO_0000003

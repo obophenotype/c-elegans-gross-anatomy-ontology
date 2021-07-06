@@ -1469,8 +1469,6 @@ WARN	missing_definition	WBbt:0005747	IAO:0000115
 WARN	missing_definition	WBbt:0005748	IAO:0000115		
 WARN	missing_definition	WBbt:0005749	IAO:0000115		
 WARN	missing_definition	WBbt:0005756	IAO:0000115		
-WARN	missing_definition	WBbt:0005779	IAO:0000115		
-WARN	missing_definition	WBbt:0005780	IAO:0000115		
 WARN	missing_definition	WBbt:0005781	IAO:0000115		
 WARN	missing_definition	WBbt:0005786	IAO:0000115		
 WARN	missing_definition	WBbt:0005789	IAO:0000115		
@@ -4329,7 +4327,6 @@ INFO	lowercase_definition	WBbt:0003635	IAO:0000115	pharyngeal muscle syncytium c
 INFO	lowercase_definition	WBbt:0003668	IAO:0000115	interneuron of the pharyngeal nervous system.	
 INFO	lowercase_definition	WBbt:0003672	IAO:0000115	cell of epithelium, the layer of cells that cover the external surface of an organism as well as forming an inner lining between the tissues and organs of that organism and the external environment. In C. elegans epithelial cells include epithelium of the alimentary tract, intestinal cells, hypodermis, interfacial cells and somatic gonad cells.	
 INFO	lowercase_definition	WBbt:0003673	IAO:0000115	a type of pharyngeal cell that connects basement membrane to the apices of triangle-shaped pharyngeal lumen.	
-INFO	lowercase_definition	WBbt:0003675	IAO:0000115	contractile cell that makes up muscle tissue.	
 INFO	lowercase_definition	WBbt:0003681	IAO:0000115	the feeding organ, a neuro-muscular pump in the head of the animal, used to ingest food, bacteria suspended in liquid, filter them out, grind them up and transport posteriorly into the instestine.	
 INFO	lowercase_definition	WBbt:0003706	IAO:0000115	nucleus in g1 gland cell	
 INFO	lowercase_definition	WBbt:0003707	IAO:0000115	marginal cell, type 3.	
@@ -6171,7 +6168,6 @@ INFO	lowercase_definition	WBbt:0007802	IAO:0000115	post-embryonic cell of pedigr
 INFO	lowercase_definition	WBbt:0007803	IAO:0000115	cell that engulfs a cell undergoing programmed cell death (PCD, apoptosis).	
 INFO	lowercase_definition	WBbt:0007804	IAO:0000115	a type of interneurons whose synaptic output represent a “final common pathway” to motor neurons. The synaptic activities of command interneurons lead directly to the control of locomotion.	
 INFO	lowercase_definition	WBbt:0007809	IAO:0000115	cell that has the potential to form structural part of a vulva.	
-INFO	lowercase_definition	WBbt:0007810	IAO:0000115	any muscle cell that is not pharyngeal.	
 INFO	lowercase_definition	WBbt:0007813	IAO:0000115	any of six ventral uterine intermediate precursor cells that are adjacent to the anchor cell and whose progeny are fated to become uv1 and utse cells.	
 INFO	lowercase_definition	WBbt:0007814	IAO:0000115	any of six ventral uterine intermediate precursor cells that are not directly adjacent to the anchor cell and whose progeny are fated to become uterine cells other than uv1 and utse cells.	
 INFO	lowercase_definition	WBbt:0007815	IAO:0000115	somatic (not germline) cell of the hermaphrodite gonad.	
