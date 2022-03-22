@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2021-12-14
+data-version: releases/2022-03-22
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -16,6 +16,11 @@ property_value: http://purl.org/dc/elements/1.1/description "Ontology about the 
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: IAO:0000700 WBbt:0000100
+
+[Term]
+id: PATO:0000001
+name: quality
+property_value: IAO:0000589 "quality (PATO)" xsd:string
 
 [Term]
 id: WBbt:0000100
@@ -55484,11 +55489,37 @@ name: utilizes
 def: "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." []
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
 property_value: IAO:0000117 "Asiyah Lin" xsd:string
-property_value: IAO:0000117 "Bill Duncan (https://orcid.org/0000-0001-9625-1899)" xsd:string
+property_value: IAO:0000117 "https://orcid.org/0000-0001-9625-1899 Bill Duncan" xsd:string
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
 holds_over_chain: RO:0002215 RO:0002233
 creation_date: 2021-11-08
+
+[Typedef]
+id: RO:0019000
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+range: PATO:0000001 ! quality
+holds_over_chain: RO:0002211 RO:0019000
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0019001
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002213 RO:0019001
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0019002
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002212 RO:0019001
+holds_over_chain: RO:0002213 RO:0019002
+is_a: RO:0019000 ! regulates characteristic
 
 [Typedef]
 id: develops_from
