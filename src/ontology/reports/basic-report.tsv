@@ -922,7 +922,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0006069>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0007447>	"post-embryonic cell of pedigree V5L.pa"	
 <http://purl.obolibrary.org/obo/WBbt_0002970>	"nucleus of pedigree V2L.papa"	
-<http://purl.obolibrary.org/obo/WBbt_0003710>	"pharyngeal gland cell."	
 <http://purl.obolibrary.org/obo/WBbt_0003960>	"Ring interneuron, many synapses"	
 <http://purl.obolibrary.org/obo/WBbt_0007876>	"nucleus of pedigree M.vrpaa in male"	
 <http://purl.obolibrary.org/obo/WBbt_0004386>	"Neuron class of one motor neuron, process in dorsal cord, same as Y cell in hermaphrodite, Y.a in male."	
@@ -1113,6 +1112,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0001152>	"nucleus of pedigree ABalppappp"	
 <http://purl.obolibrary.org/obo/WBbt_0002463>	"nucleus of pedigree P1.aaaa"	
 <http://purl.obolibrary.org/obo/WBbt_0006771>	"The second (count from anterior-most) of twelve postembryonic blast cells for ventral cord motorneurons, ventral hypodermis, vulva, male preanal ganglion; ventral hypodermis in L1."	
+<http://purl.obolibrary.org/obo/WBbt_0004532>	"Pharyngeal gland cell 1AL."	
 <http://purl.obolibrary.org/obo/WBbt_0005260>		
 <http://purl.obolibrary.org/obo/WBbt_0001290>	"nucleus of pedigree ABarpapp"	
 <http://purl.obolibrary.org/obo/WBbt_0003292>	"nucleus of pedigree Z1.apppa"	
@@ -1445,7 +1445,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0007534>		
 <http://purl.obolibrary.org/obo/WBbt_0006580>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0007003>	"cell, which is the anterior descendent of TR.aa."	
-<http://purl.obolibrary.org/obo/WBbt_0003712>	"pharyngeal gland cell."	
 <http://purl.obolibrary.org/obo/WBbt_0003238>	"nucleus of pedigree P8.app"	
 <http://purl.obolibrary.org/obo/WBbt_0002178>	"nucleus of pedigree ABplpapppap"	
 <http://purl.obolibrary.org/obo/WBbt_0004380>	"Tail ventral hypodermis, 9th hypodermis cell"	
@@ -1496,6 +1495,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0007493>	"post-embryonic cell of pedigree V6L.papppaa"	
 <http://purl.obolibrary.org/obo/WBbt_0005756>		"WBPaper:00038216"
 <http://purl.obolibrary.org/obo/WBbt_0003547>	"nucleus of pedigree Z4.apapap"	
+<http://purl.obolibrary.org/obo/WBbt_0004528>	"Pharyngeal gland cell 1P, before fusion into g1ARP."	
 <http://purl.obolibrary.org/obo/WBbt_0006572>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0002369>	"nucleus of pedigree MSpaa"	
 <http://purl.obolibrary.org/obo/WBbt_0001817>	"nucleus of pedigree Cappap"	
@@ -1869,6 +1869,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0001779>	"nucleus of pedigree B_gamma.arv"	
 <http://purl.obolibrary.org/obo/WBbt_0006195>	"Embryonic cell of pedigree MSaapppaa."	
 <http://purl.obolibrary.org/obo/WBbt_0008034>	"nucleus of hyp9 cell."	
+<http://purl.obolibrary.org/obo/WBbt_0004530>	"Pharyngeal gland cell 1AR, before fusion into g1ARP."	
 <http://purl.obolibrary.org/obo/WBbt_0004695>		
 <http://purl.obolibrary.org/obo/WBbt_0001151>	"nucleus of pedigree ABalppappa"	
 <http://purl.obolibrary.org/obo/WBbt_0003366>		
@@ -2189,6 +2190,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0003735>	"pharyngeal muscle cell syncytium, layer five, right subventral."	
 <http://purl.obolibrary.org/obo/WBbt_0005196>		
 <http://purl.obolibrary.org/obo/WBbt_0007644>	"post-embryonic cell of pedigree Z1.ppaapa"	
+<http://purl.obolibrary.org/obo/WBbt_0003710>	"Pharyngeal gland cell 2."	
 <http://purl.obolibrary.org/obo/WBbt_0002417>	"nucleus of pedigree MSppapap"	
 <http://purl.obolibrary.org/obo/WBbt_0003626>	"nucleus of pedigree Y.a"	
 <http://purl.obolibrary.org/obo/WBbt_0006930>	"sensory organ of male hook."	
@@ -2727,6 +2729,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0002464>	"nucleus of pedigree P1.aap"	
 <http://purl.obolibrary.org/obo/WBbt_0006636>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0001497>	"nucleus of pedigree ABpraapapa"	
+<http://purl.obolibrary.org/obo/WBbt_0003712>	"Pharyngeal gland cell 1."	
 <http://purl.obolibrary.org/obo/WBbt_0006749>	"the most extensive region of neuropil in the animal, consists of a large toroidal bundle of processes."	
 <http://purl.obolibrary.org/obo/WBbt_0006635>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0007051>	"post-embryonic cell of pedigree B.alapap"	
@@ -3177,7 +3180,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0004993>	"Posterior lateral interneuron, process projects into ring"	
 <http://purl.obolibrary.org/obo/WBbt_0006407>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0005728>	"Nucleus of the anchor cell."	
-<http://purl.obolibrary.org/obo/WBbt_0004526>	"Pharyngeal gland cells"	
 <http://purl.obolibrary.org/obo/WBbt_0005337>	"That portion of the male reproductive tract, through which sperm are delivered to the proctodeum and then the cloaca in the tail.  Thus that portion which is distal to the testis, made of a total of 30 cells."	"WBPaper:00038216"
 <http://purl.obolibrary.org/obo/WBbt_0007465>	"post-embryonic cell of pedigree V5R.paa"	
 <http://purl.obolibrary.org/obo/WBbt_0003127>	"nucleus of pedigree V6L.papapp"	
@@ -3202,7 +3204,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0003527>	"nucleus of pedigree Z4.apaapaap"	
 <http://purl.obolibrary.org/obo/WBbt_0006405>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0004077>	"Dorsal uterus; cell of pedigree Z4.apapaaap, a precursor of ut1 syncytium."	
-<http://purl.obolibrary.org/obo/WBbt_0004528>	"Pharyngeal gland cells"	
 <http://purl.obolibrary.org/obo/WBbt_0006404>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0002202>	"nucleus of pedigree M.vlp"	
 <http://purl.obolibrary.org/obo/WBbt_0005451>	"type of cells that make up muscle layers in the pharynx."	
@@ -3353,7 +3354,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0002524>	"nucleus of pedigree P6.ppal"	
 <http://purl.obolibrary.org/obo/WBbt_0004253>	"Anterior daughter cell of V4R.pp, fuses into postembryonic large hypodermal syncytium hyp7."	
 <http://purl.obolibrary.org/obo/WBbt_0002764>	"nucleus of pedigree SM1L.paa"	
-<http://purl.obolibrary.org/obo/WBbt_0004524>	"Pharyngeal gland cells"	
 <http://purl.obolibrary.org/obo/WBbt_0006189>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0006056>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0003590>	"nucleus of pedigree Z4.apppaap"	
@@ -3570,6 +3570,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0007721>	"post-embryonic cell of pedigree Z4.aap[p/r]aa"	
 <http://purl.obolibrary.org/obo/WBbt_0005182>		
 <http://purl.obolibrary.org/obo/WBbt_0001294>	"nucleus of pedigree ABarpp"	
+<http://purl.obolibrary.org/obo/WBbt_0004526>	"Pharyngeal gland cell 2L."	
 <http://purl.obolibrary.org/obo/WBbt_0002917>	"nucleus of pedigree U.rp"	
 <http://purl.obolibrary.org/obo/WBbt_0005730>	"lies within the body wall, in close relation to nervous system and excretory system."	"WB:rynl"
 <http://purl.obolibrary.org/obo/WBbt_0004937>	"Cephalic neurons, contain dopamine"	
@@ -4641,6 +4642,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0001777>	"nucleus of pedigree B_gamma.ar"	
 <http://purl.obolibrary.org/obo/WBbt_0008503>	"Post-embryonic cell of pedigree M.vlpaapp in hermaphrodite."	
 <http://purl.obolibrary.org/obo/WBbt_0003530>	"nucleus of pedigree Z4.apaapapp"	
+<http://purl.obolibrary.org/obo/WBbt_0004524>	"Pharyngeal gland cell 2R."	
 <http://purl.obolibrary.org/obo/WBbt_0006725>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0007316>	"post-embryonic cell of pedigree SM2L.ap"	
 <http://purl.obolibrary.org/obo/WBbt_0007254>	"post-embryonic cell of pedigree P5.pap"	
@@ -4719,7 +4721,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0008044>	"male tail seam cell, R1 right."	
 <http://purl.obolibrary.org/obo/WBbt_0006240>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0008214>	"posterior spermathecal-uterine valve cell whose nuclei followed the 5L lineage configuration during development."	
-<http://purl.obolibrary.org/obo/WBbt_0004532>	"Pharyngeal gland cell."	
 <http://purl.obolibrary.org/obo/WBbt_0006373>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0007460>	"post-embryonic cell of pedigree V5L.pppppap"	
 <http://purl.obolibrary.org/obo/WBbt_0007482>	"post-embryonic cell of pedigree V6L.pap"	
@@ -4745,7 +4746,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0003914>		
 <http://purl.obolibrary.org/obo/WBbt_0005213>		
 <http://purl.obolibrary.org/obo/WBbt_0005479>		
-<http://purl.obolibrary.org/obo/WBbt_0004530>	"Pharyngeal gland cell."	
 <http://purl.obolibrary.org/obo/WBbt_0006371>	"embryonic cell"	
 <http://purl.obolibrary.org/obo/WBbt_0001841>	"nucleus of pedigree Cpappd"	
 <http://purl.obolibrary.org/obo/WBbt_0006676>		
@@ -5824,6 +5824,7 @@
 <http://purl.obolibrary.org/obo/WBbt_0002700>	"nucleus of pedigree ABprppppaap"	
 <http://purl.obolibrary.org/obo/WBbt_0002683>	"nucleus of pedigree V6L.ppppaaaa"	
 <http://purl.obolibrary.org/obo/WBbt_0003452>	"nucleus of pedigree Z1.ppppav(5L)"	
+<http://purl.obolibrary.org/obo/WBbt_0005788>	"Secretory gland cell of the pharynx"	
 <http://purl.obolibrary.org/obo/WBbt_0005051>	"Ring/pharynx interneuron, only direct connection between pharynx and ring"	
 <http://purl.obolibrary.org/obo/WBbt_0003393>	"nucleus of pedigree Z1.pappaapp"	
 <http://purl.obolibrary.org/obo/WBbt_0003612>	"nucleus of pedigree Z4.paapa"	
@@ -6185,7 +6186,6 @@
 <http://purl.obolibrary.org/obo/WBbt_0004609>	"Ventral cord motor neuron, innervates ventral body muscles, probably reciprocal inhibitor"	
 <http://purl.obolibrary.org/obo/WBbt_0004944>	"Tail seam hypodermal cell, postembryonic blast cell, functions as phasmid socket in L1"	
 <http://purl.obolibrary.org/obo/WBbt_0002007>		
-<http://purl.obolibrary.org/obo/WBbt_0005788>	"secretory gland cell of the pharynx"	
 <http://purl.obolibrary.org/obo/WBbt_0002055>	"nucleus of pedigree H1R.a"	
 <http://purl.obolibrary.org/obo/WBbt_0004482>	"Posterior daughter cell of P5.paa, fuses into hermaphrodite vulA syncytium."	
 <http://purl.obolibrary.org/obo/WBbt_0006595>	"embryonic cell"	

@@ -18,4 +18,5 @@ http://purl.obolibrary.org/obo/GO_0008150
 http://purl.obolibrary.org/obo/GO_0016301
 http://purl.obolibrary.org/obo/GO_0016740
 http://purl.obolibrary.org/obo/GO_0016772
+http://purl.obolibrary.org/obo/PATO_0000001
 term

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2022-03-22/wbbt-base.owl
+data-version: wbbt/releases/2022-06-13/wbbt-base.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -21909,7 +21909,7 @@ relationship: part_of WBbt:0003711 ! metacorpus
 [Term]
 id: WBbt:0003710
 name: g2
-def: "pharyngeal gland cell." [WB:rynl]
+def: "Pharyngeal gland cell 2." [WB:rynl]
 is_a: WBbt:0005788 ! pharyngeal gland cell
 relationship: part_of WBbt:0003732 ! terminal bulb
 
@@ -21923,7 +21923,7 @@ relationship: part_of WBbt:0003733 ! corpus
 [Term]
 id: WBbt:0003712
 name: g1
-def: "pharyngeal gland cell." [WB:rynl]
+def: "Pharyngeal gland cell 1." [WB:rynl]
 is_a: WBbt:0005788 ! pharyngeal gland cell
 relationship: part_of WBbt:0003732 ! terminal bulb
 
@@ -27642,7 +27642,7 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 [Term]
 id: WBbt:0004524
 name: g2R
-def: "Pharyngeal gland cells" [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 2R." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSpapapaa" RELATED []
 is_a: WBbt:0003710 ! g2
 
@@ -27658,7 +27658,7 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 [Term]
 id: WBbt:0004526
 name: g2L
-def: "Pharyngeal gland cells" [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 2L." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSaapapaa" RELATED []
 is_a: WBbt:0003710 ! g2
 
@@ -27674,8 +27674,9 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 [Term]
 id: WBbt:0004528
 name: g1P
-def: "Pharyngeal gland cells" [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 1P, before fusion into g1ARP." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSaaaaapap" RELATED []
+is_a: WBbt:0003712 ! g1
 is_a: WBbt:0008073 ! syncytium precursor
 
 [Term]
@@ -27690,8 +27691,9 @@ relationship: part_of WBbt:0005371 ! anterior ganglion (post)
 [Term]
 id: WBbt:0004530
 name: g1AR
-def: "Pharyngeal gland cell." [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 1AR, before fusion into g1ARP." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSpapaapaa" RELATED []
+is_a: WBbt:0003712 ! g1
 is_a: WBbt:0008073 ! syncytium precursor
 
 [Term]
@@ -27706,7 +27708,7 @@ relationship: part_of WBbt:0005371 ! anterior ganglion (post)
 [Term]
 id: WBbt:0004532
 name: g1AL
-def: "Pharyngeal gland cell." [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 1AL." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSaapaapaa" RELATED []
 is_a: WBbt:0003712 ! g1
 
@@ -35750,7 +35752,7 @@ is_obsolete: true
 [Term]
 id: WBbt:0005788
 name: pharyngeal gland cell
-def: "secretory gland cell of the pharynx" [WB:rynl]
+def: "Secretory gland cell of the pharynx" [WB:rynl]
 is_a: WBbt:0003670 ! gland cell
 is_a: WBbt:0005460 ! pharyngeal cell
 
@@ -38729,7 +38731,6 @@ synonym: "lineage name: MSapappp" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008267 ! DLL muscle
 
 [Term]
 id: WBbt:0006236
@@ -39272,12 +39273,12 @@ id: WBbt:0006318
 name: MSppappa
 alt_id: WBbt:0003840
 def: "Embryonic cell of pedigree MSppappa." [WB:rynl, WBPaper:00038216]
-synonym: "DR1" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
+synonym: "DR4" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSppappa" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008264 ! DMR muscle
+is_a: WBbt:0008263 ! DLR muscle
 
 [Term]
 id: WBbt:0006319
@@ -40198,12 +40199,12 @@ id: WBbt:0006450
 name: MSppappp
 alt_id: WBbt:0003839
 def: "Embryonic cell of pedigree MSppappp." [WB:rynl, WBPaper:00038216]
-synonym: "DR4" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
+synonym: "DR1" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSppappp" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008263 ! DLR muscle
+is_a: WBbt:0008264 ! DMR muscle
 
 [Term]
 id: WBbt:0006451
@@ -40507,7 +40508,7 @@ synonym: "lineage name: MSapappa" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008268 ! DML muscle
+is_a: WBbt:0008267 ! DLL muscle
 
 [Term]
 id: WBbt:0006496
@@ -42651,6 +42652,7 @@ id: WBbt:0006808
 name: body wall muscle cell from MS lineage
 def: "embryonic body wall muscle cell derived from MS lineage." [WB:rynl]
 is_a: WBbt:0006804 ! body wall muscle cell
+is_a: WBbt:0008268 ! DML muscle
 
 [Term]
 id: WBbt:0006809

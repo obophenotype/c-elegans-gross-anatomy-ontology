@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2022-03-22
+data-version: releases/2022-06-13
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -16,11 +16,6 @@ property_value: http://purl.org/dc/elements/1.1/description "Ontology about the 
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: IAO:0000700 WBbt:0000100
-
-[Term]
-id: PATO:0000001
-name: quality
-property_value: IAO:0000589 "quality (PATO)" xsd:string
 
 [Term]
 id: WBbt:0000100
@@ -21881,7 +21876,7 @@ relationship: part_of WBbt:0003711 ! metacorpus
 [Term]
 id: WBbt:0003710
 name: g2
-def: "pharyngeal gland cell." [WB:rynl]
+def: "Pharyngeal gland cell 2." [WB:rynl]
 is_a: WBbt:0005788 ! pharyngeal gland cell
 relationship: part_of WBbt:0003732 ! terminal bulb
 
@@ -21895,7 +21890,7 @@ relationship: part_of WBbt:0003733 ! corpus
 [Term]
 id: WBbt:0003712
 name: g1
-def: "pharyngeal gland cell." [WB:rynl]
+def: "Pharyngeal gland cell 1." [WB:rynl]
 is_a: WBbt:0005788 ! pharyngeal gland cell
 relationship: part_of WBbt:0003732 ! terminal bulb
 
@@ -27609,7 +27604,7 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 [Term]
 id: WBbt:0004524
 name: g2R
-def: "Pharyngeal gland cells" [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 2R." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSpapapaa" RELATED []
 is_a: WBbt:0003710 ! g2
 
@@ -27625,7 +27620,7 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 [Term]
 id: WBbt:0004526
 name: g2L
-def: "Pharyngeal gland cells" [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 2L." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSaapapaa" RELATED []
 is_a: WBbt:0003710 ! g2
 
@@ -27641,8 +27636,9 @@ relationship: part_of WBbt:0005372 ! anterior ganglion (ant)
 [Term]
 id: WBbt:0004528
 name: g1P
-def: "Pharyngeal gland cells" [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 1P, before fusion into g1ARP." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSaaaaapap" RELATED []
+is_a: WBbt:0003712 ! g1
 is_a: WBbt:0008073 ! syncytium precursor
 
 [Term]
@@ -27657,8 +27653,9 @@ relationship: part_of WBbt:0005371 ! anterior ganglion (post)
 [Term]
 id: WBbt:0004530
 name: g1AR
-def: "Pharyngeal gland cell." [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 1AR, before fusion into g1ARP." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSpapaapaa" RELATED []
+is_a: WBbt:0003712 ! g1
 is_a: WBbt:0008073 ! syncytium precursor
 
 [Term]
@@ -27673,7 +27670,7 @@ relationship: part_of WBbt:0005371 ! anterior ganglion (post)
 [Term]
 id: WBbt:0004532
 name: g1AL
-def: "Pharyngeal gland cell." [ISBN:0-87969-307-X]
+def: "Pharyngeal gland cell 1AL." [ISBN:0-87969-307-X]
 synonym: "lineage name: MSaapaapaa" RELATED []
 is_a: WBbt:0003712 ! g1
 
@@ -35700,7 +35697,7 @@ is_obsolete: true
 [Term]
 id: WBbt:0005788
 name: pharyngeal gland cell
-def: "secretory gland cell of the pharynx" [WB:rynl]
+def: "Secretory gland cell of the pharynx" [WB:rynl]
 is_a: WBbt:0003670 ! gland cell
 is_a: WBbt:0005460 ! pharyngeal cell
 
@@ -38678,7 +38675,6 @@ synonym: "lineage name: MSapappp" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008267 ! DLL muscle
 
 [Term]
 id: WBbt:0006236
@@ -39221,12 +39217,12 @@ id: WBbt:0006318
 name: MSppappa
 alt_id: WBbt:0003840
 def: "Embryonic cell of pedigree MSppappa." [WB:rynl, WBPaper:00038216]
-synonym: "DR1" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
+synonym: "DR4" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSppappa" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008264 ! DMR muscle
+is_a: WBbt:0008263 ! DLR muscle
 
 [Term]
 id: WBbt:0006319
@@ -39542,7 +39538,6 @@ synonym: "lineage name: MSappppa" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008268 ! DML muscle
 
 [Term]
 id: WBbt:0006363
@@ -40147,12 +40142,12 @@ id: WBbt:0006450
 name: MSppappp
 alt_id: WBbt:0003839
 def: "Embryonic cell of pedigree MSppappp." [WB:rynl, WBPaper:00038216]
-synonym: "DR4" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
+synonym: "DR1" RELATED [] {comment="Per Zeynep Altun and Bob Waterston (20190530 email)."}
 synonym: "lineage name: MSppappp" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008263 ! DLR muscle
+is_a: WBbt:0008264 ! DMR muscle
 
 [Term]
 id: WBbt:0006451
@@ -40456,7 +40451,7 @@ synonym: "lineage name: MSapappa" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008268 ! DML muscle
+is_a: WBbt:0008267 ! DLL muscle
 
 [Term]
 id: WBbt:0006496
@@ -41137,7 +41132,6 @@ synonym: "lineage name: MSappppp" RELATED []
 synonym: "mu_bod" RELATED []
 is_a: WBbt:0006808 ! body wall muscle cell from MS lineage
 is_a: WBbt:0007028 ! embryonic cell
-is_a: WBbt:0008268 ! DML muscle
 
 [Term]
 id: WBbt:0006597
@@ -42598,7 +42592,7 @@ is_a: WBbt:0006804 ! body wall muscle cell
 id: WBbt:0006808
 name: body wall muscle cell from MS lineage
 def: "embryonic body wall muscle cell derived from MS lineage." [WB:rynl]
-is_a: WBbt:0006804 ! body wall muscle cell
+is_a: WBbt:0008268 ! DML muscle
 
 [Term]
 id: WBbt:0006809
@@ -54688,6 +54682,7 @@ property_value: RO:0001900 RO:0001901
 holds_over_chain: BFO:0000051 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
 holds_over_chain: BFO:0000051 RO:0002131
 holds_over_chain: part_of part_of
+is_symmetric: true
 is_a: RO:0002323 ! mereotopologically related to
 transitive_over: part_of ! part of
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
@@ -55485,22 +55480,22 @@ is_a: RO:0002566 ! causally influences
 
 [Typedef]
 id: RO:0017001
-name: utilizes
-def: "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+name: device utilizes material
+def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+synonym: "utilizes" BROAD []
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
-property_value: IAO:0000117 "Asiyah Lin" xsd:string
-property_value: IAO:0000117 "https://orcid.org/0000-0001-9625-1899 Bill Duncan" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9625-1899 xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0003-2620-0345 xsd:string
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
 holds_over_chain: RO:0002215 RO:0002233
-creation_date: 2021-11-08
+creation_date: 2021-11-08T12:00:00Z
 
 [Typedef]
 id: RO:0019000
 name: regulates characteristic
 def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
-range: PATO:0000001 ! quality
 holds_over_chain: RO:0002211 RO:0019000
 is_a: RO:0002410 ! causally related to
 
