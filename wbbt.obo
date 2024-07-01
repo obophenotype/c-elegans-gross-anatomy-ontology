@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2024-04-01
+data-version: releases/2024-07-01
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -54525,7 +54525,6 @@ property_value: IAO:0000116 "A bearer can have many dependents, and its dependen
 property_value: IAO:0000118 "bearer_of" xsd:string
 property_value: IAO:0000118 "is bearer of" xsd:string
 property_value: RO:0001900 RO:0001901
-property_value: seeAlso https://github.com/oborel/obo-relations/pull/284 xsd:string
 is_inverse_functional: true
 
 [Typedef]
@@ -55616,9 +55615,9 @@ id: RO:0017001
 name: device utilizes material
 def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
 synonym: "utilizes" BROAD []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0001-9625-1899
-property_value: IAO:0000117 https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
 holds_over_chain: RO:0002215 RO:0002233
