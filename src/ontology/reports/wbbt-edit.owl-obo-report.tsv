@@ -1421,6 +1421,8 @@ ERROR	duplicate_definition	WBbt:0003987	IAO:0000115	Amphid interneuron
 ERROR	duplicate_definition	WBbt:0003989	IAO:0000115	Amphid interneuron
 ERROR	duplicate_definition	WBbt:0003991	IAO:0000115	Amphid finger cell, neuron associated with amphid sheath
 ERROR	duplicate_definition	WBbt:0003993	IAO:0000115	Amphid finger cell, neuron associated with amphid sheath
+WARN	duplicate_exact_synonym	WBbt:0006477	oboInOwl:hasExactSynonym	hyp7
+WARN	duplicate_exact_synonym	WBbt:0006735	oboInOwl:hasExactSynonym	hyp7
 WARN	missing_definition	BFO:0000050	IAO:0000115	
 WARN	missing_definition	IAO:0000115	IAO:0000115	
 WARN	missing_definition	RO:0002202	IAO:0000115	
@@ -1725,9 +1727,6 @@ WARN	duplicate_label_synonym	WBbt:0004830	oboInOwl:hasExactSynonym	B_gamma.ald
 WARN	duplicate_label_synonym	WBbt:0004831	oboInOwl:hasExactSynonym	B_gamma.alv
 WARN	duplicate_label_synonym	WBbt:0004836	oboInOwl:hasExactSynonym	B_alpha.rv
 WARN	duplicate_label_synonym	WBbt:0004847	oboInOwl:hasExactSynonym	B_alpha.lv
-WARN	duplicate_exact_synonym	WBbt:0006477	oboInOwl:hasExactSynonym	hyp7
-WARN	duplicate_exact_synonym	WBbt:0006735	oboInOwl:hasExactSynonym	hyp7
-INFO	missing_superclass	WBbt:0000100	rdfs:subClassOf	
 INFO	lowercase_definition	WBbt:0000101	IAO:0000115	pedigree of nuclei, lineal descent from P0, the founder.
 INFO	lowercase_definition	WBbt:0000102	IAO:0000115	nucleus of pedigree P0
 INFO	lowercase_definition	WBbt:0001001	IAO:0000115	nucleus of embryonic cell AB.
@@ -6506,3 +6505,4 @@ INFO	lowercase_definition	WBbt:0008442	IAO:0000115	a region of vas deferens, pos
 INFO	lowercase_definition	WBbt:0008443	IAO:0000115	a region of vas deferens, positioned posterior to the cuboidal cell region, formed by cells of elongated morphology.
 INFO	lowercase_definition	WBbt:0008444	IAO:0000115	cell of cuboidal morphology in male vas deferens.
 INFO	lowercase_definition	WBbt:0008445	IAO:0000115	cell of elongated morphology in male vas deferens.
+INFO	missing_superclass	WBbt:0000100	rdfs:subClassOf	

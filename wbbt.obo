@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2024-07-01
+data-version: releases/2024-09-24
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -18,43 +18,6 @@ property_value: http://purl.org/dc/elements/1.1/description "Ontology about the 
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: IAO:0000700 WBbt:0000100
-
-[Term]
-id: IAO:0000078
-name: curation status specification
-def: "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value." []
-property_value: IAO:0000111 "curation status specification" xsd:string
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000116 "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)" xsd:string
-property_value: IAO:0000117 "PERSON:Bill Bug" xsd:string
-property_value: IAO:0000119 GROUP:OBI:<http://purl.obolibrary.org/obo/obi> xsd:string
-property_value: IAO:0000119 "OBI_0000266" xsd:string
-
-[Term]
-id: UBERON:0001062
-name: anatomical entity
-def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [FMA:62955, http://orcid.org/0000-0001-9114-8737]
-subset: common_anatomy
-subset: upper_level
-xref: AAO:0010841
-xref: AEO:0000000
-xref: BFO:0000004
-xref: BILA:0000000
-xref: BIRNLEX:6
-xref: CARO:0000000
-xref: EHDAA2:0002229
-xref: FMA:62955
-xref: HAO:0000000
-xref: MA:0000001
-xref: NCIT:C12219
-xref: TAO:0100000
-xref: TGMA:0001822
-xref: UMLS:C1515976 {source="ncithesaurus:Anatomic_Structure_System_or_Substance"}
-xref: WBbt:0000100
-xref: XAO:0000000
-xref: ZFA:0100000
-property_value: RO:0002175 NCBITaxon:33090
-property_value: RO:0002175 NCBITaxon:4751
 
 [Term]
 id: WBbt:0000100
@@ -30677,7 +30640,6 @@ id: WBbt:0004939
 name: CEMVR
 def: "Male specific cephalic neurons (programmed cell death in hermaphrodite embryo) open to outside, possible function in male chemotaxis toward hermaphrodite." [ISBN:0-87969-307-X]
 synonym: "lineage name: ABprpaapapp" RELATED []
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0005246 ! CEM
 is_a: WBbt:0007028 ! embryonic cell
 relationship: develops_from WBbt:0006292 ! ABprpaapapp
@@ -30696,7 +30658,6 @@ id: WBbt:0004941
 name: CEMVL
 def: "Male specific cephalic neurons (programmed cell death in hermaphrodite embryo) open to outside, possible function in male chemotaxis toward hermaphrodite." [ISBN:0-87969-307-X]
 synonym: "lineage name: ABplpaapapp" RELATED []
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0005246 ! CEM
 is_a: WBbt:0007028 ! embryonic cell
 relationship: develops_from WBbt:0006294 ! ABplpaapapp
@@ -30716,7 +30677,6 @@ id: WBbt:0004943
 name: CEMDR
 def: "Male specific cephalic neurons (programmed cell death in hermaphrodite embryo) open to outside, possible function in male chemotaxis toward hermaphrodite." [ISBN:0-87969-307-X]
 synonym: "lineage name: ABarpapaaap" RELATED []
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0005246 ! CEM
 is_a: WBbt:0007028 ! embryonic cell
 relationship: develops_from WBbt:0005992 ! ABarpapaaap
@@ -30734,7 +30694,6 @@ id: WBbt:0004945
 name: CEMDL
 def: "Male specific cephalic neurons (programmed cell death in hermaphrodite embryo) open to outside, possible function in male chemotaxis toward hermaphrodite." [ISBN:0-87969-307-X]
 synonym: "lineage name: ABplaaaaaap" RELATED []
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0005246 ! CEM
 is_a: WBbt:0007028 ! embryonic cell
 relationship: develops_from WBbt:0006541 ! ABplaaaaaap
@@ -35321,7 +35280,6 @@ relationship: part_of WBbt:0008294 ! Z4.aaa hermaphrodite
 id: WBbt:0005728
 name: AC nucleus
 def: "Nucleus of the anchor cell." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008463 ! Z1.ppp (5R) or Z4.aaa (5L) nucleus
 relationship: part_of WBbt:0004522 ! anchor cell
@@ -35373,7 +35331,6 @@ name: hyp7 syncytium
 def: "entire syncytium of hyp7" [WB:pws]
 synonym: "hyp7" RELATED []
 xref: WB:pws
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0007846 ! hypodermal cell
 is_a: WBbt:0008074 ! syncytium
 relationship: develops_from WBbt:0008069 ! hyp7 precursor cell
@@ -42547,7 +42504,6 @@ is_a: WBbt:0005773 ! rectum
 id: WBbt:0006796
 name: germ cell
 def: "a cell, of either sex, directly concerned in the production of a new organism." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0004017 ! Cell
 relationship: develops_from WBbt:0006849 ! germline precursor cell
 
@@ -48865,7 +48821,6 @@ is_obsolete: true
 id: WBbt:0007863
 name: B_alpha nucleus
 def: "nucleus of pedigree B_alpha" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008459 ! B.alaa or B.araa nucleus
 relationship: part_of WBbt:0008506 ! B_alpha
@@ -48874,7 +48829,6 @@ relationship: part_of WBbt:0008506 ! B_alpha
 id: WBbt:0007864
 name: B_beta nucleus
 def: "nucleus of pedigree B_beta" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008459 ! B.alaa or B.araa nucleus
 relationship: part_of WBbt:0008507 ! B_beta
@@ -48899,7 +48853,6 @@ relationship: part_of WBbt:0008498 ! B_alpha.r
 id: WBbt:0007867
 name: B_delta nucleus
 def: "nucleus of pedigree B_delta" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008460 ! B.alpp or B.arpp nucleus
 relationship: part_of WBbt:0008451 ! B_delta
@@ -48908,7 +48861,6 @@ relationship: part_of WBbt:0008451 ! B_delta
 id: WBbt:0007868
 name: B_gamma nucleus
 def: "nucleus of pedigree B_gamma" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008460 ! B.alpp or B.arpp nucleus
 relationship: part_of WBbt:0007830 ! B_gamma
@@ -48989,7 +48941,6 @@ is_obsolete: true
 id: WBbt:0007879
 name: P1 nucleus
 def: "nucleus of pedigree P1, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008453 ! ABplapaapp or ABprapaapp nucleus
 relationship: part_of WBbt:0006770 ! P1
@@ -48998,7 +48949,6 @@ relationship: part_of WBbt:0006770 ! P1
 id: WBbt:0007880
 name: P2 nucleus
 def: "nucleus of pedigree P2, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008453 ! ABplapaapp or ABprapaapp nucleus
 relationship: part_of WBbt:0006771 ! P2
@@ -49013,7 +48963,6 @@ is_obsolete: true
 id: WBbt:0007882
 name: P3 nucleus
 def: "nucleus of pedigree P3, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008455 ! ABprappaaa or ABplappaaa nucleus
 relationship: part_of WBbt:0006772 ! P3
@@ -49022,7 +48971,6 @@ relationship: part_of WBbt:0006772 ! P3
 id: WBbt:0007883
 name: P4 nucleus
 def: "nucleus of pedigree P4, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008455 ! ABprappaaa or ABplappaaa nucleus
 relationship: part_of WBbt:0006773 ! P4
@@ -49053,7 +49001,6 @@ is_obsolete: true
 id: WBbt:0007887
 name: P5 nucleus
 def: "nucleus of pedigree P5, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008456 ! ABprappaap or ABplappaap nucleus
 relationship: part_of WBbt:0006774 ! P5
@@ -49062,7 +49009,6 @@ relationship: part_of WBbt:0006774 ! P5
 id: WBbt:0007888
 name: P6 nucleus
 def: "nucleus of pedigree P6, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008456 ! ABprappaap or ABplappaap nucleus
 relationship: part_of WBbt:0006775 ! P6
@@ -49077,7 +49023,6 @@ is_obsolete: true
 id: WBbt:0007890
 name: P7 nucleus
 def: "nucleus of pedigree P7, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008457 ! ABprappapp or ABplappapp nucleus
 relationship: part_of WBbt:0006776 ! P7
@@ -49086,7 +49031,6 @@ relationship: part_of WBbt:0006776 ! P7
 id: WBbt:0007891
 name: P8 nucleus
 def: "nucleus of pedigree P8, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008457 ! ABprappapp or ABplappapp nucleus
 relationship: part_of WBbt:0006777 ! P8
@@ -49101,7 +49045,6 @@ is_obsolete: true
 id: WBbt:0007893
 name: P9 nucleus
 def: "nucleus of pedigree P9, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008458 ! ABprapapap or ABplapapap nucleus
 relationship: part_of WBbt:0006778 ! P9
@@ -49110,7 +49053,6 @@ relationship: part_of WBbt:0006778 ! P9
 id: WBbt:0007894
 name: P10 nucleus
 def: "nucleus of pedigree P10, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008458 ! ABprapapap or ABplapapap nucleus
 relationship: part_of WBbt:0006779 ! P10
@@ -49125,7 +49067,6 @@ is_obsolete: true
 id: WBbt:0007896
 name: P11 nucleus
 def: "nucleus of pedigree P11, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008462 ! ABplapappa or ABprapappa nucleus
 relationship: part_of WBbt:0004410 ! P11
@@ -49134,7 +49075,6 @@ relationship: part_of WBbt:0004410 ! P11
 id: WBbt:0007897
 name: P12 nucleus
 def: "nucleus of pedigree P12, post-embryonic" [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008462 ! ABplapappa or ABprapappa nucleus
 relationship: part_of WBbt:0004409 ! P12
@@ -50113,7 +50053,6 @@ is_obsolete: true
 id: WBbt:0008033
 name: hyp8 nucleus
 def: "nucleus of hyp8 cell." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008461 ! ABplpppapap or ABprpppapap nucleus
 relationship: part_of WBbt:0004381 ! hyp8
@@ -50123,7 +50062,6 @@ relationship: part_of WBbt:0008354 ! male tail tip cell
 id: WBbt:0008034
 name: hyp9 nucleus
 def: "nucleus of hyp9 cell." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008461 ! ABplpppapap or ABprpppapap nucleus
 relationship: part_of WBbt:0004380 ! hyp9
@@ -52274,7 +52212,6 @@ is_a: WBbt:0008074 ! syncytium
 id: WBbt:0008355
 name: AVFL nucleus
 def: "nucleus of cell AVFL." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008452 ! W.aaa or P1.aaaa nucleus
 relationship: part_of WBbt:0005657 ! AVFL
@@ -52283,7 +52220,6 @@ relationship: part_of WBbt:0005657 ! AVFL
 id: WBbt:0008356
 name: AVFR nucleus
 def: "nucleus of cell AVFR." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006803 ! Nucleus
 relationship: develops_from WBbt:0008452 ! W.aaa or P1.aaaa nucleus
 relationship: part_of WBbt:0005658 ! AVFR
@@ -52369,7 +52305,6 @@ is_a: WBbt:0008366 ! gonadal primordium
 id: WBbt:0008369
 name: ABarpapaaap hermaphrodite
 def: "cell born in embryo that dies in hermaphrodite but counterpart becomes CEMDR in male." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006925 ! apoptotic cell
 relationship: develops_from WBbt:0005992 ! ABarpapaaap
 
@@ -52377,7 +52312,6 @@ relationship: develops_from WBbt:0005992 ! ABarpapaaap
 id: WBbt:0008370
 name: ABplaaaaaap hermaphrodite
 def: "cell that is born in embryo, dies in hermaphrodite but counter part becomes CDMDL in male." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006925 ! apoptotic cell
 relationship: develops_from WBbt:0006541 ! ABplaaaaaap
 
@@ -52385,7 +52319,6 @@ relationship: develops_from WBbt:0006541 ! ABplaaaaaap
 id: WBbt:0008371
 name: ABplpaapapp hermaphrodite
 def: "cell that is born in embryo, dies in hermaphrodite, but counterpart becomes CEMVL in male." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006925 ! apoptotic cell
 relationship: develops_from WBbt:0006294 ! ABplpaapapp
 
@@ -52393,7 +52326,6 @@ relationship: develops_from WBbt:0006294 ! ABplpaapapp
 id: WBbt:0008372
 name: ABprpaapapp hermaphrodite
 def: "cell that is born in embryo, dies in hermaphrodite, but counterpart becomes CEMVR in male." [WB:rynl]
-is_a: UBERON:0001062 ! anatomical entity
 is_a: WBbt:0006925 ! apoptotic cell
 relationship: develops_from WBbt:0006292 ! ABprpaapapp
 
@@ -54895,8 +54827,6 @@ def: "x has developmental contribution from y iff x has some part z such that z 
 property_value: IAO:0000112 "Mammalian thymus has developmental contribution from some pharyngeal pouch 3; Mammalian thymus has developmental contribution from some pharyngeal pouch 4 [Kardong]" xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-domain: UBERON:0001062 ! anatomical entity
-range: UBERON:0001062 ! anatomical entity
 holds_over_chain: BFO:0000051 develops_from
 is_a: RO:0002258 ! developmentally preceded by
 inverse_of: RO:0002255 ! developmentally contributes to
@@ -55107,8 +55037,6 @@ name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-domain: UBERON:0001062 ! anatomical entity
-range: UBERON:0001062 ! anatomical entity
 is_a: RO:0002324 ! developmentally related to
 
 [Typedef]
