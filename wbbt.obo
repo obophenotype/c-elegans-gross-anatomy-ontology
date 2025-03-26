@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2025-01-02
+data-version: releases/2025-03-26
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -8,6 +8,8 @@ subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+subsetdef: human_subset ""
+subsetdef: mouse_subset ""
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 subsetdef: upper_level ""
@@ -54827,7 +54829,7 @@ def: "x has developmental contribution from y iff x has some part z such that z 
 property_value: IAO:0000112 "Mammalian thymus has developmental contribution from some pharyngeal pouch 3; Mammalian thymus has developmental contribution from some pharyngeal pouch 4 [Kardong]" xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-holds_over_chain: BFO:0000051 develops_from
+holds_over_chain: BFO:0000051 RO:0002254
 is_a: RO:0002258 ! developmentally preceded by
 inverse_of: RO:0002255 ! developmentally contributes to
 
@@ -55051,8 +55053,10 @@ is_a: RO:0002384 ! has developmental potential involving
 id: RO:0002387
 name: has potential to develop into
 def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
+comment: This relation has a stronger meaning than merely indicating that X may develop into Y, in that the capability of developing into Y is always present, even if X does not always actually develop into Y. In particular, this means that if Y is restricted to a given taxon T, X is necessarily likewise restricted.
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: seeAlso https://github.com/oborel/obo-relations/issues/810
 is_a: RO:0002384 ! has developmental potential involving
 
 [Typedef]
@@ -55152,6 +55156,7 @@ property_value: IAO:0000118 "influences (processual)" xsd:string
 is_transitive: true
 is_a: RO:0002501 ! causal relation between processes
 inverse_of: RO:0002427 ! causally downstream of or within
+transitive_over: part_of ! part_of
 
 [Typedef]
 id: RO:0002427
@@ -55575,6 +55580,13 @@ property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002
 holds_over_chain: RO:0002212 RO:0019001
 holds_over_chain: RO:0002213 RO:0019002
 is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0020105
+name: is anatomical entity
+def: "This property only applies to anatomical entities." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-6677-8489
+property_value: http://purl.org/dc/terms/date 2024-10-29T09:55:07Z xsd:dateTime
 
 [Typedef]
 id: develops_from
