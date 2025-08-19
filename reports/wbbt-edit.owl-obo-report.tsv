@@ -1423,6 +1423,13 @@ ERROR	duplicate_definition	WBbt:0003991	IAO:0000115	Amphid finger cell, neuron a
 ERROR	duplicate_definition	WBbt:0003993	IAO:0000115	Amphid finger cell, neuron associated with amphid sheath
 WARN	duplicate_exact_synonym	WBbt:0006477	oboInOwl:hasExactSynonym	hyp7
 WARN	duplicate_exact_synonym	WBbt:0006735	oboInOwl:hasExactSynonym	hyp7
+WARN	duplicate_label_synonym	WBbt:0004827	oboInOwl:hasExactSynonym	B_delta.r
+WARN	duplicate_label_synonym	WBbt:0004828	oboInOwl:hasExactSynonym	B_delta.l
+WARN	duplicate_label_synonym	WBbt:0004829	oboInOwl:hasExactSynonym	B_gamma.arv
+WARN	duplicate_label_synonym	WBbt:0004830	oboInOwl:hasExactSynonym	B_gamma.ald
+WARN	duplicate_label_synonym	WBbt:0004831	oboInOwl:hasExactSynonym	B_gamma.alv
+WARN	duplicate_label_synonym	WBbt:0004836	oboInOwl:hasExactSynonym	B_alpha.rv
+WARN	duplicate_label_synonym	WBbt:0004847	oboInOwl:hasExactSynonym	B_alpha.lv
 WARN	missing_definition	BFO:0000050	IAO:0000115	
 WARN	missing_definition	IAO:0000115	IAO:0000115	
 WARN	missing_definition	RO:0002202	IAO:0000115	
@@ -1720,13 +1727,6 @@ WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115
 WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115	
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
-WARN	duplicate_label_synonym	WBbt:0004827	oboInOwl:hasExactSynonym	B_delta.r
-WARN	duplicate_label_synonym	WBbt:0004828	oboInOwl:hasExactSynonym	B_delta.l
-WARN	duplicate_label_synonym	WBbt:0004829	oboInOwl:hasExactSynonym	B_gamma.arv
-WARN	duplicate_label_synonym	WBbt:0004830	oboInOwl:hasExactSynonym	B_gamma.ald
-WARN	duplicate_label_synonym	WBbt:0004831	oboInOwl:hasExactSynonym	B_gamma.alv
-WARN	duplicate_label_synonym	WBbt:0004836	oboInOwl:hasExactSynonym	B_alpha.rv
-WARN	duplicate_label_synonym	WBbt:0004847	oboInOwl:hasExactSynonym	B_alpha.lv
 INFO	lowercase_definition	WBbt:0000101	IAO:0000115	pedigree of nuclei, lineal descent from P0, the founder.
 INFO	lowercase_definition	WBbt:0000102	IAO:0000115	nucleus of pedigree P0
 INFO	lowercase_definition	WBbt:0001001	IAO:0000115	nucleus of embryonic cell AB.
@@ -4283,9 +4283,6 @@ INFO	lowercase_definition	WBbt:0003584	IAO:0000115	nucleus of pedigree Z4.appapp
 INFO	lowercase_definition	WBbt:0003585	IAO:0000115	nucleus of pedigree Z4.appappa
 INFO	lowercase_definition	WBbt:0003586	IAO:0000115	nucleus of pedigree Z4.appappp
 INFO	lowercase_definition	WBbt:0003587	IAO:0000115	nucleus of pedigree Z4.appp
-INFO	lowercase_definition	WBbt:0003588	IAO:0000115	nucleus of pedigree Z4.apppa
-INFO	lowercase_definition	WBbt:0003589	IAO:0000115	nucleus of pedigree Z4.apppaa
-INFO	lowercase_definition	WBbt:0003590	IAO:0000115	nucleus of pedigree Z4.apppaap
 INFO	lowercase_definition	WBbt:0003591	IAO:0000115	nucleus of pedigree Z4.p in hermaphrodite.
 INFO	lowercase_definition	WBbt:0003592	IAO:0000115	nucleus of pedigree Z4.pa
 INFO	lowercase_definition	WBbt:0003593	IAO:0000115	nucleus of pedigree Z4.paa
@@ -4394,10 +4391,8 @@ INFO	lowercase_definition	WBbt:0005178	IAO:0000115	organ in hermaphrodite animal
 INFO	lowercase_definition	WBbt:0005190	IAO:0000115	neuron that uses GABA as a vesicular neurotransmitter.
 INFO	lowercase_definition	WBbt:0005212	IAO:0000115	the ganglion that lies above and behind the rectum in the tail, in close continuity with the anal hypodermal ridge. It contains 3 neuron cell bodies (DVA, DVB and DVC) that send their neuronal processes into the ventral nerve cord via dorso-rectal commissures that encircle the anus. The ganglion contains no local neuropil in the hermaphrodite. In the adult male tail, this ganglion gains additional neurons and some local neuropil.
 INFO	lowercase_definition	WBbt:0005214	IAO:0000115	ganglion that lies beside the nerve ring in the head. It contains neuron cell bodies that send their neuronal processes into the ring and longitudinal nerves, but form no local neuropil separate from the nerve ring. The dorsal ganglion is in close contact with the dorsal hypodermal cord.
-INFO	lowercase_definition	WBbt:0005216	IAO:0000115	a group of cells that have shared characteristics
 INFO	lowercase_definition	WBbt:0005237	IAO:0000115	neurons that sense body touch, have specialized microtubules in processes.
 INFO	lowercase_definition	WBbt:0005255	IAO:0000115	cuticle-lined lumenal region surrounded by pharyngeal epithelium, situated at the anterior end of pharynx.
-INFO	lowercase_definition	WBbt:0005261	IAO:0000115	six vulval precursor cells in early L3
 INFO	lowercase_definition	WBbt:0005264	IAO:0000115	ventral ganglion, posterior part.
 INFO	lowercase_definition	WBbt:0005266	IAO:0000115	ventral ganglion, anterior part.
 INFO	lowercase_definition	WBbt:0005298	IAO:0000115	ganglion lies beside the nerve ring in the head, just anterior of the retrovesicular ganglion. It contains about 20 interneuron and motorneuron cell bodies that all send their neuronal processes into the ring. The cell bodies are divided into two groups by the intrusion of the excretory duct and canal. The cells are bounded by a basal lamina which physically separates them from the lateral ganglion even though they are adjacent to one another.
@@ -4409,8 +4404,6 @@ INFO	lowercase_definition	WBbt:0005332	IAO:0000115	ganglion in the trunk of the 
 INFO	lowercase_definition	WBbt:0005342	IAO:0000115	muscle lining of the uterine wall.
 INFO	lowercase_definition	WBbt:0005364	IAO:0000115	openning of the rectum
 INFO	lowercase_definition	WBbt:0005368	IAO:0000115	spermatheca in anterior gonad arm.
-INFO	lowercase_definition	WBbt:0005369	IAO:0000115	sheath cell with nucleus anterior to metacorpus.
-INFO	lowercase_definition	WBbt:0005370	IAO:0000115	undefined
 INFO	lowercase_definition	WBbt:0005371	IAO:0000115	portion of anterior ganglion of somatic nervous system that is near or posteior to the metacorpus of pharynx.
 INFO	lowercase_definition	WBbt:0005372	IAO:0000115	portion of anterior ganglion of somatic nervous system that is anterior to the metacorpus of pharynx.
 INFO	lowercase_definition	WBbt:0005373	IAO:0000115	cylindrical hypodermal syncytium in the head, including hyp1-hyp6
@@ -4420,10 +4413,7 @@ INFO	lowercase_definition	WBbt:0005403	IAO:0000115	neuron whose cell body is in 
 INFO	lowercase_definition	WBbt:0005409	IAO:0000115	neuron making synapse on an effector (muscle, gland).
 INFO	lowercase_definition	WBbt:0005425	IAO:0000115	bilateral sensory organ in the tail, similar to the amphid in the head.
 INFO	lowercase_definition	WBbt:0005427	IAO:0000115	the right one of a pair of phasmid sensilla.
-INFO	lowercase_definition	WBbt:0005428	IAO:0000115	collection of specific banches of the AB.p lineage
-INFO	lowercase_definition	WBbt:0005430	IAO:0000115	cells in the AB.p lineage
 INFO	lowercase_definition	WBbt:0005431	IAO:0000115	the left one in the pair of phasmid sensilla.
-INFO	lowercase_definition	WBbt:0005432	IAO:0000115	cells in the AB.a lineage
 INFO	lowercase_definition	WBbt:0005439	IAO:0000115	neuron of the pharyngeal nervous system.
 INFO	lowercase_definition	WBbt:0005447	IAO:0000115	neuron with cell body in the preanal ganglion.
 INFO	lowercase_definition	WBbt:0005448	IAO:0000115	ganglion anterior to the anus.
@@ -4437,7 +4427,6 @@ INFO	lowercase_definition	WBbt:0005471	IAO:0000115	posterior deirid sensillum. c
 INFO	lowercase_definition	WBbt:0005487	IAO:0000115	a bilateral pair of sensilla immediately posterior of the cloaca.
 INFO	lowercase_definition	WBbt:0005600	IAO:0000115	neuron of lumbar ganglion, right.
 INFO	lowercase_definition	WBbt:0005601	IAO:0000115	lumbar ganglion, right side.
-INFO	lowercase_definition	WBbt:0005604	IAO:0000115	terms and relations no longer supported.
 INFO	lowercase_definition	WBbt:0005648	IAO:0000115	cell in hermaphrodite anterior spermathecae; cell of pedigree Z4.apaaaad.
 INFO	lowercase_definition	WBbt:0005673	IAO:0000115	nucleus of pedigree Z1.ppa(5R)
 INFO	lowercase_definition	WBbt:0005674	IAO:0000115	nucleus of pedigree Z1.ppp(5R)
@@ -5376,7 +5365,6 @@ INFO	lowercase_definition	WBbt:0006808	IAO:0000115	embryonic body wall muscle ce
 INFO	lowercase_definition	WBbt:0006809	IAO:0000115	seam syncytium on the left flank of an adult animal.
 INFO	lowercase_definition	WBbt:0006810	IAO:0000115	seam syncytium on the right flank of an adult animal.
 INFO	lowercase_definition	WBbt:0006816	IAO:0000115	neuron type, neurons that have ciliated nerve endings.
-INFO	lowercase_definition	WBbt:0006824	IAO:0000115	neuron that have dual motor- and inter-neuron characteristics.
 INFO	lowercase_definition	WBbt:0006829	IAO:0000115	neuron that uses glutamate as a vesicular neurotransmitter.
 INFO	lowercase_definition	WBbt:0006837	IAO:0000115	neuron that uses serotonin as a vesicular neurotransmitter.
 INFO	lowercase_definition	WBbt:0006840	IAO:0000115	neuron that uses vesicular acetylcholine as a neurotransmitter.
@@ -5469,11 +5457,8 @@ INFO	lowercase_definition	WBbt:0006971	IAO:0000115	neuron in the male ray.
 INFO	lowercase_definition	WBbt:0006972	IAO:0000115	type A neuron in male sensory ray.
 INFO	lowercase_definition	WBbt:0006973	IAO:0000115	type B neuron in male sensory ray.
 INFO	lowercase_definition	WBbt:0006974	IAO:0000115	neuron that has neural processes in the nerve ring.
-INFO	lowercase_definition	WBbt:0006975	IAO:0000115	interneuron that has processes in the nerve ring.
 INFO	lowercase_definition	WBbt:0006977	IAO:0000115	ganglion in the tail region (posterior to rectum).
 INFO	lowercase_definition	WBbt:0006978	IAO:0000115	hypodermis making up the tail.
-INFO	lowercase_definition	WBbt:0006980	IAO:0000115	a lineage-defined nucleus.
-INFO	lowercase_definition	WBbt:0006981	IAO:0000115	a lineage-defined nucleus.
 INFO	lowercase_definition	WBbt:0006982	IAO:0000115	nucleus of pedigree B.alapaad
 INFO	lowercase_definition	WBbt:0006983	IAO:0000115	cell, anterior descendent of P7.p
 INFO	lowercase_definition	WBbt:0006984	IAO:0000115	cell, posterior descendent of P7.p
@@ -5484,15 +5469,11 @@ INFO	lowercase_definition	WBbt:0006988	IAO:0000115	cell, posteior daughter of P6
 INFO	lowercase_definition	WBbt:0006989	IAO:0000115	cell, anterior daughter of P6.pa
 INFO	lowercase_definition	WBbt:0006990	IAO:0000115	cell, posterior daughter of P6.pa
 INFO	lowercase_definition	WBbt:0006991	IAO:0000115	cell, anterior daughter of P6.pp
-INFO	lowercase_definition	WBbt:0006992	IAO:0000115	cell, posterior daughter of P6.pp
-INFO	lowercase_definition	WBbt:0006993	IAO:0000115	cell, posterior daughter of P6.ppp
 INFO	lowercase_definition	WBbt:0006994	IAO:0000115	cell, which is the anterior descendent of TL.
 INFO	lowercase_definition	WBbt:0006995	IAO:0000115	cell, which is the anterior descendent of TR.
 INFO	lowercase_definition	WBbt:0006996	IAO:0000115	cell, which is the posterior descendent of TL.
 INFO	lowercase_definition	WBbt:0006997	IAO:0000115	cell, which is the posterior descendent of TR.
-INFO	lowercase_definition	WBbt:0006999	IAO:0000115	cell, which is the anterior descendent of TL.aa.
 INFO	lowercase_definition	WBbt:0007000	IAO:0000115	cell, which is the anterior descendent of TL.p.
-INFO	lowercase_definition	WBbt:0007003	IAO:0000115	cell, which is the anterior descendent of TR.aa.
 INFO	lowercase_definition	WBbt:0007004	IAO:0000115	cell, which is the anterior descendent of TL.ap.
 INFO	lowercase_definition	WBbt:0007006	IAO:0000115	cell, which is the anterior descendent of TR.ap.
 INFO	lowercase_definition	WBbt:0007007	IAO:0000115	cell, which is the anterior descendent of TR.p.
@@ -5504,8 +5485,6 @@ INFO	lowercase_definition	WBbt:0007014	IAO:0000115	cell, which is the posterior 
 INFO	lowercase_definition	WBbt:0007015	IAO:0000115	cell, which is the posterior descendent of TR.ap.
 INFO	lowercase_definition	WBbt:0007016	IAO:0000115	cell, which is the posterior descendent of TR.p.
 INFO	lowercase_definition	WBbt:0007017	IAO:0000115	cell, which is the posterior descendent of TR.pp.
-INFO	lowercase_definition	WBbt:0007018	IAO:0000115	cell, which is the posterior descendent of TL.aa.
-INFO	lowercase_definition	WBbt:0007019	IAO:0000115	cell, which is the posterior descendent of TR.aa.
 INFO	lowercase_definition	WBbt:0007022	IAO:0000115	cell, anterior descendent of Z1, in hermaphrodite.
 INFO	lowercase_definition	WBbt:0007023	IAO:0000115	cell, posterior descendent of Z1.
 INFO	lowercase_definition	WBbt:0007024	IAO:0000115	cell, posterior descendent of Z4, in hermaphrodite.
@@ -5678,17 +5657,12 @@ INFO	lowercase_definition	WBbt:0007231	IAO:0000115	post-embryonic cell of pedigr
 INFO	lowercase_definition	WBbt:0007232	IAO:0000115	post-embryonic cell of pedigree P12.aaap
 INFO	lowercase_definition	WBbt:0007233	IAO:0000115	post-embryonic cell of pedigree P12.ap
 INFO	lowercase_definition	WBbt:0007234	IAO:0000115	post-embryonic cell of pedigree P12.pp
-INFO	lowercase_definition	WBbt:0007235	IAO:0000115	post-embryonic cell of pedigree P2'
 INFO	lowercase_definition	WBbt:0007236	IAO:0000115	post-embryonic cell of pedigree P2.aa
 INFO	lowercase_definition	WBbt:0007237	IAO:0000115	post-embryonic cell of pedigree P2.aaa
 INFO	lowercase_definition	WBbt:0007238	IAO:0000115	post-embryonic cell of pedigree P2.ap
-INFO	lowercase_definition	WBbt:0007239	IAO:0000115	post-embryonic cell of pedigree P3'
 INFO	lowercase_definition	WBbt:0007240	IAO:0000115	post-embryonic cell of pedigree P3.aa
 INFO	lowercase_definition	WBbt:0007241	IAO:0000115	post-embryonic cell of pedigree P3.aaa
 INFO	lowercase_definition	WBbt:0007242	IAO:0000115	post-embryonic cell of pedigree P3.ap
-INFO	lowercase_definition	WBbt:0007243	IAO:0000115	post-embryonic cell of pedigree P4'
-INFO	lowercase_definition	WBbt:0007244	IAO:0000115	post-embryonic cell of pedigree P4'.a
-INFO	lowercase_definition	WBbt:0007245	IAO:0000115	post-embryonic cell of pedigree P4'.p
 INFO	lowercase_definition	WBbt:0007246	IAO:0000115	post-embryonic cell of pedigree P4.aa
 INFO	lowercase_definition	WBbt:0007247	IAO:0000115	post-embryonic cell of pedigree P4.aaa
 INFO	lowercase_definition	WBbt:0007248	IAO:0000115	post-embryonic cell of pedigree P4.ap
@@ -6147,8 +6121,6 @@ INFO	lowercase_definition	WBbt:0007784	IAO:0000115	post-embryonic cell of pedigr
 INFO	lowercase_definition	WBbt:0007785	IAO:0000115	post-embryonic cell of pedigree Z4.appaappp
 INFO	lowercase_definition	WBbt:0007786	IAO:0000115	post-embryonic cell of pedigree Z4.appapa
 INFO	lowercase_definition	WBbt:0007787	IAO:0000115	post-embryonic cell of pedigree Z4.appapp
-INFO	lowercase_definition	WBbt:0007788	IAO:0000115	post-embryonic cell of pedigree Z4.apppa
-INFO	lowercase_definition	WBbt:0007789	IAO:0000115	post-embryonic cell of pedigree Z4.apppaa
 INFO	lowercase_definition	WBbt:0007790	IAO:0000115	post-embryonic cell of pedigree Z4.pa
 INFO	lowercase_definition	WBbt:0007791	IAO:0000115	post-embryonic cell of pedigree Z4.paa
 INFO	lowercase_definition	WBbt:0007792	IAO:0000115	post-embryonic cell of pedigree Z4.paaa
@@ -6211,24 +6183,18 @@ INFO	lowercase_definition	WBbt:0007874	IAO:0000115	nucleus of pedigree M.vlpaa i
 INFO	lowercase_definition	WBbt:0007875	IAO:0000115	nucleus of pedigree M.vlpaa in hermaphrodite
 INFO	lowercase_definition	WBbt:0007876	IAO:0000115	nucleus of pedigree M.vrpaa in male
 INFO	lowercase_definition	WBbt:0007877	IAO:0000115	nucleus of pedigree M.vrpaa in hermaphrodite
-INFO	lowercase_definition	WBbt:0007878	IAO:0000115	nucleus of pedigree P1 or P2
 INFO	lowercase_definition	WBbt:0007879	IAO:0000115	nucleus of pedigree P1, post-embryonic
 INFO	lowercase_definition	WBbt:0007880	IAO:0000115	nucleus of pedigree P2, post-embryonic
-INFO	lowercase_definition	WBbt:0007881	IAO:0000115	nucleus of pedigree P3 or P4
 INFO	lowercase_definition	WBbt:0007882	IAO:0000115	nucleus of pedigree P3, post-embryonic
 INFO	lowercase_definition	WBbt:0007883	IAO:0000115	nucleus of pedigree P4, post-embryonic
 INFO	lowercase_definition	WBbt:0007884	IAO:0000115	nucleus of pedigree P3.aapa
 INFO	lowercase_definition	WBbt:0007885	IAO:0000115	nucleus of pedigree P3.aapp
-INFO	lowercase_definition	WBbt:0007886	IAO:0000115	nucleus of pedigree P5 or P6
 INFO	lowercase_definition	WBbt:0007887	IAO:0000115	nucleus of pedigree P5, post-embryonic
 INFO	lowercase_definition	WBbt:0007888	IAO:0000115	nucleus of pedigree P6, post-embryonic
-INFO	lowercase_definition	WBbt:0007889	IAO:0000115	nucleus of pedigree P7 or P8
 INFO	lowercase_definition	WBbt:0007890	IAO:0000115	nucleus of pedigree P7, post-embryonic
 INFO	lowercase_definition	WBbt:0007891	IAO:0000115	nucleus of pedigree P8, post-embryonic
-INFO	lowercase_definition	WBbt:0007892	IAO:0000115	nucleus of pedigree P9 or P10
 INFO	lowercase_definition	WBbt:0007893	IAO:0000115	nucleus of pedigree P9, post-embryonic
 INFO	lowercase_definition	WBbt:0007894	IAO:0000115	nucleus of pedigree P10, post-embryonic
-INFO	lowercase_definition	WBbt:0007895	IAO:0000115	nucleus of pedigree P11 or P12
 INFO	lowercase_definition	WBbt:0007896	IAO:0000115	nucleus of pedigree P11, post-embryonic
 INFO	lowercase_definition	WBbt:0007897	IAO:0000115	nucleus of pedigree P12, post-embryonic
 INFO	lowercase_definition	WBbt:0007898	IAO:0000115	nucleus of pedigree P11.pa
@@ -6267,7 +6233,6 @@ INFO	lowercase_definition	WBbt:0007982	IAO:0000115	nucleus of pedigree Z1.paa, t
 INFO	lowercase_definition	WBbt:0007983	IAO:0000115	nucleus of pedigree Z1.paa, not terminally divided in male.
 INFO	lowercase_definition	WBbt:0007984	IAO:0000115	nucleus of pedigree Z4.aaa, terminally divided in male.
 INFO	lowercase_definition	WBbt:0007985	IAO:0000115	nucleus of pedigree Z4.aaa, not terminally divided in male.
-INFO	lowercase_definition	WBbt:0008032	IAO:0000115	nucleus of hyp8 or hyp9 cell.
 INFO	lowercase_definition	WBbt:0008033	IAO:0000115	nucleus of hyp8 cell.
 INFO	lowercase_definition	WBbt:0008034	IAO:0000115	nucleus of hyp9 cell.
 INFO	lowercase_definition	WBbt:0008043	IAO:0000115	male tail seam cell, R1 left.

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbbt/releases/2025-03-26/wbbt-full.owl
+data-version: wbbt/releases/2025-08-19/wbbt-full.owl
 date: 19:10:2018 10:30
 saved-by: raymond
 auto-generated-by: OBO-Edit 2.1-beta16
@@ -14,11 +14,19 @@ subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 subsetdef: upper_level ""
 default-namespace: worm_anatomy
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+idspace: obda https://w3id.org/obda/vocabulary# 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
+idspace: swrl http://www.w3.org/2003/11/swrl# 
+idspace: swrla http://swrl.stanford.edu/ontologies/3.3/swrla.owl# 
+idspace: swrlb http://www.w3.org/2003/11/swrlb# 
 remark: $
 ontology: wbbt/wbbt-full
-property_value: http://purl.org/dc/elements/1.1/description "Ontology about the gross anatomy of the C. elegans" xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "C. elegans Gross Anatomy Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
+property_value: dce:description "Ontology about the gross anatomy of the C. elegans" xsd:string
+property_value: dce:title "C. elegans Gross Anatomy Ontology" xsd:string
+property_value: dcterms:license "http://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: IAO:0000700 WBbt:0000100
 
 [Term]
@@ -26,13 +34,13 @@ id: BFO:0000002
 name: continuant
 def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
 disjoint_from: BFO:0000003 ! occurrent
-relationship: part_of BFO:0000002 ! continuant
+relationship: part_of BFO:0000002 {all_only="true"} ! continuant
 
 [Term]
 id: BFO:0000003
 name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
-relationship: part_of BFO:0000003 ! occurrent
+relationship: part_of BFO:0000003 {all_only="true"} ! occurrent
 
 [Term]
 id: BFO:0000004
@@ -41,7 +49,7 @@ def: "b is an independent continuant = Def. b is a continuant which is such that
 comment: A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
-relationship: part_of BFO:0000004 ! independent continuant
+relationship: part_of BFO:0000004 {all_only="true"} ! independent continuant
 
 [Term]
 id: BFO:0000015
@@ -62,13 +70,13 @@ name: realizable entity
 def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
 is_a: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000019 ! quality
-relationship: part_of BFO:0000017 ! realizable entity
+relationship: part_of BFO:0000017 {all_only="true"} ! realizable entity
 
 [Term]
 id: BFO:0000019
 name: quality
 is_a: BFO:0000020 ! specifically dependent continuant
-relationship: part_of BFO:0000019 ! quality
+relationship: part_of BFO:0000019 {all_only="true"} ! quality
 
 [Term]
 id: BFO:0000020
@@ -76,7 +84,7 @@ name: specifically dependent continuant
 def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
 comment: A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.
 is_a: BFO:0000002 ! continuant
-relationship: part_of BFO:0000020 ! specifically dependent continuant
+relationship: part_of BFO:0000020 {all_only="true"} ! specifically dependent continuant
 
 [Term]
 id: BFO:0000023
@@ -148,7 +156,7 @@ property_value: IAO:0000111 "curation status specification" xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)" xsd:string
 property_value: IAO:0000117 "PERSON:Bill Bug" xsd:string
-property_value: IAO:0000119 GROUP:OBI:<http://purl.obolibrary.org/obo/obi> xsd:string
+property_value: IAO:0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>" xsd:string
 property_value: IAO:0000119 "OBI_0000266" xsd:string
 
 [Term]
@@ -41190,7 +41198,7 @@ def: "intestinal muscle cell, attach to intestine and body wall anterior to anus
 synonym: "stomato-intestinal muscle" RELATED []
 is_a: WBbt:0007810 ! body muscle cell
 is_a: WBbt:0008600 ! enteric muscle
-relationship: part_of WBbt:0005772 ! intestine
+relationship: part_of WBbt:0005748 ! alimentary system
 
 [Term]
 id: WBbt:0005797
@@ -60116,7 +60124,7 @@ id: BFO:0000062
 name: preceded by
 def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
 subset: ro-eco
-property_value: http://purl.org/dc/terms/source http://www.obofoundry.org/ro/#OBO_REL:preceded_by xsd:string
+property_value: dcterms:source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
 property_value: IAO:0000111 "preceded by" xsd:string
 property_value: IAO:0000116 "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
 property_value: IAO:0000118 "is preceded by" xsd:string
@@ -60213,7 +60221,7 @@ inverse_of: RO:0000057 ! has participant
 id: RO:0000057
 name: has participant
 def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
-property_value: http://purl.org/dc/terms/source http://www.obofoundry.org/ro/#OBO_REL:has_participant xsd:string
+property_value: dcterms:source "http://www.obofoundry.org/ro/#OBO_REL:has_participant" xsd:string
 property_value: IAO:0000111 "has participant" xsd:string
 property_value: IAO:0000112 "this blood coagulation has participant this blood clot" xsd:string
 property_value: IAO:0000112 "this investigation has participant this investigator" xsd:string
@@ -60399,7 +60407,7 @@ id: RO:0002086
 name: ends after
 comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
 subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 is_transitive: true
 is_a: RO:0002222 ! temporally related to
 
@@ -60407,7 +60415,7 @@ is_a: RO:0002222 ! temporally related to
 id: RO:0002087
 name: immediately preceded by
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
 is_a: BFO:0000062 ! preceded by
 inverse_of: RO:0002090 ! immediately precedes
@@ -60417,7 +60425,6 @@ id: RO:0002090
 name: immediately precedes
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
 subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
@@ -60433,7 +60440,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 property_value: IAO:0000114 IAO:0000125
 property_value: RO:0001900 RO:0001901
-holds_over_chain: BFO:0000051 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: BFO:0000051 part_of {RO:0002582="true"}
 holds_over_chain: BFO:0000051 RO:0002131
 holds_over_chain: part_of part_of
 is_symmetric: true
@@ -60545,7 +60552,7 @@ def: "c stands in this relationship to p if and only if there exists some p' suc
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has function in" xsd:string
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
-holds_over_chain: RO:0002215 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: RO:0002215 part_of {RO:0002582="true"}
 is_a: RO:0002328 ! functionally related to
 is_a: RO:0002500 ! causal agent in process
 
@@ -60554,7 +60561,7 @@ id: RO:0002222
 name: temporally related to
 comment: A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.
 subset: ro-eco
-property_value: http://purl.org/dc/terms/source https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1 xsd:anyURI
+property_value: dcterms:source "https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1" xsd:anyURI
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_algebra
@@ -60573,7 +60580,7 @@ subset: ro-eco
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "consumes" xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Has_input xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Has_input" xsd:anyURI
 domain: BFO:0000015 ! process
 is_a: RO:0000057 ! has participant
 inverse_of: RO:0002352 ! input of
@@ -60633,7 +60640,7 @@ def: "c acts upstream of or within p if c is enables f, and f is causally upstre
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 synonym: "affects" RELATED []
 property_value: IAO:0000112 "A gene product that has some activity, where that activity may be a part of a pathway or upstream of the pathway." xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of_or_within xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of_or_within" xsd:anyURI
 holds_over_chain: RO:0002327 RO:0002418
 is_a: RO:0002500 ! causal agent in process
 
@@ -60652,7 +60659,7 @@ def: "p is causally upstream of, positive effect q iff p is casually upstream of
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
-property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0002-6601-2165
+property_value: dcterms:creator https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004049 RO:0002411
 property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_positive_effect
 is_a: RO:0002411 ! causally upstream of
@@ -60664,7 +60671,7 @@ name: causally upstream of, negative effect
 def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
-property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0002-6601-2165
+property_value: dcterms:creator https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004050 RO:0002411
 property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_negative_effect
 is_a: RO:0002411 ! causally upstream of
@@ -60680,7 +60687,7 @@ property_value: IAO:0000118 "inheres in part of" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
-holds_over_chain: RO:0000052 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: RO:0000052 part_of {RO:0002582="true"}
 is_a: RO:0002502 ! depends on
 transitive_over: part_of ! part_of
 
@@ -60712,7 +60719,7 @@ property_value: IAO:0000118 "has" xsd:string
 property_value: IAO:0000118 "is catalyzing" xsd:string
 property_value: IAO:0000118 "is executing" xsd:string
 property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Enables xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Enables" xsd:anyURI
 is_a: RO:0002215 ! capable of
 inverse_of: RO:0002333 ! enabled by
 transitive_over: BFO:0000051 ! has part
@@ -60731,7 +60738,7 @@ name: part of structure that is capable of
 def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "false" xsd:boolean
-holds_over_chain: part_of RO:0002215 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+holds_over_chain: part_of RO:0002215 {RO:0002581="true"}
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
@@ -60741,7 +60748,7 @@ def: "c involved_in p if and only if c enables some process p', and p' is part o
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "actively involved in" xsd:string
 property_value: IAO:0000118 "enables part of" xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Involved_in xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Involved_in" xsd:anyURI
 holds_over_chain: RO:0002327 part_of
 is_a: RO:0000056 ! participates in
 is_a: RO:0002431 ! involved in or involved in regulation of
@@ -60753,7 +60760,7 @@ name: enabled by
 def: "inverse of enables" []
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: seeAlso https://wiki.geneontology.org/Enabled_by xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Enabled_by" xsd:anyURI
 is_a: RO:0000057 ! has participant
 is_a: RO:0002328 ! functionally related to
 
@@ -60857,7 +60864,7 @@ def: "p indirectly positively regulates q iff p is indirectly causally upstream 
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly activates" xsd:string
 property_value: RO:0002579 RO:0002213
-property_value: seeAlso https://wiki.geneontology.org/Indirectly_positively_regulates xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Indirectly_positively_regulates" xsd:anyURI
 holds_over_chain: RO:0002409 RO:0002409
 holds_over_chain: RO:0002629 RO:0002407
 holds_over_chain: RO:0002629 RO:0002629
@@ -60873,7 +60880,7 @@ def: "p indirectly negatively regulates q iff p is indirectly causally upstream 
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly inhibits" xsd:string
 property_value: RO:0002579 RO:0002212
-property_value: seeAlso https://wiki.geneontology.org/Indirectly_negatively_regulates xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Indirectly_negatively_regulates" xsd:anyURI
 holds_over_chain: RO:0002630 RO:0002409
 holds_over_chain: RO:0002630 RO:0002630
 is_transitive: true
@@ -60979,12 +60986,12 @@ name: interacts with
 def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
 subset: ro-eco
 synonym: "in pairwise interaction with" EXACT []
-property_value: closeMatch http://purl.obolibrary.org/obo/MI_0914 xsd:anyURI
 property_value: IAO:0000116 "Considering relabeling as 'pairwise interacts with'" xsd:anyURI
 property_value: IAO:0000116 "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules." xsd:string
-property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/interaction-relations/ xsd:anyURI
+property_value: seeAlso "http://purl.obolibrary.org/obo/ro/docs/interaction-relations/" xsd:anyURI
+property_value: skos:closeMatch "http://purl.obolibrary.org/obo/MI_0914" xsd:anyURI
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 is_symmetric: true
@@ -60993,11 +61000,11 @@ is_symmetric: true
 id: RO:0002436
 name: molecularly interacts with
 def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
-property_value: closeMatch http://purl.obolibrary.org/obo/MI_0915 xsd:anyURI
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "binds" xsd:string
 property_value: IAO:0000118 "molecularly binds with" xsd:string
 property_value: seeAlso ECO:0000353
+property_value: skos:closeMatch "http://purl.obolibrary.org/obo/MI_0915" xsd:anyURI
 is_symmetric: true
 is_a: RO:0002434 ! interacts with
 
@@ -61107,7 +61114,7 @@ id: RO:0002563
 name: interaction relation helper property
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:N-Ary_Relation_Pattern_%28OWL_2%29
-property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/interaction-relations/ xsd:anyURI
+property_value: seeAlso "http://purl.obolibrary.org/obo/ro/docs/interaction-relations/" xsd:anyURI
 is_a: RO:0002464 ! helper property (not for use in curation)
 
 [Typedef]
@@ -61206,7 +61213,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "directly positively regulates (process to process)" xsd:string
 property_value: RO:0004049 RO:0002578
-property_value: seeAlso https://wiki.geneontology.org/Directly_positively_regulates xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Directly_positively_regulates" xsd:anyURI
 is_a: RO:0002213 ! positively regulates
 is_a: RO:0002578 ! directly regulates
 
@@ -61220,7 +61227,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "directly negatively regulates (process to process)" xsd:string
 property_value: RO:0004050 RO:0002578
-property_value: seeAlso https://wiki.geneontology.org/Directly_negatively_regulates xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Directly_negatively_regulates" xsd:anyURI
 is_a: RO:0002212 ! negatively regulates
 is_a: RO:0002578 ! directly regulates
 
@@ -61238,7 +61245,7 @@ id: RO:0004032
 name: acts upstream of or within, positive effect
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: RO:0004049 RO:0002264
-property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect" xsd:anyURI
 holds_over_chain: RO:0002327 RO:0004047
 is_a: RO:0002264 ! acts upstream of or within
 created_by: https://orcid.org/0000-0002-6601-2165
@@ -61249,7 +61256,7 @@ id: RO:0004033
 name: acts upstream of or within, negative effect
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: RO:0004050 RO:0002264
-property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect" xsd:anyURI
 holds_over_chain: RO:0002327 RO:0004046
 is_a: RO:0002264 ! acts upstream of or within
 created_by: https://orcid.org/0000-0002-6601-2165
@@ -61261,7 +61268,7 @@ name: acts upstream of, positive effect
 def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: RO:0004049 RO:0002263
-property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of,_positive_effect xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of,_positive_effect" xsd:anyURI
 holds_over_chain: RO:0002327 RO:0002304
 is_a: RO:0002263 ! acts upstream of
 is_a: RO:0004032 ! acts upstream of or within, positive effect
@@ -61274,7 +61281,7 @@ name: acts upstream of, negative effect
 def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: RO:0004050 RO:0002263
-property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of,_negative_effect xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of,_negative_effect" xsd:anyURI
 holds_over_chain: RO:0002327 RO:0002305
 is_a: RO:0002263 ! acts upstream of
 is_a: RO:0004033 ! acts upstream of or within, negative effect
@@ -61285,7 +61292,7 @@ creation_date: 2018-01-26T23:53:22Z
 id: RO:0004046
 name: causally upstream of or within, negative effect
 property_value: RO:0004050 RO:0002418
-property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of_or_within,_negative_effect xsd:anyURI
+property_value: seeAlso "https://wiki.geneontology.org/Causally_upstream_of_or_within,_negative_effect" xsd:anyURI
 is_a: RO:0002418 ! causally upstream of or within
 created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-03-13T23:55:05Z
@@ -61330,8 +61337,8 @@ id: RO:0017001
 name: device utilizes material
 def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
 synonym: "utilizes" BROAD []
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0003-2620-0345
+property_value: dcterms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: dcterms:contributor https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
@@ -61342,7 +61349,7 @@ creation_date: 2021-11-08T12:00:00Z
 id: RO:0019000
 name: regulates characteristic
 def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
 domain: BFO:0000015 ! process
 range: PATO:0000001 ! quality
 holds_over_chain: RO:0002211 RO:0019000
@@ -61352,7 +61359,7 @@ is_a: RO:0002410 ! causally related to
 id: RO:0019001
 name: positively regulates characteristic
 def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
 holds_over_chain: RO:0002213 RO:0019001
 is_a: RO:0019000 ! regulates characteristic
 
@@ -61360,7 +61367,7 @@ is_a: RO:0019000 ! regulates characteristic
 id: RO:0019002
 name: negatively regulates characteristic
 def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
 holds_over_chain: RO:0002212 RO:0019001
 holds_over_chain: RO:0002213 RO:0019002
 is_a: RO:0019000 ! regulates characteristic
@@ -61369,8 +61376,8 @@ is_a: RO:0019000 ! regulates characteristic
 id: RO:0020105
 name: is anatomical entity
 def: "This property only applies to anatomical entities." []
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-6677-8489
-property_value: http://purl.org/dc/terms/date 2024-10-29T09:55:07Z xsd:dateTime
+property_value: dcterms:contributor https://orcid.org/0000-0001-6677-8489
+property_value: dcterms:date "2024-10-29T09:55:07Z" xsd:dateTime
 domain: UBERON:0001062 ! anatomical entity
 
 [Typedef]
@@ -61420,8 +61427,8 @@ property_value: RO:0040042 BFO:0000020
 property_value: RO:0040042 BFO:0000031
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
-property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
-property_value: seeAlso https://wiki.geneontology.org/Part_of xsd:anyURI
+property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Part_of" xsd:anyURI
 is_transitive: true
 is_a: RO:0002131 ! overlaps
 inverse_of: BFO:0000051 ! has part
