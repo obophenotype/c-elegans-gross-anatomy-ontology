@@ -26,6 +26,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Install required glibc version
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential manpages-dev software-properties-common
+          sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+          sudo apt-get install -y libc6 libc6-dev
+          
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
