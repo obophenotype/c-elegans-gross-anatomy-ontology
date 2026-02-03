@@ -24,13 +24,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
-      - name: Install required glibc version
-        run: |
-          sudo apt-get update
-          sudo apt install -y libc6 libc6-dev libc6-dbg
-          
+      - name: Check GLIBC version
+        run: ldd --version
+        
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
